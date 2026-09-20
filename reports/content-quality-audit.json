@@ -1,0 +1,272 @@
+{
+  "summary": {
+    "generatedAt": "2026-09-20T14:27:27.135Z",
+    "baseUrl": "http://127.0.0.1:4311",
+    "pagesAudited": 12,
+    "thresholds": {
+      "reviewFiveWordShingleSimilarity": 0.46,
+      "pillarFiveWordShingleSimilarity": 0.45,
+      "repeatedEditorialParagraphs": 0,
+      "repeatedFaqAnswers": 0,
+      "officialSourcesPerReview": 2,
+      "editorialWords": "per seo-targets.json",
+      "operatorJudgmentsPerCommercialPage": 3
+    },
+    "maxReviewSimilarity": 0.0294,
+    "maxPillarSimilarity": 0,
+    "similarityFailures": 0,
+    "repeatedEditorialParagraphs": 0,
+    "repeatedFaqAnswers": 0,
+    "reviewSourceFailures": 0,
+    "editorialWordFailures": 0,
+    "firstPersonVoiceFailures": 0,
+    "operatorStyleFailures": 0,
+    "pass": true
+  },
+  "pages": [
+    {
+      "route": "/",
+      "articleType": "hub",
+      "editorialWords": 562,
+      "minWords": 250,
+      "editorialParagraphs": 17,
+      "faqAnswers": 0,
+      "officialSources": 0,
+      "voiceViolations": [],
+      "hasFirstPersonSingular": false,
+      "operatorJudgments": 1,
+      "operatorStyleViolations": []
+    },
+    {
+      "route": "/reviews",
+      "articleType": "hub",
+      "editorialWords": 350,
+      "minWords": 250,
+      "editorialParagraphs": 11,
+      "faqAnswers": 0,
+      "officialSources": 0,
+      "voiceViolations": [],
+      "hasFirstPersonSingular": false,
+      "operatorJudgments": 0,
+      "operatorStyleViolations": []
+    },
+    {
+      "route": "/compare",
+      "articleType": "hub",
+      "editorialWords": 176,
+      "minWords": 160,
+      "editorialParagraphs": 6,
+      "faqAnswers": 0,
+      "officialSources": 0,
+      "voiceViolations": [],
+      "hasFirstPersonSingular": false,
+      "operatorJudgments": 1,
+      "operatorStyleViolations": []
+    },
+    {
+      "route": "/winninghunter-review",
+      "articleType": "review",
+      "editorialWords": 1899,
+      "minWords": 650,
+      "editorialParagraphs": 54,
+      "faqAnswers": 0,
+      "officialSources": 3,
+      "voiceViolations": [],
+      "hasFirstPersonSingular": true,
+      "operatorJudgments": 9,
+      "operatorStyleViolations": []
+    },
+    {
+      "route": "/winninghunter-alternatives",
+      "articleType": "alternatives",
+      "editorialWords": 520,
+      "minWords": 500,
+      "editorialParagraphs": 13,
+      "faqAnswers": 0,
+      "officialSources": 6,
+      "voiceViolations": [],
+      "hasFirstPersonSingular": true,
+      "operatorJudgments": 6,
+      "operatorStyleViolations": []
+    },
+    {
+      "route": "/winninghunter-vs-kalodata",
+      "articleType": "comparison",
+      "editorialWords": 806,
+      "minWords": 600,
+      "editorialParagraphs": 27,
+      "faqAnswers": 0,
+      "officialSources": 2,
+      "voiceViolations": [],
+      "hasFirstPersonSingular": true,
+      "operatorJudgments": 10,
+      "operatorStyleViolations": []
+    },
+    {
+      "route": "/winninghunter-vs-pipiads",
+      "articleType": "comparison",
+      "editorialWords": 778,
+      "minWords": 600,
+      "editorialParagraphs": 27,
+      "faqAnswers": 0,
+      "officialSources": 3,
+      "voiceViolations": [],
+      "hasFirstPersonSingular": true,
+      "operatorJudgments": 10,
+      "operatorStyleViolations": []
+    },
+    {
+      "route": "/winninghunter-vs-shophunter",
+      "articleType": "comparison",
+      "editorialWords": 779,
+      "minWords": 600,
+      "editorialParagraphs": 27,
+      "faqAnswers": 0,
+      "officialSources": 3,
+      "voiceViolations": [],
+      "hasFirstPersonSingular": true,
+      "operatorJudgments": 10,
+      "operatorStyleViolations": []
+    },
+    {
+      "route": "/reviews/kalodata",
+      "articleType": "review",
+      "editorialWords": 1831,
+      "minWords": 650,
+      "editorialParagraphs": 61,
+      "faqAnswers": 0,
+      "officialSources": 3,
+      "voiceViolations": [],
+      "hasFirstPersonSingular": true,
+      "operatorJudgments": 10,
+      "operatorStyleViolations": []
+    },
+    {
+      "route": "/reviews/trendtrack",
+      "articleType": "review",
+      "editorialWords": 664,
+      "minWords": 650,
+      "editorialParagraphs": 26,
+      "faqAnswers": 0,
+      "officialSources": 2,
+      "voiceViolations": [],
+      "hasFirstPersonSingular": true,
+      "operatorJudgments": 9,
+      "operatorStyleViolations": []
+    },
+    {
+      "route": "/reviews/shophunter",
+      "articleType": "review",
+      "editorialWords": 654,
+      "minWords": 650,
+      "editorialParagraphs": 23,
+      "faqAnswers": 0,
+      "officialSources": 2,
+      "voiceViolations": [],
+      "hasFirstPersonSingular": true,
+      "operatorJudgments": 7,
+      "operatorStyleViolations": []
+    },
+    {
+      "route": "/reviews/pipiads",
+      "articleType": "review",
+      "editorialWords": 666,
+      "minWords": 650,
+      "editorialParagraphs": 21,
+      "faqAnswers": 0,
+      "officialSources": 2,
+      "voiceViolations": [],
+      "hasFirstPersonSingular": true,
+      "operatorJudgments": 7,
+      "operatorStyleViolations": []
+    }
+  ],
+  "similarity": [
+    {
+      "articleType": "review",
+      "left": "/reviews/shophunter",
+      "right": "/reviews/pipiads",
+      "similarity": 0.0294,
+      "threshold": 0.46,
+      "pass": true
+    },
+    {
+      "articleType": "review",
+      "left": "/reviews/trendtrack",
+      "right": "/reviews/pipiads",
+      "similarity": 0.0293,
+      "threshold": 0.46,
+      "pass": true
+    },
+    {
+      "articleType": "review",
+      "left": "/reviews/trendtrack",
+      "right": "/reviews/shophunter",
+      "similarity": 0.0257,
+      "threshold": 0.46,
+      "pass": true
+    },
+    {
+      "articleType": "review",
+      "left": "/winninghunter-review",
+      "right": "/reviews/kalodata",
+      "similarity": 0.0075,
+      "threshold": 0.46,
+      "pass": true
+    },
+    {
+      "articleType": "review",
+      "left": "/winninghunter-review",
+      "right": "/reviews/trendtrack",
+      "similarity": 0.0072,
+      "threshold": 0.46,
+      "pass": true
+    },
+    {
+      "articleType": "review",
+      "left": "/winninghunter-review",
+      "right": "/reviews/pipiads",
+      "similarity": 0.0064,
+      "threshold": 0.46,
+      "pass": true
+    },
+    {
+      "articleType": "review",
+      "left": "/winninghunter-review",
+      "right": "/reviews/shophunter",
+      "similarity": 0.0053,
+      "threshold": 0.46,
+      "pass": true
+    },
+    {
+      "articleType": "review",
+      "left": "/reviews/kalodata",
+      "right": "/reviews/pipiads",
+      "similarity": 0.0046,
+      "threshold": 0.46,
+      "pass": true
+    },
+    {
+      "articleType": "review",
+      "left": "/reviews/kalodata",
+      "right": "/reviews/trendtrack",
+      "similarity": 0.0043,
+      "threshold": 0.46,
+      "pass": true
+    },
+    {
+      "articleType": "review",
+      "left": "/reviews/kalodata",
+      "right": "/reviews/shophunter",
+      "similarity": 0.0043,
+      "threshold": 0.46,
+      "pass": true
+    }
+  ],
+  "repeatedParagraphs": [],
+  "repeatedFaqAnswers": [],
+  "sourceFailures": [],
+  "wordFailures": [],
+  "voiceFailures": [],
+  "operatorStyleFailures": []
+}

@@ -1,0 +1,172 @@
+domain: www.ecommerce-intel.com
+site_name: EcommerceIntel
+
+site_type:
+  - affiliate-content-site
+
+primary_topics:
+  - Ecommerce intelligence tools
+  - Ecommerce product research
+  - Ecommerce advertising research
+  - TikTok Shop analytics
+
+target_audience:
+  - Ecommerce operators
+  - TikTok Shop sellers
+  - Amazon sellers
+  - Shopify merchants
+
+business_goals:
+  - Organic traffic
+  - Affiliate conversion
+
+primary_entities:
+  - EcommerceIntel
+  - WinningHunter
+  - Kalodata
+  - FastMoss
+  - Minea
+
+content_angles:
+  - Real task testing
+  - Operator experience
+  - Step-by-step workflows
+
+unique_evidence:
+  - Human review required
+
+preferred_page_types:
+  - review
+  - alternative
+  - comparison
+  - tutorial
+  - general
+
+avoid_topics:
+  - Unverified tool claims
+  - Unverified pricing
+  - Generic ecommerce news
+
+avoid_overlap_with: []
+
+keyword_density:
+  mode: observation_only
+  target: 2%-3%
+
+publishing_thresholds:
+  article_score: 90
+  site_score: 85
+
+crawl:
+  max_pages: 100
+  exclude_patterns:
+    - "/api/"
+    - "/search"
+
+# Optional explicit overrides reduce heuristic ambiguity.
+page_overrides:
+  - path: /
+    page_type: general
+    primary_keyword: ecommerce intelligence tools
+    search_intent: commercial investigation
+    should_index: true
+  - path: /best-ecommerce-intelligence-tools
+    page_type: general
+    primary_keyword: best ecommerce intelligence tools
+    search_intent: commercial investigation
+    should_index: true
+  - path: /best-ecommerce-product-research-tools
+    page_type: general
+    primary_keyword: best product research tools
+    search_intent: commercial investigation
+    should_index: true
+  - path: /best-ecommerce-ad-spy-tools
+    page_type: general
+    primary_keyword: best ad spy tools for shopify
+    search_intent: commercial investigation
+    should_index: true
+  - path: /reviews
+    page_type: general
+    primary_keyword: ecommerce tool reviews and comparisons
+    search_intent: commercial investigation
+    should_index: true
+  - path: /winninghunter-review
+    page_type: review
+    primary_keyword: winning hunter
+    search_intent: commercial investigation
+    should_index: true
+  - path: /minea-review
+    page_type: review
+    primary_keyword: minea review
+    search_intent: commercial investigation
+    should_index: true
+  - path: /kalodata-review
+    page_type: review
+    primary_keyword: kalodata review
+    search_intent: commercial investigation
+    should_index: true
+  - path: /fastmoss-review
+    page_type: review
+    primary_keyword: fastmoss review
+    search_intent: commercial investigation
+    should_index: true
+  - path: /kalodata-vs-fastmoss
+    page_type: comparison
+    primary_keyword: kalodata vs fastmoss
+    search_intent: commercial investigation
+    should_index: true
+  - path: /kalodata-alternatives
+    page_type: alternative
+    primary_keyword: kalodata alternatives
+    search_intent: commercial investigation
+    should_index: true
+  - path: /how-to-research-products-for-tiktok-shop
+    page_type: tutorial
+    primary_keyword: how to research products for tiktok shop
+    search_intent: informational
+    should_index: true
+  - path: /workflows
+    page_type: general
+    primary_keyword: ecommerce research workflows
+    search_intent: informational navigation
+    should_index: true
+  - path: /winninghunter-vs-minea
+    page_type: comparison
+    primary_keyword: winninghunter vs minea
+    search_intent: commercial investigation
+    should_index: true
+  - path: /winninghunter-alternatives
+    page_type: alternative
+    primary_keyword: winninghunter alternatives
+    search_intent: commercial investigation
+    should_index: true
+  - path: /minea-alternatives
+    page_type: alternative
+    primary_keyword: minea alternatives
+    search_intent: commercial investigation
+    should_index: true
+  - path: /how-to-research-products-with-facebook-ads
+    page_type: tutorial
+    primary_keyword: how to research products with facebook ads
+    search_intent: informational commercial
+    should_index: true
+  - path: /about
+    page_type: general
+    primary_keyword: about ecommerceintel
+    search_intent: navigational
+    should_index: true
+  - path: /affiliate-disclosure
+    page_type: general
+    primary_keyword: affiliate disclosure
+    search_intent: navigational
+    should_index: true
+  - path: /privacy
+    page_type: general
+    primary_keyword: privacy policy
+    search_intent: navigational
+    should_index: true
+  - path: /terms
+    page_type: general
+    primary_keyword: terms of use
+    search_intent: navigational
+    should_index: true

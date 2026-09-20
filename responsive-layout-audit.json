@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-08-06",
+  "server": "http://localhost:4329",
+  "scope": "Week 1 five-page publication batch",
+  "viewports": [390, 1024, 1440],
+  "pages": [
+    {
+      "page": "/workflows",
+      "viewports": [
+        {"width":390,"client_width":390,"scroll_width":390,"horizontal_overflow":false,"heading_font_px":42,"heading_width_px":362,"heading_height_px":129,"text_width_px":362,"lead_height_px":562,"screenshot":"reports/screenshots/week-01/workflows-390.png"},
+        {"width":1024,"client_width":1024,"scroll_width":1024,"horizontal_overflow":false,"heading_font_px":61.44,"heading_width_px":760,"heading_height_px":125,"text_width_px":760,"lead_height_px":474,"screenshot":"reports/screenshots/week-01/workflows-1024.png"},
+        {"width":1440,"client_width":1440,"scroll_width":1440,"horizontal_overflow":false,"heading_font_px":64,"heading_width_px":760,"heading_height_px":131,"text_width_px":760,"lead_height_px":480,"screenshot":"reports/screenshots/week-01/workflows-1440.png"}
+      ],
+      "table_scroll": {"mobile_client_width":360,"mobile_scroll_width":600,"overflow_x":"auto"},
+      "faq_keyboard": "pass"
+    },
+    {
+      "page": "/winninghunter-vs-minea",
+      "viewports": [
+        {"width":390,"client_width":390,"scroll_width":390,"horizontal_overflow":false,"heading_font_px":42,"heading_width_px":362,"heading_height_px":86,"text_width_px":362,"lead_height_px":665,"screenshot":"reports/screenshots/week-01/winninghunter-vs-minea-390.png"},
+        {"width":1024,"client_width":1024,"scroll_width":1024,"horizontal_overflow":false,"heading_font_px":61.44,"heading_width_px":760,"heading_height_px":125,"text_width_px":760,"lead_height_px":549,"screenshot":"reports/screenshots/week-01/winninghunter-vs-minea-1024.png"},
+        {"width":1440,"client_width":1440,"scroll_width":1440,"horizontal_overflow":false,"heading_font_px":64,"heading_width_px":760,"heading_height_px":131,"text_width_px":760,"lead_height_px":554,"screenshot":"reports/screenshots/week-01/winninghunter-vs-minea-1440.png"}
+      ],
+      "table_scroll": {"mobile_client_width":360,"mobile_scroll_width":600,"before":0,"after":240,"maximum":240,"overflow_x":"auto"},
+      "cta": {"mobile_height":44,"mobile_width":300,"text_color":"rgb(255, 255, 255)","background_color":"rgb(5, 150, 105)"},
+      "faq_keyboard": "pass"
+    },
+    {
+      "page": "/winninghunter-alternatives",
+      "viewports": [
+        {"width":390,"client_width":390,"scroll_width":390,"horizontal_overflow":false,"heading_font_px":42,"heading_width_px":362,"heading_height_px":171,"text_width_px":362,"lead_height_px":750,"screenshot":"reports/screenshots/week-01/winninghunter-alternatives-390.png"},
+        {"width":1024,"client_width":1024,"scroll_width":1024,"horizontal_overflow":false,"heading_font_px":61.44,"heading_width_px":760,"heading_height_px":125,"text_width_px":760,"lead_height_px":582,"screenshot":"reports/screenshots/week-01/winninghunter-alternatives-1024.png"},
+        {"width":1440,"client_width":1440,"scroll_width":1440,"horizontal_overflow":false,"heading_font_px":64,"heading_width_px":760,"heading_height_px":131,"text_width_px":760,"lead_height_px":587,"screenshot":"reports/screenshots/week-01/winninghunter-alternatives-1440.png"}
+      ],
+      "table_scroll": {"mobile_client_width":360,"mobile_scroll_width":600,"overflow_x":"auto"},
+      "cta": {"mobile_height":44,"mobile_width":300,"text_color":"rgb(255, 255, 255)","background_color":"rgb(5, 150, 105)"},
+      "faq_keyboard": "pass"
+    },
+    {
+      "page": "/minea-alternatives",
+      "viewports": [
+        {"width":390,"client_width":390,"scroll_width":390,"horizontal_overflow":false,"heading_font_px":42,"heading_width_px":362,"heading_height_px":129,"text_width_px":362,"lead_height_px":708,"screenshot":"reports/screenshots/week-01/minea-alternatives-390.png"},
+        {"width":1024,"client_width":1024,"scroll_width":1024,"horizontal_overflow":false,"heading_font_px":61.44,"heading_width_px":760,"heading_height_px":125,"text_width_px":760,"lead_height_px":582,"screenshot":"reports/screenshots/week-01/minea-alternatives-1024.png"},
+        {"width":1440,"client_width":1440,"scroll_width":1440,"horizontal_overflow":false,"heading_font_px":64,"heading_width_px":760,"heading_height_px":131,"text_width_px":760,"lead_height_px":587,"screenshot":"reports/screenshots/week-01/minea-alternatives-1440.png"}
+      ],
+      "table_scroll": {"mobile_client_width":360,"mobile_scroll_width":600,"overflow_x":"auto"},
+      "cta": {"mobile_height":44,"mobile_width":300,"text_color":"rgb(255, 255, 255)","background_color":"rgb(5, 150, 105)"},
+      "faq_keyboard": "pass"
+    },
+    {
+      "page": "/how-to-research-products-with-facebook-ads",
+      "viewports": [
+        {"width":390,"client_width":390,"scroll_width":390,"horizontal_overflow":false,"heading_font_px":42,"heading_width_px":362,"heading_height_px":129,"text_width_px":362,"lead_height_px":592,"screenshot":"reports/screenshots/week-01/how-to-research-products-with-facebook-ads-390.png"},
+        {"width":1024,"client_width":1024,"scroll_width":1024,"horizontal_overflow":false,"heading_font_px":61.44,"heading_width_px":760,"heading_height_px":188,"text_width_px":760,"lead_height_px":537,"screenshot":"reports/screenshots/week-01/how-to-research-products-with-facebook-ads-1024.png"},
+        {"width":1440,"client_width":1440,"scroll_width":1440,"horizontal_overflow":false,"heading_font_px":64,"heading_width_px":760,"heading_height_px":196,"text_width_px":760,"lead_height_px":545,"screenshot":"reports/screenshots/week-01/how-to-research-products-with-facebook-ads-1440.png"}
+      ],
+      "table_scroll": {"mobile_client_width":360,"mobile_scroll_width":600,"overflow_x":"auto","table_count":2},
+      "faq_keyboard": "pass"
+    },
+    {
+      "page": "/how-to-analyze-competitor-facebook-ads",
+      "viewports": [
+        {"width":390,"client_width":390,"scroll_width":390,"horizontal_overflow":false,"heading_font_px":42,"heading_width_px":362,"heading_height_px":129,"screenshot":"reports/screenshots/week-02/how-to-analyze-competitor-facebook-ads-390.png"},
+        {"width":1024,"client_width":1024,"scroll_width":1024,"horizontal_overflow":false,"heading_font_px":61.44,"heading_width_px":760,"heading_height_px":188,"screenshot":"reports/screenshots/week-02/how-to-analyze-competitor-facebook-ads-1024.png"},
+        {"width":1440,"client_width":1440,"scroll_width":1440,"horizontal_overflow":false,"heading_font_px":64,"heading_width_px":760,"heading_height_px":196,"screenshot":"reports/screenshots/week-02/how-to-analyze-competitor-facebook-ads-1440.png"}
+      ],
+      "table_scroll": {"mobile_client_width":360,"mobile_scroll_width":360,"overflow_x":"auto"},
+      "faq_keyboard": "pass"
+    },
+    {
+      "page": "/how-to-find-shopify-stores-from-facebook-ads",
+      "viewports": [
+        {"width":390,"client_width":390,"scroll_width":390,"horizontal_overflow":false,"heading_font_px":42,"heading_width_px":362,"heading_height_px":171,"screenshot":"reports/screenshots/week-02/how-to-find-shopify-stores-from-facebook-ads-390.png"},
+        {"width":1024,"client_width":1024,"scroll_width":1024,"horizontal_overflow":false,"heading_font_px":61.44,"heading_width_px":760,"heading_height_px":188,"screenshot":"reports/screenshots/week-02/how-to-find-shopify-stores-from-facebook-ads-1024.png"},
+        {"width":1440,"client_width":1440,"scroll_width":1440,"horizontal_overflow":false,"heading_font_px":64,"heading_width_px":760,"heading_height_px":196,"screenshot":"reports/screenshots/week-02/how-to-find-shopify-stores-from-facebook-ads-1440.png"}
+      ],
+      "table_scroll": {"mobile_client_width":360,"mobile_scroll_width":600,"overflow_x":"auto","maximum":240},
+      "faq_keyboard": "pass"
+    },
+    {
+      "page": "/how-to-track-shopify-competitor-ads",
+      "viewports": [
+        {"width":390,"client_width":390,"scroll_width":390,"horizontal_overflow":false,"heading_font_px":42,"heading_width_px":362,"heading_height_px":129,"screenshot":"reports/screenshots/week-02/how-to-track-shopify-competitor-ads-390.png"},
+        {"width":1024,"client_width":1024,"scroll_width":1024,"horizontal_overflow":false,"heading_font_px":61.44,"heading_width_px":760,"heading_height_px":125,"screenshot":"reports/screenshots/week-02/how-to-track-shopify-competitor-ads-1024.png"},
+        {"width":1440,"client_width":1440,"scroll_width":1440,"horizontal_overflow":false,"heading_font_px":64,"heading_width_px":760,"heading_height_px":131,"screenshot":"reports/screenshots/week-02/how-to-track-shopify-competitor-ads-1440.png"}
+      ],
+      "table_scroll": {"mobile_client_width":360,"mobile_scroll_width":360,"overflow_x":"auto"},
+      "faq_keyboard": "pass"
+    },
+    {
+      "page": "/how-to-use-meta-ad-library-for-product-research",
+      "viewports": [
+        {"width":390,"client_width":390,"scroll_width":390,"horizontal_overflow":false,"heading_font_px":42,"heading_width_px":362,"heading_height_px":171,"screenshot":"reports/screenshots/week-02/how-to-use-meta-ad-library-for-product-research-390.png"},
+        {"width":1024,"client_width":1024,"scroll_width":1024,"horizontal_overflow":false,"heading_font_px":61.44,"heading_width_px":760,"heading_height_px":188,"screenshot":"reports/screenshots/week-02/how-to-use-meta-ad-library-for-product-research-1024.png"},
+        {"width":1440,"client_width":1440,"scroll_width":1440,"horizontal_overflow":false,"heading_font_px":64,"heading_width_px":760,"heading_height_px":196,"screenshot":"reports/screenshots/week-02/how-to-use-meta-ad-library-for-product-research-1440.png"}
+      ],
+      "table_scroll": {"mobile_client_width":360,"mobile_scroll_width":600,"overflow_x":"auto","maximum":240},
+      "faq_keyboard": "pass"
+    },
+    {
+      "page": "/how-to-validate-products-found-in-facebook-ads",
+      "viewports": [
+        {"width":390,"client_width":390,"scroll_width":390,"horizontal_overflow":false,"heading_font_px":42,"heading_width_px":362,"heading_height_px":129,"screenshot":"reports/screenshots/week-02/how-to-validate-products-found-in-facebook-ads-390.png"},
+        {"width":1024,"client_width":1024,"scroll_width":1024,"horizontal_overflow":false,"heading_font_px":61.44,"heading_width_px":760,"heading_height_px":188,"screenshot":"reports/screenshots/week-02/how-to-validate-products-found-in-facebook-ads-1024.png"},
+        {"width":1440,"client_width":1440,"scroll_width":1440,"horizontal_overflow":false,"heading_font_px":64,"heading_width_px":760,"heading_height_px":196,"screenshot":"reports/screenshots/week-02/how-to-validate-products-found-in-facebook-ads-1440.png"}
+      ],
+      "table_scroll": {"mobile_client_width":360,"mobile_scroll_width":360,"overflow_x":"auto"},
+      "faq_keyboard": "pass"
+    }
+  ],
+  "interaction_results": {
+    "desktop_menu_click_enter_escape": "pass",
+    "mobile_menu_enter_escape": "pass",
+    "reviews_filter_enter": "pass",
+    "faq_enter_space_all_five_pages": "pass",
+    "winninghunter_affiliate_utm": "pass",
+    "minea_official_utm": "pass",
+    "internal_utm": "pass",
+    "affiliate_cta_click": "pass",
+    "external_cta_click": "pass",
+    "comparison_cta_click": "pass",
+    "console_errors": 0
+  }
+}

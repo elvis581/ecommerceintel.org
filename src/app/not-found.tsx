@@ -1,0 +1,3 @@
+import Link from "next/link";
+import { ArrowLeft, Search } from "lucide-react";
+export default function NotFound() { return <main className="site-container flex min-h-[70vh] items-center py-20"><div className="max-w-xl"><Search className="mb-5 size-10 text-emerald-600" /><p className="eyebrow">404 error</p><h1 className="text-5xl font-black text-slate-950">This intelligence page is not here.</h1><p className="mt-5 text-lg leading-8 text-slate-600">The route may have changed, or the guide is not part of the current focused release.</p><Link href="/" className="button-primary mt-8"><ArrowLeft className="size-4" />Back to Ecommerce Intel</Link></div></main>; }

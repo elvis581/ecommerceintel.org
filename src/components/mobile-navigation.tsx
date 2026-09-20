@@ -1,0 +1,8 @@
+import { navigation } from "@/config/navigation";
+import { usePathname } from "next/navigation";
+import { TrackedLink } from "./tracked-link";
+
+export function MobileNavigation({ onNavigate }: { onNavigate: () => void }) {
+  const pathname = usePathname();
+  return <nav id="mobile-navigation" className="max-h-[calc(100vh-4rem)] overflow-y-auto border-t border-slate-200 bg-white px-5 py-4 lg:hidden" aria-label="Mobile navigation">{navigation.map((group) => group.items.length ? <div key={group.label} className="mb-5"><p className="mb-2 text-xs font-bold uppercase text-slate-400">{group.label}</p>{group.href && <TrackedLink href={group.href} aria-current={pathname === group.href ? "page" : undefined} eventName="internal_link_click" eventParams={{placement:"mobile_nav",label:`${group.label} overview`}} onClick={onNavigate} className="block border-b border-slate-100 py-2.5 text-sm font-semibold text-slate-700">{group.label} Overview</TrackedLink>}{group.items.map((item) => <TrackedLink key={item.href} href={item.href} aria-current={pathname === item.href ? "page" : undefined} eventName="internal_link_click" eventParams={{placement:"mobile_nav",label:item.label}} onClick={onNavigate} className="block border-b border-slate-100 py-2.5 text-sm font-semibold text-slate-700">{item.label}</TrackedLink>)}</div> : <TrackedLink key={group.label} href={group.href!} aria-current={pathname === group.href ? "page" : undefined} eventName="internal_link_click" eventParams={{placement:"mobile_nav",label:group.label}} onClick={onNavigate} className="mb-2 block border-b border-slate-100 py-3 text-sm font-semibold text-slate-700">{group.label}</TrackedLink>)}</nav>;
+}

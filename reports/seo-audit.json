@@ -1,0 +1,2878 @@
+{
+  "summary": {
+    "generatedAt": "2026-09-20T14:27:28.108Z",
+    "baseUrl": "http://localhost:3003",
+    "thresholds": {
+      "coreWords": "per seo-targets.json",
+      "seo": 85,
+      "aeo": 80,
+      "geo": 85
+    },
+    "routes": 19,
+    "passingCore": 13,
+    "coreRoutes": 13,
+    "missingFromSitemap": [],
+    "extraInSitemap": [],
+    "siteChecks": {
+      "robots": {
+        "pass": true,
+        "detail": "allows crawl and declares production sitemap"
+      },
+      "sitemap": {
+        "pass": true,
+        "detail": "19/19 routes"
+      },
+      "notFound": {
+        "pass": true,
+        "detail": "HTTP 404"
+      },
+      "favicon": {
+        "pass": true,
+        "detail": "image/svg+xml"
+      },
+      "appleIcon": {
+        "pass": true,
+        "detail": "180x180"
+      },
+      "pwa192": {
+        "pass": true,
+        "detail": "192x192"
+      },
+      "pwa512": {
+        "pass": true,
+        "detail": "512x512"
+      },
+      "maskable": {
+        "pass": true,
+        "detail": "512px maskable manifest icon"
+      },
+      "socialImage": {
+        "pass": true,
+        "detail": "1200x630"
+      },
+      "llmsTxt": {
+        "pass": true,
+        "detail": "HTTP 200, text/plain; charset=utf-8"
+      },
+      "internalLinks": {
+        "pass": true,
+        "detail": "20 unique route links checked"
+      },
+      "retiredRoutes": {
+        "pass": true,
+        "detail": "/start-here=404 (expected 404), /platforms=404 (expected 404), /guides=404 (expected 404), /best-ecommerce-tools=404 (expected 404), /best-ai-tools-for-ecommerce=404 (expected 404), /shoplus-review=404 (expected 404)"
+      },
+      "metadataUniqueness": {
+        "pass": true,
+        "detail": "unique title, description and H1 across audited routes"
+      }
+    },
+    "pageReview": {
+      "titleReview": 0,
+      "descriptionReview": 0,
+      "thicknessReview": 0,
+      "intentReview": 1
+    }
+  },
+  "results": [
+    {
+      "route": "/",
+      "priority": "Trust",
+      "primaryKeyword": "ecommerce intelligence tools",
+      "secondaryKeywords": [],
+      "intent": "navigational",
+      "articleType": "hub",
+      "targetReader": "ecommerce operators",
+      "core": true,
+      "minWords": 250,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "Ecommerce Research Desk for Product, Ad and Store Decisions",
+      "titleLength": 59,
+      "description": "Read independent EcommerceIntel reviews and comparisons built around the evidence an operator needs before paying for a research tool.",
+      "descriptionLength": 134,
+      "h1": "Choose the next research move before you choose a tool.",
+      "canonical": "https://ecommerceintel.org",
+      "og": {
+        "title": "Ecommerce Research Desk for Product, Ad and Store Decisions",
+        "description": "Read independent EcommerceIntel reviews and comparisons built around the evidence an operator needs before paying for a research tool.",
+        "url": "https://ecommerceintel.org",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Ecommerce Research Desk for Product, Ad and Store Decisions",
+        "description": "Read independent EcommerceIntel reviews and comparisons built around the evidence an operator needs before paying for a research tool.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "WebSite",
+        "Thing",
+        "Organization",
+        "ImageObject",
+        "Person",
+        "BreadcrumbList",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "wordCount": 494,
+      "fullWordCount": 520,
+      "h2Count": 8,
+      "faqCount": 3,
+      "internalLinks": 9,
+      "officialSources": 0,
+      "evidenceMappings": 0,
+      "comparisonTable": false,
+      "seoScore": 98,
+      "aeoScore": 94,
+      "geoScore": 90,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 3,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 9,
+        "faqSchema": 15,
+        "workflow": 10,
+        "sources": 10,
+        "decisionSupport": 10,
+        "descriptiveHeadings": 10,
+        "trust": 10,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 0,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 59,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 134,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "REVIEW",
+        "keyword": "ecommerce intelligence tools",
+        "titleCoverage": 0.3333333333333333,
+        "descriptionCoverage": 0.3333333333333333,
+        "h1Coverage": 0,
+        "introCoverage": 0
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "commercial threshold",
+        "editorialWords": 494,
+        "fullVisibleWords": 520,
+        "targetWords": 250,
+        "ratio": 1.98,
+        "signals": {
+          "introWords": 27,
+          "h2Count": 8,
+          "faqCount": 3,
+          "internalLinks": 9,
+          "officialSources": 0
+        }
+      },
+      "issues": [],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Align title, description, H1 and opening answer around “ecommerce intelligence tools”."
+        ]
+      }
+    },
+    {
+      "route": "/reviews",
+      "priority": "Trust",
+      "primaryKeyword": "ecommerce tool reviews",
+      "secondaryKeywords": [],
+      "intent": "navigational",
+      "articleType": "hub",
+      "targetReader": "ecommerce operators",
+      "core": true,
+      "minWords": 250,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "Ecommerce Research Reviews & Comparisons | EcommerceIntel",
+      "titleLength": 57,
+      "description": "Use EcommerceIntel review files to choose, compare or replace ecommerce research software by workflow fit and evidence quality.",
+      "descriptionLength": 127,
+      "h1": "Ecommerce Research Reviews & Comparisons",
+      "canonical": "https://ecommerceintel.org/reviews",
+      "og": {
+        "title": "Ecommerce Research Reviews & Comparisons | EcommerceIntel",
+        "description": "Use EcommerceIntel review files to choose, compare or replace ecommerce research software by workflow fit and evidence quality.",
+        "url": "https://ecommerceintel.org/reviews",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Ecommerce Research Reviews & Comparisons | EcommerceIntel",
+        "description": "Use EcommerceIntel review files to choose, compare or replace ecommerce research software by workflow fit and evidence quality.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "CollectionPage",
+        "Thing",
+        "ItemList",
+        "ListItem",
+        "Organization",
+        "ImageObject",
+        "Person",
+        "BreadcrumbList"
+      ],
+      "wordCount": 282,
+      "fullWordCount": 246,
+      "h2Count": 4,
+      "faqCount": 0,
+      "internalLinks": 11,
+      "officialSources": 0,
+      "evidenceMappings": 0,
+      "comparisonTable": false,
+      "seoScore": 100,
+      "aeoScore": 90,
+      "geoScore": 90,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 5,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 15,
+        "faqSchema": 15,
+        "workflow": 10,
+        "sources": 10,
+        "decisionSupport": 10,
+        "descriptiveHeadings": 10,
+        "trust": 0,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 10,
+        "freshness": 0,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 57,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 127,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "ecommerce tool reviews",
+        "titleCoverage": 0.6666666666666666,
+        "descriptionCoverage": 0.3333333333333333,
+        "h1Coverage": 0.6666666666666666,
+        "introCoverage": 0.3333333333333333
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "commercial threshold",
+        "editorialWords": 282,
+        "fullVisibleWords": 246,
+        "targetWords": 250,
+        "ratio": 1.13,
+        "signals": {
+          "introWords": 36,
+          "h2Count": 4,
+          "faqCount": 0,
+          "internalLinks": 11,
+          "officialSources": 0
+        }
+      },
+      "issues": [],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/resources",
+      "priority": "Trust",
+      "primaryKeyword": "ecommerce research resources",
+      "secondaryKeywords": [],
+      "intent": "navigational",
+      "articleType": "hub",
+      "targetReader": "ecommerce operators",
+      "core": false,
+      "minWords": 200,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "Ecommerce Research Resources for Operators",
+      "titleLength": 42,
+      "description": "Research resources for choosing ecommerce intelligence, ad research and product research software.",
+      "descriptionLength": 98,
+      "h1": "Ecommerce Research Resources for Operators",
+      "canonical": "https://ecommerceintel.org/resources",
+      "og": {
+        "title": "Ecommerce Research Resources for Operators",
+        "description": "Research resources for choosing ecommerce intelligence, ad research and product research software.",
+        "url": "https://ecommerceintel.org/resources",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Ecommerce Research Resources for Operators",
+        "description": "Research resources for choosing ecommerce intelligence, ad research and product research software.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "CollectionPage",
+        "WebPage",
+        "Thing",
+        "CreativeWork",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "wordCount": 479,
+      "fullWordCount": 688,
+      "h2Count": 11,
+      "faqCount": 5,
+      "internalLinks": 7,
+      "officialSources": 8,
+      "evidenceMappings": 8,
+      "comparisonTable": false,
+      "seoScore": 100,
+      "aeoScore": 90,
+      "geoScore": 71,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 5,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 15,
+        "faqSchema": 15,
+        "workflow": 10,
+        "sources": 10,
+        "decisionSupport": 10,
+        "descriptiveHeadings": 10,
+        "trust": 0,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 6,
+        "sources": 15,
+        "faq": 10,
+        "freshness": 10,
+        "attribution": 0
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 42,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 98,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "ecommerce research resources",
+        "titleCoverage": 1,
+        "descriptionCoverage": 1,
+        "h1Coverage": 1,
+        "introCoverage": 0.6666666666666666
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "commercial threshold",
+        "editorialWords": 479,
+        "fullVisibleWords": 688,
+        "targetWords": 200,
+        "ratio": 2.4,
+        "signals": {
+          "introWords": 14,
+          "h2Count": 11,
+          "faqCount": 5,
+          "internalLinks": 7,
+          "officialSources": 8
+        }
+      },
+      "issues": [
+        "GEO 71/100"
+      ],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/compare",
+      "priority": "P0",
+      "primaryKeyword": "compare ecommerce tools",
+      "secondaryKeywords": [],
+      "intent": "commercial investigation navigation",
+      "articleType": "hub",
+      "targetReader": "ecommerce operators comparing named tools",
+      "core": true,
+      "minWords": 160,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "Compare Ecommerce Intelligence Tools",
+      "titleLength": 36,
+      "description": "Compare WinningHunter with Kalodata, PipiAds and ShopHunter by workflow, coverage and decision fit.",
+      "descriptionLength": 99,
+      "h1": "Compare Ecommerce Tools",
+      "canonical": "https://ecommerceintel.org/compare",
+      "og": {
+        "title": "Compare Ecommerce Intelligence Tools",
+        "description": "Compare WinningHunter with Kalodata, PipiAds and ShopHunter by workflow, coverage and decision fit.",
+        "url": "https://ecommerceintel.org/compare",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Compare Ecommerce Intelligence Tools",
+        "description": "Compare WinningHunter with Kalodata, PipiAds and ShopHunter by workflow, coverage and decision fit.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "WebPage",
+        "Thing",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "wordCount": 336,
+      "fullWordCount": 388,
+      "h2Count": 10,
+      "faqCount": 4,
+      "internalLinks": 7,
+      "officialSources": 0,
+      "evidenceMappings": 0,
+      "comparisonTable": false,
+      "seoScore": 100,
+      "aeoScore": 90,
+      "geoScore": 100,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 5,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 15,
+        "faqSchema": 15,
+        "workflow": 10,
+        "sources": 10,
+        "decisionSupport": 10,
+        "descriptiveHeadings": 10,
+        "trust": 0,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 10,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 36,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 99,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "compare ecommerce tools",
+        "titleCoverage": 1,
+        "descriptionCoverage": 0.3333333333333333,
+        "h1Coverage": 1,
+        "introCoverage": 0.3333333333333333
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "commercial threshold",
+        "editorialWords": 336,
+        "fullVisibleWords": 388,
+        "targetWords": 160,
+        "ratio": 2.1,
+        "signals": {
+          "introWords": 13,
+          "h2Count": 10,
+          "faqCount": 4,
+          "internalLinks": 7,
+          "officialSources": 0
+        }
+      },
+      "issues": [],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/about",
+      "priority": "Trust",
+      "primaryKeyword": "about ecommerceintel",
+      "secondaryKeywords": [],
+      "intent": "navigational",
+      "articleType": "trust",
+      "targetReader": "ecommerce operators",
+      "core": false,
+      "minWords": 250,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "About EcommerceIntel: Editorial Method and Standards",
+      "titleLength": 52,
+      "description": "Learn who publishes EcommerceIntel, how tool evidence is evaluated and how affiliate funding is kept separate from editorial judgment.",
+      "descriptionLength": 134,
+      "h1": "About Ecommerce Intel",
+      "canonical": "https://ecommerceintel.org/about",
+      "og": {
+        "title": "About EcommerceIntel: Editorial Method and Standards",
+        "description": "Learn who publishes EcommerceIntel, how tool evidence is evaluated and how affiliate funding is kept separate from editorial judgment.",
+        "url": "https://ecommerceintel.org/about",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "About EcommerceIntel: Editorial Method and Standards",
+        "description": "Learn who publishes EcommerceIntel, how tool evidence is evaluated and how affiliate funding is kept separate from editorial judgment.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "AboutPage",
+        "WebPage",
+        "Thing",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem"
+      ],
+      "wordCount": 636,
+      "fullWordCount": 615,
+      "h2Count": 8,
+      "faqCount": 0,
+      "internalLinks": 3,
+      "officialSources": 0,
+      "evidenceMappings": 0,
+      "comparisonTable": false,
+      "seoScore": 83,
+      "aeoScore": 50,
+      "geoScore": 90,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 0,
+        "content": 20,
+        "headings": 5,
+        "faq": 0,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 0,
+        "faqSchema": 0,
+        "workflow": 0,
+        "sources": 10,
+        "decisionSupport": 0,
+        "descriptiveHeadings": 10,
+        "trust": 10,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 0,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 52,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 134,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "about ecommerceintel",
+        "titleCoverage": 1,
+        "descriptionCoverage": 0.5,
+        "h1Coverage": 1,
+        "introCoverage": 0.5
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "trust/legal threshold",
+        "editorialWords": 636,
+        "fullVisibleWords": 615,
+        "targetWords": 250,
+        "ratio": 2.54,
+        "signals": {
+          "introWords": 21,
+          "h2Count": 8,
+          "faqCount": 0,
+          "internalLinks": 3,
+          "officialSources": 0
+        }
+      },
+      "issues": [
+        "SEO 83/100",
+        "AEO 50/100"
+      ],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/methodology",
+      "priority": "Trust",
+      "primaryKeyword": "ecommerce tool evaluation methodology",
+      "secondaryKeywords": [],
+      "intent": "navigational",
+      "articleType": "trust",
+      "targetReader": "ecommerce operators",
+      "core": false,
+      "minWords": 300,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "Ecommerce Tool Evaluation Methodology",
+      "titleLength": 37,
+      "description": "Read the evidence, workflow and limitation framework used for Ecommerce Intel software reviews and comparisons.",
+      "descriptionLength": 111,
+      "h1": "How Ecommerce Intel Evaluates Tools",
+      "canonical": "https://ecommerceintel.org/methodology",
+      "og": {
+        "title": "Ecommerce Tool Evaluation Methodology",
+        "description": "Read the evidence, workflow and limitation framework used for Ecommerce Intel software reviews and comparisons.",
+        "url": "https://ecommerceintel.org/methodology",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Ecommerce Tool Evaluation Methodology",
+        "description": "Read the evidence, workflow and limitation framework used for Ecommerce Intel software reviews and comparisons.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "WebPage",
+        "Thing",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "wordCount": 364,
+      "fullWordCount": 413,
+      "h2Count": 11,
+      "faqCount": 4,
+      "internalLinks": 3,
+      "officialSources": 0,
+      "evidenceMappings": 0,
+      "comparisonTable": false,
+      "seoScore": 100,
+      "aeoScore": 100,
+      "geoScore": 100,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 5,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 15,
+        "faqSchema": 15,
+        "workflow": 10,
+        "sources": 10,
+        "decisionSupport": 10,
+        "descriptiveHeadings": 10,
+        "trust": 10,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 10,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 37,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 111,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "ecommerce tool evaluation methodology",
+        "titleCoverage": 1,
+        "descriptionCoverage": 0.25,
+        "h1Coverage": 0.5,
+        "introCoverage": 0
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "trust/legal threshold",
+        "editorialWords": 364,
+        "fullVisibleWords": 413,
+        "targetWords": 300,
+        "ratio": 1.21,
+        "signals": {
+          "introWords": 19,
+          "h2Count": 11,
+          "faqCount": 4,
+          "internalLinks": 3,
+          "officialSources": 0
+        }
+      },
+      "issues": [],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/affiliate-disclosure",
+      "priority": "Trust",
+      "primaryKeyword": "ecommerceintel affiliate disclosure",
+      "secondaryKeywords": [],
+      "intent": "navigational",
+      "articleType": "disclosure",
+      "targetReader": "ecommerce operators",
+      "core": false,
+      "minWords": 200,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "Affiliate Disclosure | Ecommerce Intel",
+      "titleLength": 38,
+      "description": "Read how affiliate links may fund EcommerceIntel without controlling tool inclusion, evidence labels or editorial conclusions.",
+      "descriptionLength": 126,
+      "h1": "Affiliate Disclosure",
+      "canonical": "https://ecommerceintel.org/affiliate-disclosure",
+      "og": {
+        "title": "Affiliate Disclosure | Ecommerce Intel",
+        "description": "Read how affiliate links may fund EcommerceIntel without controlling tool inclusion, evidence labels or editorial conclusions.",
+        "url": "https://ecommerceintel.org/affiliate-disclosure",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Affiliate Disclosure | Ecommerce Intel",
+        "description": "Read how affiliate links may fund EcommerceIntel without controlling tool inclusion, evidence labels or editorial conclusions.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "WebPage",
+        "Thing",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem"
+      ],
+      "wordCount": 184,
+      "fullWordCount": 160,
+      "h2Count": 5,
+      "faqCount": 0,
+      "internalLinks": 3,
+      "officialSources": 0,
+      "evidenceMappings": 0,
+      "comparisonTable": false,
+      "seoScore": 81,
+      "aeoScore": 50,
+      "geoScore": 75,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 0,
+        "content": 18,
+        "headings": 5,
+        "faq": 0,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 0,
+        "faqSchema": 0,
+        "workflow": 0,
+        "sources": 10,
+        "decisionSupport": 0,
+        "descriptiveHeadings": 10,
+        "trust": 10,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 0,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 0,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 38,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 126,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "ecommerceintel affiliate disclosure",
+        "titleCoverage": 1,
+        "descriptionCoverage": 0.6666666666666666,
+        "h1Coverage": 0.6666666666666666,
+        "introCoverage": 0.6666666666666666
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "trust/legal threshold",
+        "editorialWords": 184,
+        "fullVisibleWords": 160,
+        "targetWords": 200,
+        "ratio": 0.92,
+        "signals": {
+          "introWords": 24,
+          "h2Count": 5,
+          "faqCount": 0,
+          "internalLinks": 3,
+          "officialSources": 0
+        }
+      },
+      "issues": [
+        "184/200 words",
+        "SEO 81/100",
+        "AEO 50/100",
+        "GEO 75/100"
+      ],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/privacy",
+      "priority": "Trust",
+      "primaryKeyword": "ecommerceintel privacy policy",
+      "secondaryKeywords": [],
+      "intent": "navigational",
+      "articleType": "legal",
+      "targetReader": "ecommerce operators",
+      "core": false,
+      "minWords": 200,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "EcommerceIntel Privacy Policy | Data and Cookies",
+      "titleLength": 48,
+      "description": "Read how EcommerceIntel uses Google Analytics, handles cookies, external links, retention and privacy requests.",
+      "descriptionLength": 111,
+      "h1": "Privacy Policy",
+      "canonical": "https://ecommerceintel.org/privacy",
+      "og": {
+        "title": "EcommerceIntel Privacy Policy | Data and Cookies",
+        "description": "Read how EcommerceIntel uses Google Analytics, handles cookies, external links, retention and privacy requests.",
+        "url": "https://ecommerceintel.org/privacy",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "EcommerceIntel Privacy Policy | Data and Cookies",
+        "description": "Read how EcommerceIntel uses Google Analytics, handles cookies, external links, retention and privacy requests.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "WebPage",
+        "Thing",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem"
+      ],
+      "wordCount": 503,
+      "fullWordCount": 480,
+      "h2Count": 8,
+      "faqCount": 0,
+      "internalLinks": 3,
+      "officialSources": 0,
+      "evidenceMappings": 0,
+      "comparisonTable": false,
+      "seoScore": 83,
+      "aeoScore": 50,
+      "geoScore": 75,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 0,
+        "content": 20,
+        "headings": 5,
+        "faq": 0,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 0,
+        "faqSchema": 0,
+        "workflow": 0,
+        "sources": 10,
+        "decisionSupport": 0,
+        "descriptiveHeadings": 10,
+        "trust": 10,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 0,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 0,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 48,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 111,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "ecommerceintel privacy policy",
+        "titleCoverage": 1,
+        "descriptionCoverage": 0.6666666666666666,
+        "h1Coverage": 0.6666666666666666,
+        "introCoverage": 0.6666666666666666
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "trust/legal threshold",
+        "editorialWords": 503,
+        "fullVisibleWords": 480,
+        "targetWords": 200,
+        "ratio": 2.52,
+        "signals": {
+          "introWords": 23,
+          "h2Count": 8,
+          "faqCount": 0,
+          "internalLinks": 3,
+          "officialSources": 0
+        }
+      },
+      "issues": [
+        "SEO 83/100",
+        "AEO 50/100",
+        "GEO 75/100"
+      ],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/terms",
+      "priority": "Trust",
+      "primaryKeyword": "ecommerceintel terms",
+      "secondaryKeywords": [],
+      "intent": "navigational",
+      "articleType": "legal",
+      "targetReader": "ecommerce operators",
+      "core": false,
+      "minWords": 200,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "EcommerceIntel Terms of Use | Research Site",
+      "titleLength": 43,
+      "description": "Review the terms governing informational content, intellectual property, external services and use of EcommerceIntel.",
+      "descriptionLength": 117,
+      "h1": "Terms of Use",
+      "canonical": "https://ecommerceintel.org/terms",
+      "og": {
+        "title": "EcommerceIntel Terms of Use | Research Site",
+        "description": "Review the terms governing informational content, intellectual property, external services and use of EcommerceIntel.",
+        "url": "https://ecommerceintel.org/terms",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "EcommerceIntel Terms of Use | Research Site",
+        "description": "Review the terms governing informational content, intellectual property, external services and use of EcommerceIntel.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "WebPage",
+        "Thing",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem"
+      ],
+      "wordCount": 418,
+      "fullWordCount": 394,
+      "h2Count": 8,
+      "faqCount": 0,
+      "internalLinks": 3,
+      "officialSources": 0,
+      "evidenceMappings": 0,
+      "comparisonTable": false,
+      "seoScore": 83,
+      "aeoScore": 50,
+      "geoScore": 75,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 0,
+        "content": 20,
+        "headings": 5,
+        "faq": 0,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 0,
+        "faqSchema": 0,
+        "workflow": 0,
+        "sources": 10,
+        "decisionSupport": 0,
+        "descriptiveHeadings": 10,
+        "trust": 10,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 0,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 0,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 43,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 117,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "ecommerceintel terms",
+        "titleCoverage": 1,
+        "descriptionCoverage": 1,
+        "h1Coverage": 0.5,
+        "introCoverage": 1
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "trust/legal threshold",
+        "editorialWords": 418,
+        "fullVisibleWords": 394,
+        "targetWords": 200,
+        "ratio": 2.09,
+        "signals": {
+          "introWords": 24,
+          "h2Count": 8,
+          "faqCount": 0,
+          "internalLinks": 3,
+          "officialSources": 0
+        }
+      },
+      "issues": [
+        "SEO 83/100",
+        "AEO 50/100",
+        "GEO 75/100"
+      ],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/winninghunter-review",
+      "priority": "P0",
+      "primaryKeyword": "WinningHunter review",
+      "secondaryKeywords": [],
+      "intent": "commercial investigation",
+      "articleType": "review",
+      "targetReader": "ecommerce operators",
+      "core": true,
+      "minWords": 650,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "WinningHunter Review 2026: Features, Pricing & Who It's Best For",
+      "titleLength": 64,
+      "description": "WinningHunter review covering features, pricing checks, ad research, Shopify store context and who should use it.",
+      "descriptionLength": 113,
+      "h1": "WinningHunter Review 2026: Features, Pricing & Who It's Best For",
+      "canonical": "https://ecommerceintel.org/winninghunter-review",
+      "og": {
+        "title": "WinningHunter Review 2026: Features, Pricing & Who It's Best For",
+        "description": "WinningHunter review covering features, pricing checks, ad research, Shopify store context and who should use it.",
+        "url": "https://ecommerceintel.org/winninghunter-review",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "WinningHunter Review 2026: Features, Pricing & Who It's Best For",
+        "description": "WinningHunter review covering features, pricing checks, ad research, Shopify store context and who should use it.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "Article",
+        "WebPage",
+        "Thing",
+        "CreativeWork",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "wordCount": 2272,
+      "fullWordCount": 2406,
+      "h2Count": 19,
+      "faqCount": 12,
+      "internalLinks": 7,
+      "officialSources": 3,
+      "evidenceMappings": 3,
+      "comparisonTable": true,
+      "seoScore": 100,
+      "aeoScore": 90,
+      "geoScore": 100,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 5,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 15,
+        "faqSchema": 15,
+        "workflow": 10,
+        "sources": 10,
+        "decisionSupport": 10,
+        "descriptiveHeadings": 10,
+        "trust": 0,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 10,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 64,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 113,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "WinningHunter review",
+        "titleCoverage": 1,
+        "descriptionCoverage": 1,
+        "h1Coverage": 1,
+        "introCoverage": 1
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "commercial threshold",
+        "editorialWords": 2272,
+        "fullVisibleWords": 2406,
+        "targetWords": 650,
+        "ratio": 3.5,
+        "signals": {
+          "introWords": 72,
+          "h2Count": 19,
+          "faqCount": 12,
+          "internalLinks": 7,
+          "officialSources": 3
+        }
+      },
+      "issues": [],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/winninghunter-pricing",
+      "priority": "P0",
+      "primaryKeyword": "WinningHunter pricing",
+      "secondaryKeywords": [],
+      "intent": "commercial investigation",
+      "articleType": "guide",
+      "targetReader": "ecommerce operators",
+      "core": true,
+      "minWords": 300,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "WinningHunter Pricing 2026: Plans, Cost & What to Check",
+      "titleLength": 55,
+      "description": "Understand what to verify on the current WinningHunter pricing page, including plan limits, markets and commitment risk.",
+      "descriptionLength": 120,
+      "h1": "WinningHunter Pricing 2026: Plans, Cost & What to Check",
+      "canonical": "https://ecommerceintel.org/winninghunter-pricing",
+      "og": {
+        "title": "WinningHunter Pricing 2026: Plans, Cost & What to Check",
+        "description": "Understand what to verify on the current WinningHunter pricing page, including plan limits, markets and commitment risk.",
+        "url": "https://ecommerceintel.org/winninghunter-pricing",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "WinningHunter Pricing 2026: Plans, Cost & What to Check",
+        "description": "Understand what to verify on the current WinningHunter pricing page, including plan limits, markets and commitment risk.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "Article",
+        "WebPage",
+        "Thing",
+        "CreativeWork",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "wordCount": 514,
+      "fullWordCount": 702,
+      "h2Count": 14,
+      "faqCount": 5,
+      "internalLinks": 5,
+      "officialSources": 1,
+      "evidenceMappings": 1,
+      "comparisonTable": false,
+      "seoScore": 100,
+      "aeoScore": 100,
+      "geoScore": 100,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 5,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 15,
+        "faqSchema": 15,
+        "workflow": 10,
+        "sources": 10,
+        "decisionSupport": 10,
+        "descriptiveHeadings": 10,
+        "trust": 10,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 10,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 55,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 120,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "WinningHunter pricing",
+        "titleCoverage": 1,
+        "descriptionCoverage": 1,
+        "h1Coverage": 1,
+        "introCoverage": 1
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "commercial threshold",
+        "editorialWords": 514,
+        "fullVisibleWords": 702,
+        "targetWords": 300,
+        "ratio": 1.71,
+        "signals": {
+          "introWords": 29,
+          "h2Count": 14,
+          "faqCount": 5,
+          "internalLinks": 5,
+          "officialSources": 1
+        }
+      },
+      "issues": [],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/winninghunter-alternatives",
+      "priority": "P0",
+      "primaryKeyword": "WinningHunter alternatives",
+      "secondaryKeywords": [],
+      "intent": "commercial investigation",
+      "articleType": "alternatives",
+      "targetReader": "ecommerce operators",
+      "core": true,
+      "minWords": 500,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "WinningHunter Alternatives 2026: Tools Like WinningHunter",
+      "titleLength": 57,
+      "description": "Compare WinningHunter alternatives by switching reason, channel coverage and ecommerce research workflow.",
+      "descriptionLength": 105,
+      "h1": "WinningHunter Alternatives 2026",
+      "canonical": "https://ecommerceintel.org/winninghunter-alternatives",
+      "og": {
+        "title": "WinningHunter Alternatives 2026: Tools Like WinningHunter",
+        "description": "Compare WinningHunter alternatives by switching reason, channel coverage and ecommerce research workflow.",
+        "url": "https://ecommerceintel.org/winninghunter-alternatives",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "WinningHunter Alternatives 2026: Tools Like WinningHunter",
+        "description": "Compare WinningHunter alternatives by switching reason, channel coverage and ecommerce research workflow.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "Article",
+        "WebPage",
+        "Thing",
+        "CreativeWork",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "wordCount": 697,
+      "fullWordCount": 930,
+      "h2Count": 14,
+      "faqCount": 5,
+      "internalLinks": 7,
+      "officialSources": 6,
+      "evidenceMappings": 6,
+      "comparisonTable": false,
+      "seoScore": 100,
+      "aeoScore": 90,
+      "geoScore": 100,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 5,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 15,
+        "faqSchema": 15,
+        "workflow": 10,
+        "sources": 10,
+        "decisionSupport": 10,
+        "descriptiveHeadings": 10,
+        "trust": 0,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 10,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 57,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 105,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "WinningHunter alternatives",
+        "titleCoverage": 1,
+        "descriptionCoverage": 1,
+        "h1Coverage": 1,
+        "introCoverage": 0
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "commercial threshold",
+        "editorialWords": 697,
+        "fullVisibleWords": 930,
+        "targetWords": 500,
+        "ratio": 1.39,
+        "signals": {
+          "introWords": 39,
+          "h2Count": 14,
+          "faqCount": 5,
+          "internalLinks": 7,
+          "officialSources": 6
+        }
+      },
+      "issues": [],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/winninghunter-vs-kalodata",
+      "priority": "P0",
+      "primaryKeyword": "WinningHunter vs Kalodata",
+      "secondaryKeywords": [],
+      "intent": "commercial investigation",
+      "articleType": "comparison",
+      "targetReader": "ecommerce operators",
+      "core": true,
+      "minWords": 600,
+      "comparisonRequired": true,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "WinningHunter vs Kalodata: Features, Pricing & Best Use Cases",
+      "titleLength": 61,
+      "description": "Compare WinningHunter and Kalodata by ecommerce research workflow, platform coverage and decision fit.",
+      "descriptionLength": 102,
+      "h1": "WinningHunter vs Kalodata",
+      "canonical": "https://ecommerceintel.org/winninghunter-vs-kalodata",
+      "og": {
+        "title": "WinningHunter vs Kalodata: Features, Pricing & Best Use Cases",
+        "description": "Compare WinningHunter and Kalodata by ecommerce research workflow, platform coverage and decision fit.",
+        "url": "https://ecommerceintel.org/winninghunter-vs-kalodata",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "WinningHunter vs Kalodata: Features, Pricing & Best Use Cases",
+        "description": "Compare WinningHunter and Kalodata by ecommerce research workflow, platform coverage and decision fit.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "Article",
+        "WebPage",
+        "Thing",
+        "CreativeWork",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "wordCount": 974,
+      "fullWordCount": 1335,
+      "h2Count": 17,
+      "faqCount": 5,
+      "internalLinks": 6,
+      "officialSources": 2,
+      "evidenceMappings": 2,
+      "comparisonTable": true,
+      "seoScore": 100,
+      "aeoScore": 90,
+      "geoScore": 100,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 5,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 15,
+        "faqSchema": 15,
+        "workflow": 10,
+        "sources": 10,
+        "decisionSupport": 10,
+        "descriptiveHeadings": 10,
+        "trust": 0,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 10,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 61,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 102,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "WinningHunter vs Kalodata",
+        "titleCoverage": 1,
+        "descriptionCoverage": 1,
+        "h1Coverage": 1,
+        "introCoverage": 1
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "commercial threshold",
+        "editorialWords": 974,
+        "fullVisibleWords": 1335,
+        "targetWords": 600,
+        "ratio": 1.62,
+        "signals": {
+          "introWords": 55,
+          "h2Count": 17,
+          "faqCount": 5,
+          "internalLinks": 6,
+          "officialSources": 2
+        }
+      },
+      "issues": [],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/winninghunter-vs-pipiads",
+      "priority": "P0",
+      "primaryKeyword": "WinningHunter vs PipiAds",
+      "secondaryKeywords": [],
+      "intent": "commercial investigation",
+      "articleType": "comparison",
+      "targetReader": "ecommerce operators",
+      "core": true,
+      "minWords": 600,
+      "comparisonRequired": true,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "WinningHunter vs PipiAds: Features, Pricing & Best Use Cases",
+      "titleLength": 60,
+      "description": "Compare WinningHunter and PipiAds for ad research, product discovery and ecommerce workflow fit.",
+      "descriptionLength": 96,
+      "h1": "WinningHunter vs PipiAds",
+      "canonical": "https://ecommerceintel.org/winninghunter-vs-pipiads",
+      "og": {
+        "title": "WinningHunter vs PipiAds: Features, Pricing & Best Use Cases",
+        "description": "Compare WinningHunter and PipiAds for ad research, product discovery and ecommerce workflow fit.",
+        "url": "https://ecommerceintel.org/winninghunter-vs-pipiads",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "WinningHunter vs PipiAds: Features, Pricing & Best Use Cases",
+        "description": "Compare WinningHunter and PipiAds for ad research, product discovery and ecommerce workflow fit.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "Article",
+        "WebPage",
+        "Thing",
+        "CreativeWork",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "wordCount": 945,
+      "fullWordCount": 1312,
+      "h2Count": 17,
+      "faqCount": 5,
+      "internalLinks": 6,
+      "officialSources": 3,
+      "evidenceMappings": 3,
+      "comparisonTable": true,
+      "seoScore": 100,
+      "aeoScore": 90,
+      "geoScore": 100,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 5,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 15,
+        "faqSchema": 15,
+        "workflow": 10,
+        "sources": 10,
+        "decisionSupport": 10,
+        "descriptiveHeadings": 10,
+        "trust": 0,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 10,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 60,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 96,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "WinningHunter vs PipiAds",
+        "titleCoverage": 1,
+        "descriptionCoverage": 1,
+        "h1Coverage": 1,
+        "introCoverage": 1
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "commercial threshold",
+        "editorialWords": 945,
+        "fullVisibleWords": 1312,
+        "targetWords": 600,
+        "ratio": 1.57,
+        "signals": {
+          "introWords": 51,
+          "h2Count": 17,
+          "faqCount": 5,
+          "internalLinks": 6,
+          "officialSources": 3
+        }
+      },
+      "issues": [],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/winninghunter-vs-shophunter",
+      "priority": "P0",
+      "primaryKeyword": "WinningHunter vs ShopHunter",
+      "secondaryKeywords": [],
+      "intent": "commercial investigation",
+      "articleType": "comparison",
+      "targetReader": "ecommerce operators",
+      "core": true,
+      "minWords": 600,
+      "comparisonRequired": true,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "WinningHunter vs ShopHunter: Features, Pricing & Best Use Cases",
+      "titleLength": 63,
+      "description": "Compare WinningHunter and ShopHunter for ecommerce ad, store and product research workflows.",
+      "descriptionLength": 92,
+      "h1": "WinningHunter vs ShopHunter",
+      "canonical": "https://ecommerceintel.org/winninghunter-vs-shophunter",
+      "og": {
+        "title": "WinningHunter vs ShopHunter: Features, Pricing & Best Use Cases",
+        "description": "Compare WinningHunter and ShopHunter for ecommerce ad, store and product research workflows.",
+        "url": "https://ecommerceintel.org/winninghunter-vs-shophunter",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "WinningHunter vs ShopHunter: Features, Pricing & Best Use Cases",
+        "description": "Compare WinningHunter and ShopHunter for ecommerce ad, store and product research workflows.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "Article",
+        "WebPage",
+        "Thing",
+        "CreativeWork",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "wordCount": 948,
+      "fullWordCount": 1312,
+      "h2Count": 17,
+      "faqCount": 5,
+      "internalLinks": 6,
+      "officialSources": 3,
+      "evidenceMappings": 3,
+      "comparisonTable": true,
+      "seoScore": 100,
+      "aeoScore": 90,
+      "geoScore": 100,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 5,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 15,
+        "faqSchema": 15,
+        "workflow": 10,
+        "sources": 10,
+        "decisionSupport": 10,
+        "descriptiveHeadings": 10,
+        "trust": 0,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 10,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 63,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 92,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "WinningHunter vs ShopHunter",
+        "titleCoverage": 1,
+        "descriptionCoverage": 1,
+        "h1Coverage": 1,
+        "introCoverage": 1
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "commercial threshold",
+        "editorialWords": 948,
+        "fullVisibleWords": 1312,
+        "targetWords": 600,
+        "ratio": 1.58,
+        "signals": {
+          "introWords": 52,
+          "h2Count": 17,
+          "faqCount": 5,
+          "internalLinks": 6,
+          "officialSources": 3
+        }
+      },
+      "issues": [],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/reviews/kalodata",
+      "priority": "P0",
+      "primaryKeyword": "kalodata review",
+      "secondaryKeywords": [],
+      "intent": "commercial investigation",
+      "articleType": "review",
+      "targetReader": "ecommerce operators",
+      "core": true,
+      "minWords": 650,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "Kalodata Review 2026: Is It Worth It for TikTok Shop Sellers?",
+      "titleLength": 61,
+      "description": "An operator-led Kalodata review covering TikTok Shop product research, shop and creator analysis, video and live data, accuracy, pricing and ideal users.",
+      "descriptionLength": 153,
+      "h1": "Kalodata Review 2026: Is It Worth It for TikTok Shop Sellers?",
+      "canonical": "https://ecommerceintel.org/reviews/kalodata",
+      "og": {
+        "title": "Kalodata Review 2026: Is It Worth It for TikTok Shop Sellers?",
+        "description": "An operator-led Kalodata review covering TikTok Shop product research, shop and creator analysis, video and live data, accuracy, pricing and ideal users.",
+        "url": "https://ecommerceintel.org/reviews/kalodata",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Kalodata Review 2026: Is It Worth It for TikTok Shop Sellers?",
+        "description": "An operator-led Kalodata review covering TikTok Shop product research, shop and creator analysis, video and live data, accuracy, pricing and ideal users.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "Article",
+        "WebPage",
+        "Thing",
+        "CreativeWork",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "wordCount": 1996,
+      "fullWordCount": 2048,
+      "h2Count": 18,
+      "faqCount": 6,
+      "internalLinks": 6,
+      "officialSources": 3,
+      "evidenceMappings": 3,
+      "comparisonTable": true,
+      "seoScore": 100,
+      "aeoScore": 90,
+      "geoScore": 100,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 5,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 15,
+        "faqSchema": 15,
+        "workflow": 10,
+        "sources": 10,
+        "decisionSupport": 10,
+        "descriptiveHeadings": 10,
+        "trust": 0,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 10,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 61,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 153,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "kalodata review",
+        "titleCoverage": 1,
+        "descriptionCoverage": 1,
+        "h1Coverage": 1,
+        "introCoverage": 0.5
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "commercial threshold",
+        "editorialWords": 1996,
+        "fullVisibleWords": 2048,
+        "targetWords": 650,
+        "ratio": 3.07,
+        "signals": {
+          "introWords": 56,
+          "h2Count": 18,
+          "faqCount": 6,
+          "internalLinks": 6,
+          "officialSources": 3
+        }
+      },
+      "issues": [],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/reviews/trendtrack",
+      "priority": "P0",
+      "primaryKeyword": "trendtrack review",
+      "secondaryKeywords": [],
+      "intent": "commercial investigation",
+      "articleType": "review",
+      "targetReader": "ecommerce operators",
+      "core": true,
+      "minWords": 650,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "TrendTrack Review 2026: Is Trend Context Worth Paying For?",
+      "titleLength": 58,
+      "description": "A fresh TrendTrack review for operators who need dated category context before a product test.",
+      "descriptionLength": 94,
+      "h1": "TrendTrack Review 2026",
+      "canonical": "https://ecommerceintel.org/reviews/trendtrack",
+      "og": {
+        "title": "TrendTrack Review 2026: Is Trend Context Worth Paying For?",
+        "description": "A fresh TrendTrack review for operators who need dated category context before a product test.",
+        "url": "https://ecommerceintel.org/reviews/trendtrack",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "TrendTrack Review 2026: Is Trend Context Worth Paying For?",
+        "description": "A fresh TrendTrack review for operators who need dated category context before a product test.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "Article",
+        "WebPage",
+        "Thing",
+        "CreativeWork",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "wordCount": 821,
+      "fullWordCount": 1021,
+      "h2Count": 15,
+      "faqCount": 5,
+      "internalLinks": 4,
+      "officialSources": 2,
+      "evidenceMappings": 2,
+      "comparisonTable": false,
+      "seoScore": 100,
+      "aeoScore": 80,
+      "geoScore": 100,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 5,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 15,
+        "faqSchema": 15,
+        "workflow": 0,
+        "sources": 10,
+        "decisionSupport": 0,
+        "descriptiveHeadings": 10,
+        "trust": 10,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 10,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 58,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 94,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "trendtrack review",
+        "titleCoverage": 1,
+        "descriptionCoverage": 1,
+        "h1Coverage": 1,
+        "introCoverage": 0.5
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "commercial threshold",
+        "editorialWords": 821,
+        "fullVisibleWords": 1021,
+        "targetWords": 650,
+        "ratio": 1.26,
+        "signals": {
+          "introWords": 45,
+          "h2Count": 15,
+          "faqCount": 5,
+          "internalLinks": 4,
+          "officialSources": 2
+        }
+      },
+      "issues": [],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/reviews/shophunter",
+      "priority": "P0",
+      "primaryKeyword": "shophunter review",
+      "secondaryKeywords": [],
+      "intent": "commercial investigation",
+      "articleType": "review",
+      "targetReader": "ecommerce operators",
+      "core": true,
+      "minWords": 650,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "ShopHunter Review 2026: Store Research Fit",
+      "titleLength": 42,
+      "description": "A fresh ShopHunter review for operators studying Shopify stores, products and competitor positioning.",
+      "descriptionLength": 101,
+      "h1": "ShopHunter Review 2026",
+      "canonical": "https://ecommerceintel.org/reviews/shophunter",
+      "og": {
+        "title": "ShopHunter Review 2026: Store Research Fit",
+        "description": "A fresh ShopHunter review for operators studying Shopify stores, products and competitor positioning.",
+        "url": "https://ecommerceintel.org/reviews/shophunter",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "ShopHunter Review 2026: Store Research Fit",
+        "description": "A fresh ShopHunter review for operators studying Shopify stores, products and competitor positioning.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "Article",
+        "WebPage",
+        "Thing",
+        "CreativeWork",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "wordCount": 811,
+      "fullWordCount": 1016,
+      "h2Count": 15,
+      "faqCount": 5,
+      "internalLinks": 4,
+      "officialSources": 2,
+      "evidenceMappings": 2,
+      "comparisonTable": false,
+      "seoScore": 100,
+      "aeoScore": 80,
+      "geoScore": 100,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 5,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 15,
+        "faqSchema": 15,
+        "workflow": 0,
+        "sources": 10,
+        "decisionSupport": 0,
+        "descriptiveHeadings": 10,
+        "trust": 10,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 10,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 42,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 101,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "shophunter review",
+        "titleCoverage": 1,
+        "descriptionCoverage": 1,
+        "h1Coverage": 1,
+        "introCoverage": 0.5
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "commercial threshold",
+        "editorialWords": 811,
+        "fullVisibleWords": 1016,
+        "targetWords": 650,
+        "ratio": 1.25,
+        "signals": {
+          "introWords": 44,
+          "h2Count": 15,
+          "faqCount": 5,
+          "internalLinks": 4,
+          "officialSources": 2
+        }
+      },
+      "issues": [],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    },
+    {
+      "route": "/reviews/pipiads",
+      "priority": "P0",
+      "primaryKeyword": "pipiads review",
+      "secondaryKeywords": [],
+      "intent": "commercial investigation",
+      "articleType": "review",
+      "targetReader": "ecommerce operators",
+      "core": true,
+      "minWords": 650,
+      "comparisonRequired": false,
+      "sourceRequired": false,
+      "moneyPage": "/winninghunter-review",
+      "status": 200,
+      "title": "PipiAds Review 2026: Can Ad Discovery Improve the Product Brief?",
+      "titleLength": 64,
+      "description": "A fresh PipiAds review for operators using visible ad and product signals to build original research briefs.",
+      "descriptionLength": 108,
+      "h1": "PipiAds Review 2026",
+      "canonical": "https://ecommerceintel.org/reviews/pipiads",
+      "og": {
+        "title": "PipiAds Review 2026: Can Ad Discovery Improve the Product Brief?",
+        "description": "A fresh PipiAds review for operators using visible ad and product signals to build original research briefs.",
+        "url": "https://ecommerceintel.org/reviews/pipiads",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "PipiAds Review 2026: Can Ad Discovery Improve the Product Brief?",
+        "description": "A fresh PipiAds review for operators using visible ad and product signals to build original research briefs.",
+        "image": "https://ecommerceintel.org/opengraph-image"
+      },
+      "schemaTypes": [
+        "Article",
+        "WebPage",
+        "Thing",
+        "CreativeWork",
+        "Audience",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "BreadcrumbList",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "wordCount": 787,
+      "fullWordCount": 962,
+      "h2Count": 15,
+      "faqCount": 5,
+      "internalLinks": 5,
+      "officialSources": 2,
+      "evidenceMappings": 2,
+      "comparisonTable": false,
+      "seoScore": 100,
+      "aeoScore": 80,
+      "geoScore": 100,
+      "seoChecks": {
+        "title": 7,
+        "description": 7,
+        "h1": 7,
+        "canonical": 7,
+        "openGraph": 8,
+        "twitter": 7,
+        "schemas": 12,
+        "content": 20,
+        "headings": 5,
+        "faq": 5,
+        "internalLinks": 5,
+        "sources": 5,
+        "comparison": 5
+      },
+      "aeoChecks": {
+        "directAnswer": 15,
+        "visibleFaq": 15,
+        "faqSchema": 15,
+        "workflow": 0,
+        "sources": 10,
+        "decisionSupport": 0,
+        "descriptiveHeadings": 10,
+        "trust": 10,
+        "conciseIntro": 5
+      },
+      "geoChecks": {
+        "directAnswer": 15,
+        "visibleSummary": 15,
+        "entitySchema": 25,
+        "sources": 15,
+        "faq": 10,
+        "freshness": 10,
+        "attribution": 10
+      },
+      "titleCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 64,
+        "min": 35,
+        "max": 70,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "descriptionCheck": {
+        "status": "PASS",
+        "present": true,
+        "length": 108,
+        "min": 80,
+        "max": 160,
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "intentCheck": {
+        "status": "PASS",
+        "keyword": "pipiads review",
+        "titleCoverage": 1,
+        "descriptionCoverage": 1,
+        "h1Coverage": 1,
+        "introCoverage": 0.5
+      },
+      "thicknessCheck": {
+        "status": "PASS",
+        "basis": "commercial threshold",
+        "editorialWords": 787,
+        "fullVisibleWords": 962,
+        "targetWords": 650,
+        "ratio": 1.21,
+        "signals": {
+          "introWords": 45,
+          "h2Count": 15,
+          "faqCount": 5,
+          "internalLinks": 5,
+          "officialSources": 2
+        }
+      },
+      "issues": [],
+      "pass": true,
+      "h1Check": {
+        "status": "FAIL",
+        "unique": true,
+        "duplicateRoutes": []
+      },
+      "pageReview": {
+        "status": "PASS",
+        "recommendations": [
+          "Keep the page-specific evidence, conclusion and next action current on the next review cycle."
+        ]
+      }
+    }
+  ]
+}

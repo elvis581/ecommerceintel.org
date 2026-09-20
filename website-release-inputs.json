@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "site": "EcommerceIntel",
+  "audit_date": "2026-08-06",
+  "deployment": {
+    "platform": "Vercel",
+    "production_url": "https://www.ecommerce-intel.com",
+    "route_checks": {
+      "https": "verified",
+      "apex_host": "verified",
+      "www_host": "verified",
+      "http_to_https": "verified",
+      "known_routes": "verified",
+      "missing_routes": "verified"
+    },
+    "local_validation_url": "http://localhost:4329",
+    "artifact_root": ".next/server/app",
+    "sitemap_evidence": "reports/seo-audit.md",
+    "verification_note": "Vercel deployed commit 79f06e7 on 2026-08-06. Production serves 21 sitemap routes; all 21 use matching www Canonical and Open Graph URLs. The five Week 1 routes return HTTP 200, two unpredictable missing routes return 404, and retired routes return their configured 404 or 410 status."
+  },
+  "publisher": {
+    "identity_status": "unverified",
+    "legal_name": null,
+    "contact_status": "unverified",
+    "contact_email": "hello@ecommerce-intel.com",
+    "note": "The public brand and contact address are present, but legal publisher identity and monitored-contact evidence were not independently verified."
+  },
+  "product_claims": {
+    "commercial_rights": {
+      "status": "unresolved",
+      "checked_date": "2026-08-06",
+      "source_urls": [
+        "https://winninghunter.com/?ref=review",
+        "https://www.kalodata.com/",
+        "https://www.fastmoss.com/",
+        "https://www.minea.com/"
+      ],
+      "note": "WinningHunter is the configured affiliate destination. Minea and the other product destinations remain ordinary official links where affiliate approval is not recorded. Current program approval and commercial-rights terms were not supplied as release evidence."
+    }
+  },
+  "analytics": {
+    "status": "implemented_unreviewed",
+    "provider": "Google Analytics 4",
+    "measurement_id": "G-W85K9NCP1F",
+    "privacy_policy_updated": true,
+    "consent_mechanism": "not_implemented",
+    "excluded_paths": [
+      "_global-error.html",
+      "_not-found.html",
+      "best-ai-tools-for-ecommerce.html",
+      "best-ecommerce-tools.html",
+      "definitely-not-a-real-route.html",
+      "guides.html",
+      "platforms.html",
+      "shoplus-review.html",
+      "start-here.html"
+    ],
+    "retention_review": "not_recorded",
+    "regional_review": "not_recorded",
+    "implementation_note": "All 21 production HTML pages contain one loader/config pair and Privacy names the measurement ID. Browser QA verified affiliate_cta_click, external_cta_click and comparison/internal click state. Consent, retention and regional legal review remain Website Release blockers."
+  },
+  "verification_assets": [
+    {
+      "provider": "Bing",
+      "path": "public/BingSiteAuth.xml",
+      "production_root_verified": true
+    }
+  ],
+  "responsive_layout_evidence": {
+    "status": "week_one_verified",
+    "scope": [
+      "/workflows",
+      "/winninghunter-vs-minea",
+      "/winninghunter-alternatives",
+      "/minea-alternatives",
+      "/how-to-research-products-with-facebook-ads"
+    ],
+    "viewport_widths": [390, 1024, 1440],
+    "metrics_path": "responsive-layout-audit.json",
+    "screenshot_directory": "reports/screenshots/week-01",
+    "sitewide_status": "incomplete_for_pre_week_one_commercial_pages",
+    "note": "The five Week 1 pages have complete responsive evidence. A Website Release Yes decision still requires the same matrix for all pre-existing commercial pages."
+  },
+  "page_publication_batch": {
+    "week": 1,
+    "status": "published_verified",
+    "git_commit": "79f06e7",
+    "production_verified_at": "2026-08-06",
+    "pages": [
+      "/workflows",
+      "/winninghunter-vs-minea",
+      "/winninghunter-alternatives",
+      "/minea-alternatives",
+      "/how-to-research-products-with-facebook-ads"
+    ],
+    "page_reference_audit": "page-reference-audit.json",
+    "qa_report": "QA-REPORT.md"
+  },
+  "missing_data": [
+    "Verified legal publisher identity",
+    "Evidence that hello@ecommerce-intel.com is monitored",
+    "GA4 consent, retention and regional legal review",
+    "Current affiliate-program approval or commercial-rights evidence",
+    "390/1024/1440 responsive evidence for all pre-Week-1 commercial pages"
+  ],
+  "assumptions": [
+    "Vercel serves https://www.ecommerce-intel.com as the preferred production host.",
+    "Apex redirects to www and all canonical, Open Graph, robots and sitemap URLs use www.",
+    "Retired routes return 404 or 410 and are excluded from the sitemap."
+  ],
+  "release_recommendation": "No"
+}

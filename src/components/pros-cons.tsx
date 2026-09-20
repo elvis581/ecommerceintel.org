@@ -1,0 +1,2 @@
+import { Check, AlertTriangle } from "lucide-react";
+export function ProsCons({ bestFor, watchFor }: { bestFor: string[]; watchFor: string[] }) { return <div className="grid gap-4 sm:grid-cols-2"><div className="list-panel"><h2><Check className="size-5 text-emerald-600" />Useful when</h2><ul>{bestFor.map((item) => <li key={item}>{item}</li>)}</ul></div><div className="list-panel"><h2><AlertTriangle className="size-5 text-amber-600" />Check before committing</h2><ul>{watchFor.map((item) => <li key={item}>{item}</li>)}</ul></div></div>; }
