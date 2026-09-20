@@ -21,9 +21,14 @@ button, input { font:inherit; }
 .button-secondary-light:hover { border-color:#334155; background:#f8fafc; color:#0f172a; }
 .icon-button { display:none!important; width:42px; height:42px; place-items:center; border:1px solid #dbe3ea; background:white; color:#0f172a; }
 .desktop-header-cta { display:none!important; }
-.logo-mark { position:relative; display:block; width:31px; height:31px; border:2px solid #0f172a; background:white; }
-.logo-mark:before,.logo-mark:after,.logo-mark span { content:""; position:absolute; left:5px; height:3px; background:#059669; }
-.logo-mark:before { top:6px; width:17px; }.logo-mark span { top:12px; width:12px; }.logo-mark:after { top:18px; width:17px; background:#2563eb; }
+.logo-mark { display:block; width:34px; height:34px; flex:none; overflow:visible; }
+.logo-mark-shell { fill:#123342; stroke:#123342; stroke-width:1.5; }
+.logo-mark-rule { fill:none; stroke:#f5f7f8; stroke-linecap:round; stroke-width:2.2; }
+.logo-mark-spine { fill:none; stroke:#d84f2b; stroke-linecap:round; stroke-width:2.2; }
+.logo-mark-node { fill:#d84f2b; }
+.logo-mark-tail { fill:none; stroke:#d84f2b; stroke-linecap:round; stroke-width:2.2; }
+.logo-mark-inverse .logo-mark-shell { fill:#f5f7f8; stroke:#f5f7f8; }
+.logo-mark-inverse .logo-mark-rule { stroke:#123342; }
 .hero-editorial { background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px); background-size:42px 42px; }
 .platform-card { display:flex; min-height:320px; flex-direction:column; border:1px solid #dbe3ea; padding:28px; }.platform-card h3 { margin:26px 0 12px; font-size:30px; font-weight:900; }.platform-card>p:not(.eyebrow) { flex:1; line-height:1.75; color:#526174; }.platform-card span { border:1px solid #dbe3ea; padding:5px 8px; font-size:11px; font-weight:750; color:#475569; }.platform-card a { display:inline-flex; align-items:center; gap:8px; margin-top:26px; font-size:14px; font-weight:850; color:#047857; }
 .workflow-tile { display:flex; min-height:290px; flex-direction:column; background:white; padding:26px; }.workflow-tile h3 { margin:0 0 14px; font-size:22px; font-weight:850; }.workflow-tile p { flex:1; line-height:1.7; color:#526174; }.workflow-tile small { margin-top:18px; color:#64748b; }.workflow-tile a { display:inline-flex; align-items:center; gap:7px; margin-top:22px; font-size:14px; font-weight:850; color:#0f172a; }
@@ -75,10 +80,7 @@ table th,table td { padding:14px 16px; }
 :root { --paper:#f3efe7; --paper-deep:#e7dfd2; --ink:#1d211f; --muted:#686a63; --line:#c9c3b8; --accent:#e45d32; --accent-dark:#b83d1d; --navy:#173747; }
 body { background:var(--paper); color:var(--ink); font-family:"Avenir Next",Avenir,Helvetica,Arial,sans-serif; }
 .site-header { background:rgba(243,239,231,.94)!important; border-bottom:2px solid var(--ink)!important; backdrop-filter:blur(12px); }
-.site-header .logo-mark { border-color:var(--ink); background:var(--paper); transform:rotate(-3deg); }
-.site-header .logo-mark:before,.site-header .logo-mark:after,.site-header .logo-mark span { background:var(--accent); }
-.site-header .logo-mark:after { background:var(--navy); }
-.logo-wordmark { letter-spacing:-.04em; }
+.logo-wordmark { letter-spacing:0; }
 .hero-ledger { overflow:hidden; border-bottom:2px solid var(--ink); background:var(--paper); }
 .hero-ledger-grid { display:grid; min-height:650px; grid-template-columns:minmax(0,1.25fr) minmax(300px,.75fr); gap:64px; align-items:center; padding:76px 0 88px; }
 .hero-ledger-copy { max-width:760px; }
@@ -108,10 +110,7 @@ body { background:var(--paper); color:var(--ink); font-family:"Avenir Next",Aven
 :root { --paper:#f5f7f8; --paper-deep:#e9eef1; --ink:#17212b; --muted:#62707d; --line:#d4dde4; --accent:#d84f2b; --accent-dark:#aa351b; --navy:#123342; }
 body { background:var(--paper); color:var(--ink); }
 .site-header { background:rgba(255,255,255,.94)!important; border-bottom:1px solid var(--line)!important; box-shadow:0 1px 0 rgba(23,33,43,.04); }
-.site-header .logo-mark { transform:none; border-color:var(--ink); background:#fff; }
-.site-header .logo-mark:before,.site-header .logo-mark span { background:var(--accent); }
-.site-header .logo-mark:after { background:#1f6f8b; }
-.logo-wordmark { letter-spacing:-.025em; }
+.logo-wordmark { letter-spacing:0; }
 .hero-ledger { border-bottom:1px solid var(--line); background:linear-gradient(180deg,#fff 0%,var(--paper) 100%); }
 .hero-ledger-grid { min-height:0; grid-template-columns:minmax(0,1.2fr) minmax(310px,.8fr); gap:52px; padding:78px 0 82px; }
 .hero-ledger-copy { max-width:720px; }
