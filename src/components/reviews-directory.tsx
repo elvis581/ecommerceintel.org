@@ -67,6 +67,7 @@ function ReviewDirectoryCard({ item, typeLabel }: { item: ReviewsDirectoryItem; 
       <div className="reviews-card-meta"><span>{typeLabel}</span><span>{item.evidence}</span></div>
       <h3>{item.title}</h3>
       <p className="reviews-card-summary">{item.conclusion}</p>
+      <dl className="reviews-card-facts"><div><dt>Best for</dt><dd>{item.bestFor}</dd></div><div><dt>From</dt><dd>{item.price || "Check current plans"}</dd></div><div><dt>Updated</dt><dd>{item.updated || "Current file"}</dd></div></dl>
       <div className="reviews-card-bottom"><p><strong>Useful when:</strong> {item.bestFor}</p><ArrowUpRight className="size-5" aria-hidden="true" /></div>
     </div>
   </TrackedLink>;

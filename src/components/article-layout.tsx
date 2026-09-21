@@ -20,7 +20,11 @@ import { ReviewDecisionCard } from "./review-decision-card";
 import { SourceList } from "./source-list";
 import { affiliateTools } from "@/config/affiliate";
 import { ReviewSignalRow } from "./review-signal-row";
-import Image from "next/image";
+import { EvidenceImage } from "./evidence-image";
+import { TableOfContents } from "./table-of-contents";
+import { getSectionIds } from "@/lib/section-ids";
+import { ComparisonSnapshot } from "./comparison-snapshot";
+import { AlternativesSnapshot } from "./alternatives-snapshot";
 
 const textPanelHeadings = new Set([
   "Quick answer",
@@ -36,6 +40,7 @@ export function ArticleLayout({ page }: { page: ArticlePage }) {
   const comparisonRows = comparisonRowsBySlug[page.slug];
   const ctaKeys = page.toolKeys || (page.toolKey ? [page.toolKey] : []);
   const disclosureToolKeys = page.reviewDecision ? [...ctaKeys, page.reviewDecision.toolKey] : ctaKeys;
+  const sectionIds = getSectionIds(page.sections);
   const hasSponsoredLink = disclosureToolKeys.some((toolKey) => {
     const tool = affiliateTools[toolKey];
     return Boolean(tool?.isAffiliateEnabled || tool?.isSponsored);
@@ -44,17 +49,21 @@ export function ArticleLayout({ page }: { page: ArticlePage }) {
     <>
     <main>
       <header className="article-header"><div className="article-container"><Breadcrumb current={page.h1} /><p className="eyebrow">{page.eyebrow}</p><h1>{page.h1}</h1><p className="article-intro">{page.intro}</p><div className="flex flex-wrap items-center gap-4"><LastUpdated />{page.kind === "legal" || page.slug === "affiliate-disclosure" ? <span className="text-sm text-slate-500">Site operator: <strong className="text-slate-700">EcommerceIntel</strong></span> : <span className="text-sm text-slate-500">Reviewed by <TrackedLink href="/about" eventName="internal_link_click" eventParams={{placement:"author_byline",label:"Elvis"}} className="font-bold text-slate-700 hover:text-emerald-700">Elvis, Ecommerce Operator</TrackedLink></span>}{page.researchStatus && <ResearchStatus status={page.researchStatus} label={page.reviewBasisLabel} />}</div>{page.kind !== "review" && page.reviewDates && <dl className="review-dates"><div><dt>Test conducted</dt><dd>{page.reviewDates.testConducted}</dd></div><div><dt>Pricing checked</dt><dd>{page.reviewDates.pricingChecked}</dd></div></dl>}</div></header>
-      <article className={`article-container py-10 sm:py-14 ${page.kind === "review" ? "review-article" : ""}`}>
+      <div className="article-layout-grid article-container-wide">
+      <article className={`article-container article-main py-10 sm:py-14 ${page.kind === "review" ? "review-article" : ""}`}>
         {page.kind === "review" && <ReviewSignalRow page={page} />}
         {!page.hideQuickVerdict && <QuickVerdict text={page.verdict} label={page.verdictLabel} />}
+        {page.slug === "winninghunter-pricing" && <section id={sectionIds[0]} className="article-section pricing-first-snapshot"><p className="eyebrow">Current pricing snapshot</p><h2>WinningHunter plans at a glance</h2><p>The public monthly amounts are the fastest way to frame this buying decision. Check the plan differences and official terms before committing.</p>{page.sections[0]?.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}<PricingTable toolKey="winninghunter" /></section>}
+        {page.kind === "comparison" && <ComparisonSnapshot page={page} />}
+        {page.slug === "winninghunter-alternatives" && <AlternativesSnapshot />}
         {page.reviewDecision ? <ReviewDecisionCard decision={page.reviewDecision} /> : page.earlyCta && <div className="mt-8"><AffiliateCta toolKey={page.earlyCta.toolKey} ctaLabel={page.earlyCta.label} eyebrow={page.earlyCta.eyebrow} heading={page.earlyCta.heading} description={page.earlyCta.description} placement="review_early_cta" secondaryHref={page.earlyCta.secondaryHref} secondaryLabel={page.earlyCta.secondaryLabel} /></div>}
         {!page.hideProsCons && page.kind !== "review" && <div className="mt-8"><ProsCons bestFor={page.bestFor} watchFor={page.watchFor} /></div>}
         {!page.hideDecisionSnapshot && <DecisionSnapshot page={page} />}
         {!page.hideOperatorView && !page.operatorViewAfterSection && <OperatorView slug={page.slug} />}
         {page.myView && !page.hideMyView && <section className="article-section"><h2>My View</h2><p>{page.myView}</p></section>}
         {page.cards && <section className="article-section"><h2>{page.cardsHeading || "Choose Your Next Step"}</h2><div className="grid gap-4 sm:grid-cols-2">{page.cards.map((card) => <GuideCard key={`${card.href}-${card.title}`} card={card} />)}</div></section>}
-        {comparisonRows && !page.hideComparisonTable && <section className="article-section"><h2>{page.kind === "comparison" ? "Decision-Changing Comparison" : "Best Tool by Use Case"}</h2><ComparisonTable rows={comparisonRows} /></section>}
-        {page.sections.map((section) => <Fragment key={section.heading}><section id={section.id} className={`article-section scroll-mt-24 ${textPanelHeadings.has(section.heading) ? "text-panel" : ""}`}><h2>{section.heading}</h2>{section.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}{section.bullets && <ul>{section.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}</ul>}{section.blocks?.map((block, index) => <ArticleContentBlock key={`${section.heading}-${index}`} block={block} />)}</section>{!page.hideOperatorView && page.operatorViewAfterSection === section.heading && <OperatorView slug={page.slug} />}{page.midCta?.afterSection === section.heading && <section className="article-section"><AffiliateCta toolKey={page.midCta.toolKey} ctaLabel={page.midCta.label} eyebrow={page.midCta.eyebrow} heading={page.midCta.heading} description={page.midCta.description} placement="review_mid_cta" secondaryHref={page.midCta.secondaryHref} secondaryLabel={page.midCta.secondaryLabel} /></section>}{page.sectionCtas?.filter((cta) => cta.afterSection === section.heading).map((cta) => <section className="article-section" key={`${section.heading}-${cta.label}`}><AffiliateCta toolKey={cta.toolKey} ctaLabel={cta.label} eyebrow={cta.eyebrow} heading={cta.heading} description={cta.description} placement={`review_section_${section.id || section.heading.toLowerCase().replaceAll(" ", "_")}`} secondaryHref={cta.secondaryHref} secondaryLabel={cta.secondaryLabel} /></section>)}</Fragment>)}
+        {comparisonRows && !page.hideComparisonTable && page.kind !== "comparison" && <section className="article-section"><h2>Best Tool by Use Case</h2><ComparisonTable rows={comparisonRows} /></section>}
+        {page.sections.map((section, index) => page.slug === "winninghunter-pricing" && index === 0 ? null : <Fragment key={section.heading}><section id={sectionIds[index]} className={`article-section scroll-mt-24 ${textPanelHeadings.has(section.heading) ? "text-panel" : ""}`}><h2>{section.heading}</h2>{section.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}{section.bullets && <ul>{section.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}</ul>}{section.blocks?.map((block, blockIndex) => <ArticleContentBlock key={`${section.heading}-${blockIndex}`} block={block} />)}</section>{!page.hideOperatorView && page.operatorViewAfterSection === section.heading && <OperatorView slug={page.slug} />}{page.midCta?.afterSection === section.heading && <section className="article-section"><AffiliateCta toolKey={page.midCta.toolKey} ctaLabel={page.midCta.label} eyebrow={page.midCta.eyebrow} heading={page.midCta.heading} description={page.midCta.description} placement="review_mid_cta" secondaryHref={page.midCta.secondaryHref} secondaryLabel={page.midCta.secondaryLabel} /></section>}{page.sectionCtas?.filter((cta) => cta.afterSection === section.heading).map((cta) => <section className="article-section" key={`${section.heading}-${cta.label}`}><AffiliateCta toolKey={cta.toolKey} ctaLabel={cta.label} eyebrow={cta.eyebrow} heading={cta.heading} description={cta.description} placement={`review_section_${sectionIds[index]}`} secondaryHref={cta.secondaryHref} secondaryLabel={cta.secondaryLabel} /></section>)}</Fragment>)}
         {!page.hideWorkflow && <section className="article-section workflow-steps"><h2>Decision trail</h2><ol>{page.workflow.map((step, index) => <li key={step}><span>{index + 1}</span><p>{step}</p></li>)}</ol></section>}
         {page.showPricingNotice && <DisclosureBox text={`${pricingNotice.title}: ${pricingNotice.body}`} />}
         {!page.hideFaq && <Faq items={page.faqs} />}
@@ -64,6 +73,12 @@ export function ArticleLayout({ page }: { page: ArticlePage }) {
         {page.disclaimer && <p className="standard-estimate-disclaimer mt-5 text-sm leading-6 text-slate-500">{page.disclaimer}</p>}
         {page.kind !== "review" && page.kind !== "legal" && <section className="article-section decision-box"><h2>Editorial handoff</h2><p>{page.verdict}</p></section>}
       </article>
+      <aside className="article-sidebar" aria-label="Article navigation and recommendation">
+        <TableOfContents sections={page.sections} className="article-toc" />
+        <div className="article-sidebar-card"><p className="eyebrow">Current recommendation</p><h2>{page.kind === "comparison" ? "Match the tool to the starting entity" : page.toolKey === "winninghunter" ? "Check WinningHunter against one known brief" : "Start with the smallest useful test"}</h2><p>{page.kind === "comparison" ? "Use the same market, entities and date range before choosing a subscription." : "Confirm current pricing, coverage and limits before a longer commitment."}</p><TrackedLink href={page.kind === "comparison" ? "/compare" : page.slug === "winninghunter-pricing" ? "/winninghunter-review" : page.toolKey === "winninghunter" ? "/winninghunter-pricing" : "/reviews"} className="button-secondary" eventName="internal_link_click" eventParams={{placement:"article_sidebar",label:"Current recommendation"}}>{page.slug === "winninghunter-pricing" ? "Read the review first" : "Review the next check"}</TrackedLink></div>
+        {hasSponsoredLink && <p className="article-sidebar-disclosure">Some links may be affiliate links. The editorial criteria stay independent.</p>}
+      </aside>
+      </div>
     </main>
     {!page.hideDisclosure && hasSponsoredLink && <div className="article-container py-6"><DisclosureBox sitewide /></div>}
     </>
@@ -76,7 +91,7 @@ function ArticleContentBlock({ block }: { block: ContentBlock }) {
   if (block.type === "list") return <ul>{block.items.map((item) => <li key={item}>{item}</li>)}</ul>;
   if (block.type === "quote") return <blockquote>{block.text}</blockquote>;
   if (block.type === "evidenceSlot") return <figure className="evidence-slot"><div><span>{block.label}</span><p>{block.description}</p></div><figcaption>{block.caption}</figcaption></figure>;
-  if (block.type === "evidenceImage") return <figure className="evidence-figure"><div className="evidence-figure-media"><Image src={block.src} alt={block.alt} width={1400} height={800} unoptimized /></div><figcaption><span>{block.label}</span>{block.caption} <a href={block.sourceUrl} target="_blank" rel="noopener noreferrer">View official source</a></figcaption></figure>;
+  if (block.type === "evidenceImage") return <figure className="evidence-figure"><div className="evidence-figure-media"><EvidenceImage src={block.src} alt={block.alt} /></div><figcaption><span>{block.label}</span>{block.caption} <a href={block.sourceUrl} target="_blank" rel="noopener noreferrer">View official source</a></figcaption></figure>;
   if (block.type === "pricingTable") return <PricingTable toolKey={block.toolKey} />;
   if (block.type === "keyFacts") return <dl className="article-key-facts">{block.items.map((item) => <div key={item.label}><dt>{item.label}</dt><dd>{item.value}</dd></div>)}</dl>;
   if (block.type === "internalLink") return <div className="article-inline-link"><TrackedLink href={block.href} eventName="internal_link_click" eventParams={{placement:"article_body",label:block.label}}>{block.label}</TrackedLink>{block.description && <p>{block.description}</p>}</div>;

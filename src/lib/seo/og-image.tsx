@@ -6,9 +6,11 @@ export function createOgImage(title: string, subtitle: string, label = "Independ
   return new ImageResponse(
     <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between", padding: "68px", background: "#102f3c", color: "#f4f8f9" }}>
       <div style={{ display: "flex", alignItems: "center", gap: 18, fontSize: 30, fontWeight: 800 }}>
-        <div style={{ position: "relative", display: "flex", width: 58, height: 50, alignItems: "center", justifyContent: "center", border: "3px solid #f4f8f9", borderRadius: 8 }}>
-          <div style={{ position: "absolute", left: 10, top: 14, width: 30, height: 3, background: "#102f3c", boxShadow: "0 9px 0 #102f3c, 0 18px 0 #102f3c" }} />
-          <div style={{ position: "absolute", right: -7, top: 12, width: 10, height: 10, borderRadius: 999, background: "#ffd0c2", boxShadow: "0 18px 0 #ffd0c2" }} />
+        <div style={{ position: "relative", display: "flex", width: 58, height: 58, alignItems: "center", justifyContent: "center", borderRadius: 14, background: "#f4f8f9" }}>
+          <div style={{ position: "absolute", left: 12, top: 17, width: 26, height: 4, borderRadius: 4, background: "#123342", boxShadow: "0 10px 0 #123342, 0 20px 0 #123342" }} />
+          <div style={{ position: "absolute", right: 14, top: 14, width: 4, height: 25, borderRadius: 4, background: "#d84f2b" }} />
+          <div style={{ position: "absolute", right: 10, top: 11, width: 10, height: 10, borderRadius: 999, background: "#d84f2b" }} />
+          <div style={{ position: "absolute", right: 7, top: 38, width: 11, height: 4, borderRadius: 4, background: "#d84f2b" }} />
         </div>
         <span>ecommerceintel.org</span>
       </div>

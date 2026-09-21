@@ -21,6 +21,8 @@ export function trackEvent(eventName: AnalyticsEventName, params: Record<string,
   const detail = { event: eventName, ...params };
   document.documentElement.dataset.lastAnalyticsEvent = eventName;
   window.dispatchEvent(new CustomEvent("ecommerce-intel:analytics", { detail }));
+  const consent = window.localStorage.getItem("ecommerceintel-consent");
+  if (consent !== "accepted") return;
   if (window.gtag) {
     window.gtag("event", eventName, params);
   } else {

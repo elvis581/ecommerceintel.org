@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generatedAt": "2026-09-20T14:27:28.108Z",
-    "baseUrl": "http://localhost:3003",
+    "generatedAt": "2026-09-21T09:38:11.039Z",
+    "baseUrl": "http://127.0.0.1:4310",
     "thresholds": {
       "coreWords": "per seo-targets.json",
       "seo": 85,
@@ -93,7 +93,7 @@
       "titleLength": 59,
       "description": "Read independent EcommerceIntel reviews and comparisons built around the evidence an operator needs before paying for a research tool.",
       "descriptionLength": 134,
-      "h1": "Choose the next research move before you choose a tool.",
+      "h1": "Ecommerce intelligence tools, reviewed for real operating decisions.",
       "canonical": "https://ecommerceintel.org",
       "og": {
         "title": "Ecommerce Research Desk for Product, Ad and Store Decisions",
@@ -119,11 +119,11 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 494,
-      "fullWordCount": 520,
-      "h2Count": 8,
+      "wordCount": 542,
+      "fullWordCount": 568,
+      "h2Count": 9,
       "faqCount": 3,
-      "internalLinks": 9,
+      "internalLinks": 11,
       "officialSources": 0,
       "evidenceMappings": 0,
       "comparisonTable": false,
@@ -188,21 +188,21 @@
         "keyword": "ecommerce intelligence tools",
         "titleCoverage": 0.3333333333333333,
         "descriptionCoverage": 0.3333333333333333,
-        "h1Coverage": 0,
+        "h1Coverage": 1,
         "introCoverage": 0
       },
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 494,
-        "fullVisibleWords": 520,
+        "editorialWords": 542,
+        "fullVisibleWords": 568,
         "targetWords": 250,
-        "ratio": 1.98,
+        "ratio": 2.17,
         "signals": {
-          "introWords": 27,
-          "h2Count": 8,
+          "introWords": 25,
+          "h2Count": 9,
           "faqCount": 3,
-          "internalLinks": 9,
+          "internalLinks": 11,
           "officialSources": 0
         }
       },
@@ -244,13 +244,13 @@
         "title": "Ecommerce Research Reviews & Comparisons | EcommerceIntel",
         "description": "Use EcommerceIntel review files to choose, compare or replace ecommerce research software by workflow fit and evidence quality.",
         "url": "https://ecommerceintel.org/reviews",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/review/reviews"
       },
       "twitter": {
         "card": "summary_large_image",
         "title": "Ecommerce Research Reviews & Comparisons | EcommerceIntel",
         "description": "Use EcommerceIntel review files to choose, compare or replace ecommerce research software by workflow fit and evidence quality.",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/review/reviews"
       },
       "schemaTypes": [
         "CollectionPage",
@@ -262,16 +262,16 @@
         "Person",
         "BreadcrumbList"
       ],
-      "wordCount": 282,
-      "fullWordCount": 246,
-      "h2Count": 4,
+      "wordCount": 336,
+      "fullWordCount": 300,
+      "h2Count": 3,
       "faqCount": 0,
       "internalLinks": 11,
       "officialSources": 0,
       "evidenceMappings": 0,
       "comparisonTable": false,
-      "seoScore": 100,
-      "aeoScore": 90,
+      "seoScore": 98,
+      "aeoScore": 86,
       "geoScore": 90,
       "seoChecks": {
         "title": 7,
@@ -282,7 +282,7 @@
         "twitter": 7,
         "schemas": 12,
         "content": 20,
-        "headings": 5,
+        "headings": 3,
         "faq": 5,
         "internalLinks": 5,
         "sources": 5,
@@ -295,7 +295,7 @@
         "workflow": 10,
         "sources": 10,
         "decisionSupport": 10,
-        "descriptiveHeadings": 10,
+        "descriptiveHeadings": 6,
         "trust": 0,
         "conciseIntro": 5
       },
@@ -337,13 +337,13 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 282,
-        "fullVisibleWords": 246,
+        "editorialWords": 336,
+        "fullVisibleWords": 300,
         "targetWords": 250,
-        "ratio": 1.13,
+        "ratio": 1.34,
         "signals": {
           "introWords": 36,
-          "h2Count": 4,
+          "h2Count": 3,
           "faqCount": 0,
           "internalLinks": 11,
           "officialSources": 0
@@ -537,13 +537,13 @@
         "title": "Compare Ecommerce Intelligence Tools",
         "description": "Compare WinningHunter with Kalodata, PipiAds and ShopHunter by workflow, coverage and decision fit.",
         "url": "https://ecommerceintel.org/compare",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/comparison/compare"
       },
       "twitter": {
         "card": "summary_large_image",
         "title": "Compare Ecommerce Intelligence Tools",
         "description": "Compare WinningHunter with Kalodata, PipiAds and ShopHunter by workflow, coverage and decision fit.",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/comparison/compare"
       },
       "schemaTypes": [
         "WebPage",
@@ -702,11 +702,11 @@
         "BreadcrumbList",
         "ListItem"
       ],
-      "wordCount": 636,
-      "fullWordCount": 615,
+      "wordCount": 620,
+      "fullWordCount": 599,
       "h2Count": 8,
       "faqCount": 0,
-      "internalLinks": 3,
+      "internalLinks": 4,
       "officialSources": 0,
       "evidenceMappings": 0,
       "comparisonTable": false,
@@ -777,15 +777,15 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "trust/legal threshold",
-        "editorialWords": 636,
-        "fullVisibleWords": 615,
+        "editorialWords": 620,
+        "fullVisibleWords": 599,
         "targetWords": 250,
-        "ratio": 2.54,
+        "ratio": 2.48,
         "signals": {
           "introWords": 21,
           "h2Count": 8,
           "faqCount": 0,
-          "internalLinks": 3,
+          "internalLinks": 4,
           "officialSources": 0
         }
       },
@@ -1418,13 +1418,13 @@
         "title": "WinningHunter Review 2026: Features, Pricing & Who It's Best For",
         "description": "WinningHunter review covering features, pricing checks, ad research, Shopify store context and who should use it.",
         "url": "https://ecommerceintel.org/winninghunter-review",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/review/winninghunter-review"
       },
       "twitter": {
         "card": "summary_large_image",
         "title": "WinningHunter Review 2026: Features, Pricing & Who It's Best For",
         "description": "WinningHunter review covering features, pricing checks, ad research, Shopify store context and who should use it.",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/review/winninghunter-review"
       },
       "schemaTypes": [
         "Article",
@@ -1441,11 +1441,11 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 2272,
-      "fullWordCount": 2406,
-      "h2Count": 19,
+      "wordCount": 2451,
+      "fullWordCount": 2585,
+      "h2Count": 20,
       "faqCount": 12,
-      "internalLinks": 7,
+      "internalLinks": 10,
       "officialSources": 3,
       "evidenceMappings": 3,
       "comparisonTable": true,
@@ -1516,15 +1516,15 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 2272,
-        "fullVisibleWords": 2406,
+        "editorialWords": 2451,
+        "fullVisibleWords": 2585,
         "targetWords": 650,
-        "ratio": 3.5,
+        "ratio": 3.77,
         "signals": {
           "introWords": 72,
-          "h2Count": 19,
+          "h2Count": 20,
           "faqCount": 12,
-          "internalLinks": 7,
+          "internalLinks": 10,
           "officialSources": 3
         }
       },
@@ -1558,20 +1558,20 @@
       "status": 200,
       "title": "WinningHunter Pricing 2026: Plans, Cost & What to Check",
       "titleLength": 55,
-      "description": "Understand what to verify on the current WinningHunter pricing page, including plan limits, markets and commitment risk.",
-      "descriptionLength": 120,
+      "description": "Understand WinningHunter's current public plan prices, billing discounts, visible feature differences and limits to verify before subscribing.",
+      "descriptionLength": 142,
       "h1": "WinningHunter Pricing 2026: Plans, Cost & What to Check",
       "canonical": "https://ecommerceintel.org/winninghunter-pricing",
       "og": {
         "title": "WinningHunter Pricing 2026: Plans, Cost & What to Check",
-        "description": "Understand what to verify on the current WinningHunter pricing page, including plan limits, markets and commitment risk.",
+        "description": "Understand WinningHunter's current public plan prices, billing discounts, visible feature differences and limits to verify before subscribing.",
         "url": "https://ecommerceintel.org/winninghunter-pricing",
         "image": "https://ecommerceintel.org/opengraph-image"
       },
       "twitter": {
         "card": "summary_large_image",
         "title": "WinningHunter Pricing 2026: Plans, Cost & What to Check",
-        "description": "Understand what to verify on the current WinningHunter pricing page, including plan limits, markets and commitment risk.",
+        "description": "Understand WinningHunter's current public plan prices, billing discounts, visible feature differences and limits to verify before subscribing.",
         "image": "https://ecommerceintel.org/opengraph-image"
       },
       "schemaTypes": [
@@ -1589,14 +1589,14 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 514,
-      "fullWordCount": 702,
-      "h2Count": 14,
+      "wordCount": 721,
+      "fullWordCount": 901,
+      "h2Count": 15,
       "faqCount": 5,
       "internalLinks": 5,
       "officialSources": 1,
       "evidenceMappings": 1,
-      "comparisonTable": false,
+      "comparisonTable": true,
       "seoScore": 100,
       "aeoScore": 100,
       "geoScore": 100,
@@ -1647,7 +1647,7 @@
       "descriptionCheck": {
         "status": "PASS",
         "present": true,
-        "length": 120,
+        "length": 142,
         "min": 80,
         "max": 160,
         "unique": true,
@@ -1657,20 +1657,20 @@
         "status": "PASS",
         "keyword": "WinningHunter pricing",
         "titleCoverage": 1,
-        "descriptionCoverage": 1,
+        "descriptionCoverage": 0.5,
         "h1Coverage": 1,
         "introCoverage": 1
       },
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 514,
-        "fullVisibleWords": 702,
+        "editorialWords": 721,
+        "fullVisibleWords": 901,
         "targetWords": 300,
-        "ratio": 1.71,
+        "ratio": 2.4,
         "signals": {
-          "introWords": 29,
-          "h2Count": 14,
+          "introWords": 36,
+          "h2Count": 15,
           "faqCount": 5,
           "internalLinks": 5,
           "officialSources": 1
@@ -1737,14 +1737,14 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 697,
-      "fullWordCount": 930,
-      "h2Count": 14,
+      "wordCount": 786,
+      "fullWordCount": 1019,
+      "h2Count": 15,
       "faqCount": 5,
-      "internalLinks": 7,
+      "internalLinks": 8,
       "officialSources": 6,
       "evidenceMappings": 6,
-      "comparisonTable": false,
+      "comparisonTable": true,
       "seoScore": 100,
       "aeoScore": 90,
       "geoScore": 100,
@@ -1812,15 +1812,15 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 697,
-        "fullVisibleWords": 930,
+        "editorialWords": 786,
+        "fullVisibleWords": 1019,
         "targetWords": 500,
-        "ratio": 1.39,
+        "ratio": 1.57,
         "signals": {
           "introWords": 39,
-          "h2Count": 14,
+          "h2Count": 15,
           "faqCount": 5,
-          "internalLinks": 7,
+          "internalLinks": 8,
           "officialSources": 6
         }
       },
@@ -1862,13 +1862,13 @@
         "title": "WinningHunter vs Kalodata: Features, Pricing & Best Use Cases",
         "description": "Compare WinningHunter and Kalodata by ecommerce research workflow, platform coverage and decision fit.",
         "url": "https://ecommerceintel.org/winninghunter-vs-kalodata",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/comparison/winninghunter-vs-kalodata"
       },
       "twitter": {
         "card": "summary_large_image",
         "title": "WinningHunter vs Kalodata: Features, Pricing & Best Use Cases",
         "description": "Compare WinningHunter and Kalodata by ecommerce research workflow, platform coverage and decision fit.",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/comparison/winninghunter-vs-kalodata"
       },
       "schemaTypes": [
         "Article",
@@ -1885,11 +1885,11 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 974,
-      "fullWordCount": 1335,
-      "h2Count": 17,
+      "wordCount": 1064,
+      "fullWordCount": 1425,
+      "h2Count": 18,
       "faqCount": 5,
-      "internalLinks": 6,
+      "internalLinks": 7,
       "officialSources": 2,
       "evidenceMappings": 2,
       "comparisonTable": true,
@@ -1960,15 +1960,15 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 974,
-        "fullVisibleWords": 1335,
+        "editorialWords": 1064,
+        "fullVisibleWords": 1425,
         "targetWords": 600,
-        "ratio": 1.62,
+        "ratio": 1.77,
         "signals": {
           "introWords": 55,
-          "h2Count": 17,
+          "h2Count": 18,
           "faqCount": 5,
-          "internalLinks": 6,
+          "internalLinks": 7,
           "officialSources": 2
         }
       },
@@ -2010,13 +2010,13 @@
         "title": "WinningHunter vs PipiAds: Features, Pricing & Best Use Cases",
         "description": "Compare WinningHunter and PipiAds for ad research, product discovery and ecommerce workflow fit.",
         "url": "https://ecommerceintel.org/winninghunter-vs-pipiads",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/comparison/winninghunter-vs-pipiads"
       },
       "twitter": {
         "card": "summary_large_image",
         "title": "WinningHunter vs PipiAds: Features, Pricing & Best Use Cases",
         "description": "Compare WinningHunter and PipiAds for ad research, product discovery and ecommerce workflow fit.",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/comparison/winninghunter-vs-pipiads"
       },
       "schemaTypes": [
         "Article",
@@ -2033,11 +2033,11 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 945,
-      "fullWordCount": 1312,
-      "h2Count": 17,
+      "wordCount": 1033,
+      "fullWordCount": 1400,
+      "h2Count": 18,
       "faqCount": 5,
-      "internalLinks": 6,
+      "internalLinks": 7,
       "officialSources": 3,
       "evidenceMappings": 3,
       "comparisonTable": true,
@@ -2108,15 +2108,15 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 945,
-        "fullVisibleWords": 1312,
+        "editorialWords": 1033,
+        "fullVisibleWords": 1400,
         "targetWords": 600,
-        "ratio": 1.57,
+        "ratio": 1.72,
         "signals": {
           "introWords": 51,
-          "h2Count": 17,
+          "h2Count": 18,
           "faqCount": 5,
-          "internalLinks": 6,
+          "internalLinks": 7,
           "officialSources": 3
         }
       },
@@ -2158,13 +2158,13 @@
         "title": "WinningHunter vs ShopHunter: Features, Pricing & Best Use Cases",
         "description": "Compare WinningHunter and ShopHunter for ecommerce ad, store and product research workflows.",
         "url": "https://ecommerceintel.org/winninghunter-vs-shophunter",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/comparison/winninghunter-vs-shophunter"
       },
       "twitter": {
         "card": "summary_large_image",
         "title": "WinningHunter vs ShopHunter: Features, Pricing & Best Use Cases",
         "description": "Compare WinningHunter and ShopHunter for ecommerce ad, store and product research workflows.",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/comparison/winninghunter-vs-shophunter"
       },
       "schemaTypes": [
         "Article",
@@ -2181,11 +2181,11 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 948,
-      "fullWordCount": 1312,
-      "h2Count": 17,
+      "wordCount": 1038,
+      "fullWordCount": 1402,
+      "h2Count": 18,
       "faqCount": 5,
-      "internalLinks": 6,
+      "internalLinks": 7,
       "officialSources": 3,
       "evidenceMappings": 3,
       "comparisonTable": true,
@@ -2256,15 +2256,15 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 948,
-        "fullVisibleWords": 1312,
+        "editorialWords": 1038,
+        "fullVisibleWords": 1402,
         "targetWords": 600,
-        "ratio": 1.58,
+        "ratio": 1.73,
         "signals": {
           "introWords": 52,
-          "h2Count": 17,
+          "h2Count": 18,
           "faqCount": 5,
-          "internalLinks": 6,
+          "internalLinks": 7,
           "officialSources": 3
         }
       },
@@ -2306,13 +2306,13 @@
         "title": "Kalodata Review 2026: Is It Worth It for TikTok Shop Sellers?",
         "description": "An operator-led Kalodata review covering TikTok Shop product research, shop and creator analysis, video and live data, accuracy, pricing and ideal users.",
         "url": "https://ecommerceintel.org/reviews/kalodata",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/review/reviews--kalodata"
       },
       "twitter": {
         "card": "summary_large_image",
         "title": "Kalodata Review 2026: Is It Worth It for TikTok Shop Sellers?",
         "description": "An operator-led Kalodata review covering TikTok Shop product research, shop and creator analysis, video and live data, accuracy, pricing and ideal users.",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/review/reviews--kalodata"
       },
       "schemaTypes": [
         "Article",
@@ -2329,8 +2329,8 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 1996,
-      "fullWordCount": 2048,
+      "wordCount": 2008,
+      "fullWordCount": 2060,
       "h2Count": 18,
       "faqCount": 6,
       "internalLinks": 6,
@@ -2404,10 +2404,10 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 1996,
-        "fullVisibleWords": 2048,
+        "editorialWords": 2008,
+        "fullVisibleWords": 2060,
         "targetWords": 650,
-        "ratio": 3.07,
+        "ratio": 3.09,
         "signals": {
           "introWords": 56,
           "h2Count": 18,
@@ -2454,13 +2454,13 @@
         "title": "TrendTrack Review 2026: Is Trend Context Worth Paying For?",
         "description": "A fresh TrendTrack review for operators who need dated category context before a product test.",
         "url": "https://ecommerceintel.org/reviews/trendtrack",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/review/reviews--trendtrack"
       },
       "twitter": {
         "card": "summary_large_image",
         "title": "TrendTrack Review 2026: Is Trend Context Worth Paying For?",
         "description": "A fresh TrendTrack review for operators who need dated category context before a product test.",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/review/reviews--trendtrack"
       },
       "schemaTypes": [
         "Article",
@@ -2477,11 +2477,11 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 821,
-      "fullWordCount": 1021,
+      "wordCount": 833,
+      "fullWordCount": 1033,
       "h2Count": 15,
       "faqCount": 5,
-      "internalLinks": 4,
+      "internalLinks": 5,
       "officialSources": 2,
       "evidenceMappings": 2,
       "comparisonTable": false,
@@ -2552,15 +2552,15 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 821,
-        "fullVisibleWords": 1021,
+        "editorialWords": 833,
+        "fullVisibleWords": 1033,
         "targetWords": 650,
-        "ratio": 1.26,
+        "ratio": 1.28,
         "signals": {
           "introWords": 45,
           "h2Count": 15,
           "faqCount": 5,
-          "internalLinks": 4,
+          "internalLinks": 5,
           "officialSources": 2
         }
       },
@@ -2602,13 +2602,13 @@
         "title": "ShopHunter Review 2026: Store Research Fit",
         "description": "A fresh ShopHunter review for operators studying Shopify stores, products and competitor positioning.",
         "url": "https://ecommerceintel.org/reviews/shophunter",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/review/reviews--shophunter"
       },
       "twitter": {
         "card": "summary_large_image",
         "title": "ShopHunter Review 2026: Store Research Fit",
         "description": "A fresh ShopHunter review for operators studying Shopify stores, products and competitor positioning.",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/review/reviews--shophunter"
       },
       "schemaTypes": [
         "Article",
@@ -2625,11 +2625,11 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 811,
-      "fullWordCount": 1016,
+      "wordCount": 855,
+      "fullWordCount": 1060,
       "h2Count": 15,
       "faqCount": 5,
-      "internalLinks": 4,
+      "internalLinks": 5,
       "officialSources": 2,
       "evidenceMappings": 2,
       "comparisonTable": false,
@@ -2700,15 +2700,15 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 811,
-        "fullVisibleWords": 1016,
+        "editorialWords": 855,
+        "fullVisibleWords": 1060,
         "targetWords": 650,
-        "ratio": 1.25,
+        "ratio": 1.32,
         "signals": {
           "introWords": 44,
           "h2Count": 15,
           "faqCount": 5,
-          "internalLinks": 4,
+          "internalLinks": 5,
           "officialSources": 2
         }
       },
@@ -2750,13 +2750,13 @@
         "title": "PipiAds Review 2026: Can Ad Discovery Improve the Product Brief?",
         "description": "A fresh PipiAds review for operators using visible ad and product signals to build original research briefs.",
         "url": "https://ecommerceintel.org/reviews/pipiads",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/review/reviews--pipiads"
       },
       "twitter": {
         "card": "summary_large_image",
         "title": "PipiAds Review 2026: Can Ad Discovery Improve the Product Brief?",
         "description": "A fresh PipiAds review for operators using visible ad and product signals to build original research briefs.",
-        "image": "https://ecommerceintel.org/opengraph-image"
+        "image": "https://ecommerceintel.org/og/review/reviews--pipiads"
       },
       "schemaTypes": [
         "Article",
@@ -2773,11 +2773,11 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 787,
-      "fullWordCount": 962,
+      "wordCount": 797,
+      "fullWordCount": 972,
       "h2Count": 15,
       "faqCount": 5,
-      "internalLinks": 5,
+      "internalLinks": 6,
       "officialSources": 2,
       "evidenceMappings": 2,
       "comparisonTable": false,
@@ -2848,15 +2848,15 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 787,
-        "fullVisibleWords": 962,
+        "editorialWords": 797,
+        "fullVisibleWords": 972,
         "targetWords": 650,
-        "ratio": 1.21,
+        "ratio": 1.23,
         "signals": {
           "introWords": 45,
           "h2Count": 15,
           "faqCount": 5,
-          "internalLinks": 5,
+          "internalLinks": 6,
           "officialSources": 2
         }
       },

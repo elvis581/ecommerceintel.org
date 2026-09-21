@@ -6,6 +6,7 @@ export function SourceList({ slug, collapsible = false }: { slug: string; collap
   const evidence = sourceEvidenceBySlug[slug] || [];
   if (!keys.length) return null;
 
+  const sourceLabel = (count: number) => `${count} official source${count === 1 ? "" : "s"}`;
   const content = <>
     <p className="source-list-intro">These records separate public evidence, vendor statements, live checks and editorial interpretation. Dates show when I last checked each source.</p>
     {evidence.length > 0 && <div className="mt-6 grid gap-4">{evidence.map((item) => <article key={item.claim} className="source-evidence-item border-l-4 border-emerald-500 bg-slate-50 p-5">
@@ -15,7 +16,7 @@ export function SourceList({ slug, collapsible = false }: { slug: string; collap
       <p className="mt-2 text-sm leading-6 text-slate-600"><strong>Sources:</strong> {item.sourceKeys.map((key, index) => <span key={key}>{index > 0 ? ", " : ""}<a href={sources[key].url} target="_blank" rel="noopener noreferrer">{sources[key].label}</a></span>)}</p>
     </article>)}</div>}
     <details className="source-register">
-      <summary>Source register <span>({keys.length} official sources)</span></summary>
+      <summary>Source register <span>({sourceLabel(keys.length)})</span></summary>
       <ul>{keys.map((key) => <li key={key}><a href={sources[key].url} target="_blank" rel="noopener noreferrer">{sources[key].label}<ExternalLink className="size-4" /></a><span className="source-register-meta">{sources[key].publisher} · {sources[key].sourceType} · checked {sources[key].accessed}</span></li>)}</ul>
     </details>
   </>;

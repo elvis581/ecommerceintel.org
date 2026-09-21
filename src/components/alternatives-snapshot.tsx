@@ -1,0 +1,12 @@
+import { TrackedLink } from "./tracked-link";
+
+const alternatives = [
+  ["Kalodata", "TikTok Shop products, shops and creators", "Check current plans", "Marketplace-first entity workflow", "Market depth and estimates need a live check", "/reviews/kalodata"],
+  ["PipiAds", "Advertising and creative research", "$49/month public snapshot", "Ad discovery and product research", "Credits, channels and limits need confirmation", "/reviews/pipiads"],
+  ["ShopHunter", "Known Shopify store investigation", "Not publicly confirmed", "Store-first competitor workflow", "Coverage and recency require a live check", "/reviews/shophunter"],
+  ["Manual and platform-native sources", "Occasional verification", "No subscription", "First-party evidence and lower commitment", "More manual work and less connected history", "/resources"],
+] as const;
+
+export function AlternativesSnapshot() {
+  return <section className="alternatives-snapshot" aria-label="WinningHunter alternatives summary"><div className="comparison-snapshot-heading"><div><p className="eyebrow">Stay or switch</p><h2>Switch only for a named workflow gap</h2></div><p>Keep WinningHunter when its ad-to-store path fits. Compare the alternative against the same brief before paying for a second dashboard.</p></div><div className="article-table" tabIndex={0} aria-label="WinningHunter alternatives summary table"><table><thead><tr><th scope="col">Tool</th><th scope="col">Best for</th><th scope="col">Starting price</th><th scope="col">Main advantage</th><th scope="col">Main limitation</th></tr></thead><tbody>{alternatives.map(([tool, bestFor, price, advantage, limitation, href]) => <tr key={tool}><th scope="row"><TrackedLink href={href} eventName="internal_link_click" eventParams={{placement:"alternatives_snapshot",label:tool}}>{tool}</TrackedLink></th><td>{bestFor}</td><td>{price}</td><td>{advantage}</td><td>{limitation}</td></tr>)}</tbody></table></div></section>;
+}

@@ -3,7 +3,7 @@ import { getGeoContext } from "@/config/geo";
 
 type Faq = { question: string; answer: string };
 type PageKind = "hub" | "pillar" | "review" | "comparison" | "guide" | "trust" | "legal";
-type SchemaPage = { title: string; description: string; slug: string; faqs: Faq[]; kind: PageKind; hideFaq?: boolean; reviewRating?: { ratingValue: number; bestRating: number; worstRating: number; itemName: string; itemUrl: string }; itemList?: { name: string; url: string; position: number }[] };
+type SchemaPage = { title: string; description: string; slug: string; faqs: Faq[]; kind: PageKind; hideFaq?: boolean; publishedIso?: string; modifiedIso?: string; reviewRating?: { ratingValue: number; bestRating: number; worstRating: number; itemName: string; itemUrl: string }; itemList?: { name: string; url: string; position: number }[] };
 
 const topics = [
   "Ecommerce product research tools",
@@ -51,6 +51,8 @@ export function articleSchema(page: SchemaPage) {
   const pageTopics = [context.primaryTopic, ...context.relatedTopics];
   const type = schemaType(page);
   const isArticle = type === "Article";
+  const datePublished = page.publishedIso || siteConfig.publishedIso;
+  const dateModified = page.modifiedIso || siteConfig.lastUpdatedIso;
   const primary = {
     "@context": "https://schema.org",
     "@type": type,
@@ -58,7 +60,8 @@ export function articleSchema(page: SchemaPage) {
     ...(isArticle ? { headline: page.title } : { name: page.title }),
     description: page.description,
     url,
-    dateModified: siteConfig.lastUpdatedIso,
+    ...(isArticle ? { datePublished } : {}),
+    dateModified,
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     inLanguage: "en",
     isAccessibleForFree: true,

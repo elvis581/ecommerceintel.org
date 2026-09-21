@@ -7,6 +7,7 @@ export const siteConfig = {
   email: "hello@ecommerceintel.org",
   lastUpdated: "September 20, 2026",
   lastUpdatedIso: "2026-09-20",
+  publishedIso: "2026-09-21",
   editorialAuthor: {
     name: "Elvis",
     description: "Ecommerce operator with 8+ years of experience across TikTok Shop, Amazon, Shopify and cross-border markets.",

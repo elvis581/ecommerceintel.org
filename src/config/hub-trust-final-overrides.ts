@@ -35,7 +35,10 @@ export const hubTrustFinalOverrides: Record<string, Partial<ArticlePage>> = {
       { title: "TikTok Shop Tool Shortlist", label: "Buying guide available", description: "Compare tools for products, shops, creators, videos and livestream research.", href: "/best-ecommerce-intelligence-tools", linkLabel: "Compare TikTok Shop tools" },
       { title: "Ad Intelligence Tool Shortlist", label: "Buying guide available", description: "Compare paid research tools with official advertising libraries and manual checks.", href: "/best-ecommerce-ad-spy-tools", linkLabel: "Compare ad intelligence tools" },
       { title: "Kalodata vs FastMoss Trial", label: "Comparison available", description: "Run the same known-entity task in two TikTok Shop research products.", href: "/kalodata-vs-fastmoss", linkLabel: "Open the comparison" },
-      { title: "Tool Directory", label: "Directory available", description: "Browse the software currently covered by a published EcommerceIntel decision page.", href: "/best-ecommerce-intelligence-tools", linkLabel: "Browse the tool directory" },
+      { title: "TrendTrack Review", label: "Review available", description: "Review a dated trend-monitoring workflow before adding another research subscription.", href: "/reviews/trendtrack", linkLabel: "Read the TrendTrack review" },
+      { title: "ShopHunter Review", label: "Review available", description: "Start with known Shopify stores when assortment and offer context are the real question.", href: "/reviews/shophunter", linkLabel: "Read the ShopHunter review" },
+      { title: "WinningHunter Pricing", label: "Pricing guide", description: "Compare the public WinningHunter price snapshot with the limits to verify before paying.", href: "/winninghunter-pricing", linkLabel: "Check WinningHunter pricing" },
+      { title: "WinningHunter vs ShopHunter", label: "Comparison available", description: "Compare ad-first and store-first research workflows against the same operating brief.", href: "/winninghunter-vs-shophunter", linkLabel: "Open the comparison" },
     ],
     sections: [
       {

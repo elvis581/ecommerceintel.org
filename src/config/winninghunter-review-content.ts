@@ -199,6 +199,7 @@ export const winningHunterReviewContent = {
         { type: "subheading", text: "Team access" },
         { type: "paragraph", text: "Team or higher access belongs to a named multi-store or agency workflow with shared records and a clear owner. A larger allowance is not a reason to subscribe when the research brief is still undefined." },
         { type: "paragraph", text: "Start with the shortest available commitment and judge the first billing cycle by completed briefs, rejected opportunities and decisions that another operator can review." },
+        { type: "internalLink", href: "/winninghunter-pricing", label: "Read the WinningHunter pricing guide", description: "See the public $49, $79 and $249 snapshot, billing notes and plan questions to verify." },
       ],
     },
     {
@@ -214,6 +215,8 @@ export const winningHunterReviewContent = {
         { type: "list", items: ["WinningHunter: use when advertising activity needs to connect to Shopify-oriented product, store and competitor research.", "Kalodata: use when the primary record is a TikTok Shop product, shop, creator, video or livestream.", "PipiAds: consider when ad discovery and creative pattern research are the central job.", "ShopHunter: consider when the brief starts with a known Shopify store and its assortment or offers."] },
         { type: "paragraph", text: "The choice follows the starting entity. I would not buy a second dashboard until the current brief shows a missing channel, market or record that the alternative can actually close." },
         { type: "internalLink", href: "/reviews/pipiads", label: "Read the PipiAds review", description: "Compare an advertising-first research workflow before paying for overlapping subscriptions." },
+        { type: "internalLink", href: "/reviews/trendtrack", label: "Read the TrendTrack review", description: "Use a dated category-monitoring path when the question is trend direction rather than ad retrieval." },
+        { type: "internalLink", href: "/reviews/shophunter", label: "Read the ShopHunter review", description: "Compare a store-first workflow when a known Shopify domain is the starting point." },
       ],
     },
     {
