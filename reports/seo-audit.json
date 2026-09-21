@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-09-21T09:38:11.039Z",
+    "generatedAt": "2026-09-21T09:52:51.877Z",
     "baseUrl": "http://127.0.0.1:4310",
     "thresholds": {
       "coreWords": "per seo-targets.json",
@@ -9,7 +9,7 @@
       "geo": 85
     },
     "routes": 19,
-    "passingCore": 13,
+    "passingCore": 12,
     "coreRoutes": 13,
     "missingFromSitemap": [],
     "extraInSitemap": [],
@@ -234,21 +234,21 @@
       "sourceRequired": false,
       "moneyPage": "/winninghunter-review",
       "status": 200,
-      "title": "Ecommerce Research Reviews & Comparisons | EcommerceIntel",
-      "titleLength": 57,
+      "title": "Ecommerce Tool Reviews | EcommerceIntel",
+      "titleLength": 39,
       "description": "Use EcommerceIntel review files to choose, compare or replace ecommerce research software by workflow fit and evidence quality.",
       "descriptionLength": 127,
-      "h1": "Ecommerce Research Reviews & Comparisons",
+      "h1": "Ecommerce Tool Reviews",
       "canonical": "https://ecommerceintel.org/reviews",
       "og": {
-        "title": "Ecommerce Research Reviews & Comparisons | EcommerceIntel",
+        "title": "Ecommerce Tool Reviews | EcommerceIntel",
         "description": "Use EcommerceIntel review files to choose, compare or replace ecommerce research software by workflow fit and evidence quality.",
         "url": "https://ecommerceintel.org/reviews",
         "image": "https://ecommerceintel.org/og/review/reviews"
       },
       "twitter": {
         "card": "summary_large_image",
-        "title": "Ecommerce Research Reviews & Comparisons | EcommerceIntel",
+        "title": "Ecommerce Tool Reviews | EcommerceIntel",
         "description": "Use EcommerceIntel review files to choose, compare or replace ecommerce research software by workflow fit and evidence quality.",
         "image": "https://ecommerceintel.org/og/review/reviews"
       },
@@ -262,17 +262,17 @@
         "Person",
         "BreadcrumbList"
       ],
-      "wordCount": 336,
-      "fullWordCount": 300,
-      "h2Count": 3,
+      "wordCount": 322,
+      "fullWordCount": 309,
+      "h2Count": 4,
       "faqCount": 0,
-      "internalLinks": 11,
+      "internalLinks": 12,
       "officialSources": 0,
       "evidenceMappings": 0,
       "comparisonTable": false,
-      "seoScore": 98,
-      "aeoScore": 86,
-      "geoScore": 90,
+      "seoScore": 100,
+      "aeoScore": 75,
+      "geoScore": 75,
       "seoChecks": {
         "title": 7,
         "description": 7,
@@ -282,25 +282,25 @@
         "twitter": 7,
         "schemas": 12,
         "content": 20,
-        "headings": 3,
+        "headings": 5,
         "faq": 5,
         "internalLinks": 5,
         "sources": 5,
         "comparison": 5
       },
       "aeoChecks": {
-        "directAnswer": 15,
+        "directAnswer": 0,
         "visibleFaq": 15,
         "faqSchema": 15,
         "workflow": 10,
         "sources": 10,
         "decisionSupport": 10,
-        "descriptiveHeadings": 6,
+        "descriptiveHeadings": 10,
         "trust": 0,
         "conciseIntro": 5
       },
       "geoChecks": {
-        "directAnswer": 15,
+        "directAnswer": 0,
         "visibleSummary": 15,
         "entitySchema": 25,
         "sources": 15,
@@ -311,7 +311,7 @@
       "titleCheck": {
         "status": "PASS",
         "present": true,
-        "length": 57,
+        "length": 39,
         "min": 35,
         "max": 70,
         "unique": true,
@@ -329,28 +329,31 @@
       "intentCheck": {
         "status": "PASS",
         "keyword": "ecommerce tool reviews",
-        "titleCoverage": 0.6666666666666666,
+        "titleCoverage": 1,
         "descriptionCoverage": 0.3333333333333333,
-        "h1Coverage": 0.6666666666666666,
-        "introCoverage": 0.3333333333333333
+        "h1Coverage": 1,
+        "introCoverage": 0.6666666666666666
       },
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 336,
-        "fullVisibleWords": 300,
+        "editorialWords": 322,
+        "fullVisibleWords": 309,
         "targetWords": 250,
-        "ratio": 1.34,
+        "ratio": 1.29,
         "signals": {
-          "introWords": 36,
-          "h2Count": 3,
+          "introWords": 13,
+          "h2Count": 4,
           "faqCount": 0,
-          "internalLinks": 11,
+          "internalLinks": 12,
           "officialSources": 0
         }
       },
-      "issues": [],
-      "pass": true,
+      "issues": [
+        "AEO 75/100",
+        "GEO 75/100"
+      ],
+      "pass": false,
       "h1Check": {
         "status": "FAIL",
         "unique": true,
@@ -1441,8 +1444,8 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 2451,
-      "fullWordCount": 2585,
+      "wordCount": 2465,
+      "fullWordCount": 2632,
       "h2Count": 20,
       "faqCount": 12,
       "internalLinks": 10,
@@ -1516,12 +1519,12 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 2451,
-        "fullVisibleWords": 2585,
+        "editorialWords": 2465,
+        "fullVisibleWords": 2632,
         "targetWords": 650,
-        "ratio": 3.77,
+        "ratio": 3.79,
         "signals": {
-          "introWords": 72,
+          "introWords": 56,
           "h2Count": 20,
           "faqCount": 12,
           "internalLinks": 10,
@@ -1589,9 +1592,9 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 721,
-      "fullWordCount": 901,
-      "h2Count": 15,
+      "wordCount": 792,
+      "fullWordCount": 972,
+      "h2Count": 16,
       "faqCount": 5,
       "internalLinks": 5,
       "officialSources": 1,
@@ -1664,13 +1667,13 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 721,
-        "fullVisibleWords": 901,
+        "editorialWords": 792,
+        "fullVisibleWords": 972,
         "targetWords": 300,
-        "ratio": 2.4,
+        "ratio": 2.64,
         "signals": {
           "introWords": 36,
-          "h2Count": 15,
+          "h2Count": 16,
           "faqCount": 5,
           "internalLinks": 5,
           "officialSources": 1
@@ -1737,8 +1740,8 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 786,
-      "fullWordCount": 1019,
+      "wordCount": 823,
+      "fullWordCount": 1056,
       "h2Count": 15,
       "faqCount": 5,
       "internalLinks": 8,
@@ -1812,10 +1815,10 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 786,
-        "fullVisibleWords": 1019,
+        "editorialWords": 823,
+        "fullVisibleWords": 1056,
         "targetWords": 500,
-        "ratio": 1.57,
+        "ratio": 1.65,
         "signals": {
           "introWords": 39,
           "h2Count": 15,
@@ -2329,8 +2332,8 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 2008,
-      "fullWordCount": 2060,
+      "wordCount": 2021,
+      "fullWordCount": 2091,
       "h2Count": 18,
       "faqCount": 6,
       "internalLinks": 6,
@@ -2404,10 +2407,10 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 2008,
-        "fullVisibleWords": 2060,
+        "editorialWords": 2021,
+        "fullVisibleWords": 2091,
         "targetWords": 650,
-        "ratio": 3.09,
+        "ratio": 3.11,
         "signals": {
           "introWords": 56,
           "h2Count": 18,
@@ -2477,8 +2480,8 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 833,
-      "fullWordCount": 1033,
+      "wordCount": 845,
+      "fullWordCount": 1045,
       "h2Count": 15,
       "faqCount": 5,
       "internalLinks": 5,
@@ -2552,10 +2555,10 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 833,
-        "fullVisibleWords": 1033,
+        "editorialWords": 845,
+        "fullVisibleWords": 1045,
         "targetWords": 650,
-        "ratio": 1.28,
+        "ratio": 1.3,
         "signals": {
           "introWords": 45,
           "h2Count": 15,
@@ -2625,8 +2628,8 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 855,
-      "fullWordCount": 1060,
+      "wordCount": 872,
+      "fullWordCount": 1095,
       "h2Count": 15,
       "faqCount": 5,
       "internalLinks": 5,
@@ -2700,10 +2703,10 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 855,
-        "fullVisibleWords": 1060,
+        "editorialWords": 872,
+        "fullVisibleWords": 1095,
         "targetWords": 650,
-        "ratio": 1.32,
+        "ratio": 1.34,
         "signals": {
           "introWords": 44,
           "h2Count": 15,
@@ -2773,8 +2776,8 @@
         "Question",
         "Answer"
       ],
-      "wordCount": 797,
-      "fullWordCount": 972,
+      "wordCount": 812,
+      "fullWordCount": 1005,
       "h2Count": 15,
       "faqCount": 5,
       "internalLinks": 6,
@@ -2848,10 +2851,10 @@
       "thicknessCheck": {
         "status": "PASS",
         "basis": "commercial threshold",
-        "editorialWords": 797,
-        "fullVisibleWords": 972,
+        "editorialWords": 812,
+        "fullVisibleWords": 1005,
         "targetWords": 650,
-        "ratio": 1.23,
+        "ratio": 1.25,
         "signals": {
           "introWords": 45,
           "h2Count": 15,

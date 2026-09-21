@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type KeyboardEvent } from "react";
-import { ArrowUpRight, BarChart3, GitCompareArrows, Globe2, Layers3, RefreshCw, Target } from "lucide-react";
+import { ArrowUpRight, BarChart3, DollarSign, GitCompareArrows, Globe2, Layers3, RefreshCw, Target } from "lucide-react";
 import { reviewsDirectoryItems, type ReviewsDirectoryItem, type ReviewsDirectoryType } from "@/config/reviews-directory";
 import { TrackedLink } from "./tracked-link";
 
@@ -10,12 +10,14 @@ const filters: { label: string; value: "all" | ReviewsDirectoryType }[] = [
   { label: "Reviews", value: "reviews" },
   { label: "Comparisons", value: "comparisons" },
   { label: "Alternatives", value: "alternatives" },
+  { label: "Pricing", value: "pricing" },
 ];
 
 const sectionLabels: Record<ReviewsDirectoryType, string> = {
   reviews: "Reviews",
   comparisons: "Comparisons",
   alternatives: "Alternatives",
+  pricing: "Pricing",
 };
 
 const reviewIcons = {
@@ -25,6 +27,7 @@ const reviewIcons = {
   "Minea Review": Layers3,
   "Kalodata vs FastMoss": GitCompareArrows,
   "Kalodata Alternatives": RefreshCw,
+  "WinningHunter Pricing": DollarSign,
 };
 
 export function ReviewsDirectory() {
@@ -46,7 +49,7 @@ export function ReviewsDirectory() {
         return <section className="reviews-directory-section" key={type}>
           <h2>{sectionLabels[type]}</h2>
           <div className={`reviews-card-grid ${type !== "reviews" ? "reviews-card-grid-small" : ""}`}>
-            {items.map((item) => <ReviewDirectoryCard item={item} typeLabel={sectionLabels[item.type].slice(0, -1)} key={item.href} />)}
+            {items.map((item) => <ReviewDirectoryCard item={item} typeLabel={item.type === "reviews" ? "Review" : item.type === "comparisons" ? "Comparison" : item.type === "alternatives" ? "Alternative" : "Pricing"} key={item.href} />)}
           </div>
         </section>;
       })}

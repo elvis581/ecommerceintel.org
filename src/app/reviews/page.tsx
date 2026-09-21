@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site";
 import { createMetadata } from "@/lib/seo/metadata";
 import { TrackedLink } from "@/components/tracked-link";
 
-const title = "Ecommerce Research Reviews & Comparisons";
+const title = "Ecommerce Tool Reviews";
 const description = "Use EcommerceIntel review files to choose, compare or replace ecommerce research software by workflow fit and evidence quality.";
 const url = `${siteConfig.url}/reviews`;
 const topics = ["Ecommerce software reviews", "Ecommerce tool comparisons", "Ecommerce software alternatives"];
@@ -24,7 +24,7 @@ const schema = [
 export default function ReviewsPage() {
   return <main><article>
     <JsonLd data={schema} />
-    <header className="article-header"><div className="site-container"><Breadcrumb current="Reviews & Comparisons" /><p className="eyebrow">Research files</p><h1>{title}</h1><p className="article-intro">Each file begins with a decision and ends with a next check. Open a review for one product, a comparison for two named tools or an alternatives page when the current workflow has a specific gap.</p></div></header>
+    <header className="article-header"><div className="site-container"><Breadcrumb current="Ecommerce Tool Reviews" /><p className="eyebrow">Research files</p><h1>{title}</h1><p className="article-intro">Independent reviews of product research, ad intelligence, store tracking and TikTok Shop tools.</p></div></header>
     <div className="site-container page-band reviews-directory">
       <div className="reviews-directory-intro"><p>Start with the decision, then choose the file: a review tests one product, a comparison puts two named tools through the same brief, and an alternatives guide starts with a specific reason to switch. Every card shows the best fit, current price status, evidence basis and next action.</p><TrackedLink href="/compare" eventName="internal_link_click" eventParams={{placement:"reviews_intro",label:"Compare ecommerce tools"}} className="mt-5 inline-flex font-extrabold text-orange-700 hover:text-orange-900">Open the matched comparisons</TrackedLink></div>
       <ReviewsDirectory />

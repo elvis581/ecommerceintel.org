@@ -1,13 +1,13 @@
 # SEO, AEO and GEO Audit
 
-Generated: 2026-09-21T09:38:11.039Z
+Generated: 2026-09-21T09:52:51.877Z
 
-Core pass: 13/13
+Core pass: 12/13
 
 | Route | Words | H2 | FAQ | Links | Sources | Compare | SEO | AEO | GEO | Pass |
 |---|---:|---:|---:|---:|---:|:---:|---:|---:|---:|:---:|
 | / | 542 | 9 | 3 | 11 | 0 | no | 98 | 94 | 90 | yes |
-| /reviews | 336 | 3 | 0 | 11 | 0 | no | 98 | 86 | 90 | yes |
+| /reviews | 322 | 4 | 0 | 12 | 0 | no | 100 | 75 | 75 | no |
 | /resources | 479 | 11 | 5 | 7 | 8 | no | 100 | 90 | 71 | yes |
 | /compare | 336 | 10 | 4 | 7 | 0 | no | 100 | 90 | 100 | yes |
 | /about | 620 | 8 | 0 | 4 | 0 | no | 83 | 50 | 90 | yes |
@@ -15,16 +15,16 @@ Core pass: 13/13
 | /affiliate-disclosure | 184 | 5 | 0 | 3 | 0 | no | 81 | 50 | 75 | yes |
 | /privacy | 503 | 8 | 0 | 3 | 0 | no | 83 | 50 | 75 | yes |
 | /terms | 418 | 8 | 0 | 3 | 0 | no | 83 | 50 | 75 | yes |
-| /winninghunter-review | 2451 | 20 | 12 | 10 | 3 | yes | 100 | 90 | 100 | yes |
-| /winninghunter-pricing | 721 | 15 | 5 | 5 | 1 | yes | 100 | 100 | 100 | yes |
-| /winninghunter-alternatives | 786 | 15 | 5 | 8 | 6 | yes | 100 | 90 | 100 | yes |
+| /winninghunter-review | 2465 | 20 | 12 | 10 | 3 | yes | 100 | 90 | 100 | yes |
+| /winninghunter-pricing | 792 | 16 | 5 | 5 | 1 | yes | 100 | 100 | 100 | yes |
+| /winninghunter-alternatives | 823 | 15 | 5 | 8 | 6 | yes | 100 | 90 | 100 | yes |
 | /winninghunter-vs-kalodata | 1064 | 18 | 5 | 7 | 2 | yes | 100 | 90 | 100 | yes |
 | /winninghunter-vs-pipiads | 1033 | 18 | 5 | 7 | 3 | yes | 100 | 90 | 100 | yes |
 | /winninghunter-vs-shophunter | 1038 | 18 | 5 | 7 | 3 | yes | 100 | 90 | 100 | yes |
-| /reviews/kalodata | 2008 | 18 | 6 | 6 | 3 | yes | 100 | 90 | 100 | yes |
-| /reviews/trendtrack | 833 | 15 | 5 | 5 | 2 | no | 100 | 80 | 100 | yes |
-| /reviews/shophunter | 855 | 15 | 5 | 5 | 2 | no | 100 | 80 | 100 | yes |
-| /reviews/pipiads | 797 | 15 | 5 | 6 | 2 | no | 100 | 80 | 100 | yes |
+| /reviews/kalodata | 2021 | 18 | 6 | 6 | 3 | yes | 100 | 90 | 100 | yes |
+| /reviews/trendtrack | 845 | 15 | 5 | 5 | 2 | no | 100 | 80 | 100 | yes |
+| /reviews/shophunter | 872 | 15 | 5 | 5 | 2 | no | 100 | 80 | 100 | yes |
+| /reviews/pipiads | 812 | 15 | 5 | 6 | 2 | no | 100 | 80 | 100 | yes |
 
 ## Page-by-page B-side review
 
@@ -45,13 +45,13 @@ This section treats every route as a separate search result and a separate buyer
 ### /reviews
 
 - Type / intent: hub / navigational
-- Title (57 chars, PASS, unique: yes): Ecommerce Research Reviews & Comparisons | EcommerceIntel
+- Title (39 chars, PASS, unique: yes): Ecommerce Tool Reviews | EcommerceIntel
 - Description (127 chars, PASS, unique: yes): Use EcommerceIntel review files to choose, compare or replace ecommerce research software by workflow fit and evidence quality.
-- H1: Ecommerce Research Reviews & Comparisons
-- Intent alignment: PASS (title 67%, description 33%, H1 67% keyword-token coverage)
-- Thickness: PASS (336/250 editorial words; 300 visible words; commercial threshold)
-- Structure: 3 H2, 0 FAQ items, 11 internal route links, 0 official/first-party source URLs, comparison table: no
-- Scores: SEO 98, AEO 86, GEO 90; route gate: PASS
+- H1: Ecommerce Tool Reviews
+- Intent alignment: PASS (title 100%, description 33%, H1 100% keyword-token coverage)
+- Thickness: PASS (322/250 editorial words; 309 visible words; commercial threshold)
+- Structure: 4 H2, 0 FAQ items, 12 internal route links, 0 official/first-party source URLs, comparison table: no
+- Scores: SEO 100, AEO 75, GEO 75; route gate: FAIL
 - B-side recommendation: Keep the page-specific evidence, conclusion and next action current on the next review cycle.
 
 ### /resources
@@ -145,7 +145,7 @@ This section treats every route as a separate search result and a separate buyer
 - Description (113 chars, PASS, unique: yes): WinningHunter review covering features, pricing checks, ad research, Shopify store context and who should use it.
 - H1: WinningHunter Review 2026: Features, Pricing & Who It's Best For
 - Intent alignment: PASS (title 100%, description 100%, H1 100% keyword-token coverage)
-- Thickness: PASS (2451/650 editorial words; 2585 visible words; commercial threshold)
+- Thickness: PASS (2465/650 editorial words; 2632 visible words; commercial threshold)
 - Structure: 20 H2, 12 FAQ items, 10 internal route links, 3 official/first-party source URLs, comparison table: yes
 - Scores: SEO 100, AEO 90, GEO 100; route gate: PASS
 - B-side recommendation: Keep the page-specific evidence, conclusion and next action current on the next review cycle.
@@ -157,8 +157,8 @@ This section treats every route as a separate search result and a separate buyer
 - Description (142 chars, PASS, unique: yes): Understand WinningHunter's current public plan prices, billing discounts, visible feature differences and limits to verify before subscribing.
 - H1: WinningHunter Pricing 2026: Plans, Cost & What to Check
 - Intent alignment: PASS (title 100%, description 50%, H1 100% keyword-token coverage)
-- Thickness: PASS (721/300 editorial words; 901 visible words; commercial threshold)
-- Structure: 15 H2, 5 FAQ items, 5 internal route links, 1 official/first-party source URLs, comparison table: yes
+- Thickness: PASS (792/300 editorial words; 972 visible words; commercial threshold)
+- Structure: 16 H2, 5 FAQ items, 5 internal route links, 1 official/first-party source URLs, comparison table: yes
 - Scores: SEO 100, AEO 100, GEO 100; route gate: PASS
 - B-side recommendation: Keep the page-specific evidence, conclusion and next action current on the next review cycle.
 
@@ -169,7 +169,7 @@ This section treats every route as a separate search result and a separate buyer
 - Description (105 chars, PASS, unique: yes): Compare WinningHunter alternatives by switching reason, channel coverage and ecommerce research workflow.
 - H1: WinningHunter Alternatives 2026
 - Intent alignment: PASS (title 100%, description 100%, H1 100% keyword-token coverage)
-- Thickness: PASS (786/500 editorial words; 1019 visible words; commercial threshold)
+- Thickness: PASS (823/500 editorial words; 1056 visible words; commercial threshold)
 - Structure: 15 H2, 5 FAQ items, 8 internal route links, 6 official/first-party source URLs, comparison table: yes
 - Scores: SEO 100, AEO 90, GEO 100; route gate: PASS
 - B-side recommendation: Keep the page-specific evidence, conclusion and next action current on the next review cycle.
@@ -217,7 +217,7 @@ This section treats every route as a separate search result and a separate buyer
 - Description (153 chars, PASS, unique: yes): An operator-led Kalodata review covering TikTok Shop product research, shop and creator analysis, video and live data, accuracy, pricing and ideal users.
 - H1: Kalodata Review 2026: Is It Worth It for TikTok Shop Sellers?
 - Intent alignment: PASS (title 100%, description 100%, H1 100% keyword-token coverage)
-- Thickness: PASS (2008/650 editorial words; 2060 visible words; commercial threshold)
+- Thickness: PASS (2021/650 editorial words; 2091 visible words; commercial threshold)
 - Structure: 18 H2, 6 FAQ items, 6 internal route links, 3 official/first-party source URLs, comparison table: yes
 - Scores: SEO 100, AEO 90, GEO 100; route gate: PASS
 - B-side recommendation: Keep the page-specific evidence, conclusion and next action current on the next review cycle.
@@ -229,7 +229,7 @@ This section treats every route as a separate search result and a separate buyer
 - Description (94 chars, PASS, unique: yes): A fresh TrendTrack review for operators who need dated category context before a product test.
 - H1: TrendTrack Review 2026
 - Intent alignment: PASS (title 100%, description 100%, H1 100% keyword-token coverage)
-- Thickness: PASS (833/650 editorial words; 1033 visible words; commercial threshold)
+- Thickness: PASS (845/650 editorial words; 1045 visible words; commercial threshold)
 - Structure: 15 H2, 5 FAQ items, 5 internal route links, 2 official/first-party source URLs, comparison table: no
 - Scores: SEO 100, AEO 80, GEO 100; route gate: PASS
 - B-side recommendation: Keep the page-specific evidence, conclusion and next action current on the next review cycle.
@@ -241,7 +241,7 @@ This section treats every route as a separate search result and a separate buyer
 - Description (101 chars, PASS, unique: yes): A fresh ShopHunter review for operators studying Shopify stores, products and competitor positioning.
 - H1: ShopHunter Review 2026
 - Intent alignment: PASS (title 100%, description 100%, H1 100% keyword-token coverage)
-- Thickness: PASS (855/650 editorial words; 1060 visible words; commercial threshold)
+- Thickness: PASS (872/650 editorial words; 1095 visible words; commercial threshold)
 - Structure: 15 H2, 5 FAQ items, 5 internal route links, 2 official/first-party source URLs, comparison table: no
 - Scores: SEO 100, AEO 80, GEO 100; route gate: PASS
 - B-side recommendation: Keep the page-specific evidence, conclusion and next action current on the next review cycle.
@@ -253,7 +253,7 @@ This section treats every route as a separate search result and a separate buyer
 - Description (108 chars, PASS, unique: yes): A fresh PipiAds review for operators using visible ad and product signals to build original research briefs.
 - H1: PipiAds Review 2026
 - Intent alignment: PASS (title 100%, description 100%, H1 100% keyword-token coverage)
-- Thickness: PASS (797/650 editorial words; 972 visible words; commercial threshold)
+- Thickness: PASS (812/650 editorial words; 1005 visible words; commercial threshold)
 - Structure: 15 H2, 5 FAQ items, 6 internal route links, 2 official/first-party source URLs, comparison table: no
 - Scores: SEO 100, AEO 80, GEO 100; route gate: PASS
 - B-side recommendation: Keep the page-specific evidence, conclusion and next action current on the next review cycle.

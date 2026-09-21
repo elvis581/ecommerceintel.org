@@ -1,4 +1,4 @@
-export type ReviewsDirectoryType = "reviews" | "comparisons" | "alternatives";
+export type ReviewsDirectoryType = "reviews" | "comparisons" | "alternatives" | "pricing";
 export type ReviewsDirectoryItem = {
   type: ReviewsDirectoryType; title: string; conclusion: string; bestFor: string; platform: string; evidence: string;
   assessment?: string; price?: string; updated?: string; featured?: boolean; coverTone: "emerald" | "blue" | "coral" | "violet" | "cyan" | "amber"; coverMark: string; href: string;
@@ -13,4 +13,5 @@ export const reviewsDirectoryItems: ReviewsDirectoryItem[] = [
   { type: "comparisons", title: "WinningHunter vs PipiAds", conclusion: "Compare two advertising-led paths to product and competitor research.", bestFor: "Ad research teams", platform: "Paid-social research", evidence: "Matched workflow comparison", price: "$49/month vs $49/month", updated: "Checked Sep 21, 2026", coverTone: "cyan", coverMark: "WP", href: "/winninghunter-vs-pipiads" },
   { type: "comparisons", title: "WinningHunter vs ShopHunter", conclusion: "Compare ad-first and store-first research workflows.", bestFor: "Shopify researchers", platform: "Ads and stores", evidence: "Matched workflow comparison", price: "$49/month vs check plans", updated: "Checked Sep 21, 2026", coverTone: "violet", coverMark: "WS", href: "/winninghunter-vs-shophunter" },
   { type: "alternatives", title: "WinningHunter Alternatives", conclusion: "Switch only for a named channel, market or workflow gap.", bestFor: "Teams considering a replacement", platform: "Ecommerce research", evidence: "Switching-reason guide", price: "Compare current plans", updated: "Review file", coverTone: "amber", coverMark: "ALT", href: "/winninghunter-alternatives" },
+  { type: "pricing", title: "WinningHunter Pricing", conclusion: "Compare the public monthly plans and the limits to verify before subscribing.", bestFor: "Buyers budgeting for ad and Shopify research", platform: "WinningHunter plans", evidence: "Official pricing snapshot", price: "$49/month entry point", updated: "Checked Sep 21, 2026", coverTone: "amber", coverMark: "$", href: "/winninghunter-pricing" },
 ];
