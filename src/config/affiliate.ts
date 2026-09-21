@@ -1,4 +1,4 @@
-export type ResearchStatus = "Personally tested" | "Used by my team" | "Feature research and operator workflow evaluation" | "Public information overview" | "Comparison-only inclusion";
+export type ResearchStatus = "Personally tested" | "Used by my team" | "Feature research and operator workflow evaluation" | "Public information overview" | "Comparison-only inclusion" | "Official pricing page checked September 21, 2026";
 
 export type AffiliateTool = {
   name: string;

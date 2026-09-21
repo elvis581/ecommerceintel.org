@@ -103,6 +103,16 @@ export const winningHunterReviewContent = {
       ],
     },
     {
+      heading: "Official Product Visuals",
+      blocks: [
+        { type: "paragraph", text: "These vendor-published visuals show the product surface and workflow framing described on WinningHunter's current official site. They are source evidence, not independent screenshots captured from a paid account; confirm the live interface and plan access before relying on a feature." },
+        { type: "evidenceImage", src: "https://framerusercontent.com/images/idz6nXH4SgL0T1c6CkRjGTtj8Dg.webp?width=3522&height=2286", alt: "WinningHunter vendor product interface visual", label: "Product interface", caption: "Vendor-provided product visual from the official homepage; interface availability may vary by account and plan.", sourceUrl: "https://winninghunter.com/" },
+        { type: "evidenceImage", src: "https://framerusercontent.com/images/2vEDGwT1bI9o4VSNWJrBStL8GnU.webp?width=1189&height=618", alt: "WinningHunter vendor workflow visual", label: "Workflow view", caption: "Vendor-provided workflow visual used to frame ad and product research; not an independently captured result.", sourceUrl: "https://winninghunter.com/" },
+        { type: "evidenceImage", src: "https://framerusercontent.com/images/viC8thGIPS46fkeP1ZYJRAZq1hQ.webp?width=1395&height=607", alt: "WinningHunter vendor research result visual", label: "Research result", caption: "Vendor-provided research visual. Use the live account to confirm the current filters, records and history available to you.", sourceUrl: "https://winninghunter.com/" },
+        { type: "evidenceImage", src: "https://framerusercontent.com/images/EYcWdjq9vMow2BB59dJaWLfTtM.png?width=1428&height=806", alt: "WinningHunter vendor pricing and product visual", label: "Plan and product context", caption: "Vendor-provided product and plan context; current prices and limits are recorded separately on the pricing page.", sourceUrl: "https://winninghunter.com/#pricing" },
+      ],
+    },
+    {
       heading: "My Product Decision",
       blocks: [
         { type: "paragraph", text: "I would not immediately test the complete hanging planter because it can create higher:" },

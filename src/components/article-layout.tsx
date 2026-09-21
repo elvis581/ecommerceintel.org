@@ -1,5 +1,5 @@
 import type { ArticlePage, ContentBlock } from "@/config/pages";
-import { pricingNotice } from "@/config/pricing";
+import { pricingByTool, pricingNotice } from "@/config/pricing";
 import { Breadcrumb } from "./breadcrumb";
 import { LastUpdated } from "./last-updated";
 import { QuickVerdict } from "./quick-verdict";
@@ -20,6 +20,7 @@ import { ReviewDecisionCard } from "./review-decision-card";
 import { SourceList } from "./source-list";
 import { affiliateTools } from "@/config/affiliate";
 import { ReviewSignalRow } from "./review-signal-row";
+import Image from "next/image";
 
 const textPanelHeadings = new Set([
   "Quick answer",
@@ -75,8 +76,28 @@ function ArticleContentBlock({ block }: { block: ContentBlock }) {
   if (block.type === "list") return <ul>{block.items.map((item) => <li key={item}>{item}</li>)}</ul>;
   if (block.type === "quote") return <blockquote>{block.text}</blockquote>;
   if (block.type === "evidenceSlot") return <figure className="evidence-slot"><div><span>{block.label}</span><p>{block.description}</p></div><figcaption>{block.caption}</figcaption></figure>;
+  if (block.type === "evidenceImage") return <figure className="evidence-figure"><div className="evidence-figure-media"><Image src={block.src} alt={block.alt} width={1400} height={800} unoptimized /></div><figcaption><span>{block.label}</span>{block.caption} <a href={block.sourceUrl} target="_blank" rel="noopener noreferrer">View official source</a></figcaption></figure>;
+  if (block.type === "pricingTable") return <PricingTable toolKey={block.toolKey} />;
   if (block.type === "keyFacts") return <dl className="article-key-facts">{block.items.map((item) => <div key={item.label}><dt>{item.label}</dt><dd>{item.value}</dd></div>)}</dl>;
   if (block.type === "internalLink") return <div className="article-inline-link"><TrackedLink href={block.href} eventName="internal_link_click" eventParams={{placement:"article_body",label:block.label}}>{block.label}</TrackedLink>{block.description && <p>{block.description}</p>}</div>;
   if (block.type === "externalLink") return <div className="article-inline-link article-official-link source-list"><a href={block.href} target="_blank" rel="noopener noreferrer">{block.label}</a>{block.description && <p>{block.description}</p>}</div>;
   return <div className="article-table" tabIndex={0} aria-label={block.caption || "Article data table"}><table><thead><tr>{block.headers.map((header) => <th key={header} scope="col">{header}</th>)}</tr></thead><tbody>{block.rows.map((row, rowIndex) => <tr key={`${rowIndex}-${row.join("-")}`}>{row.map((cell, cellIndex) => <td key={`${cellIndex}-${cell}`}>{cell}</td>)}</tr>)}</tbody></table>{block.caption && <p className="article-table-caption">{block.caption}</p>}</div>;
+}
+
+function PricingTable({ toolKey }: { toolKey: string }) {
+  const record = pricingByTool[toolKey as keyof typeof pricingByTool];
+  if (!record) return null;
+  const monthlyAmount = (monthly: string) => Number(monthly.replace(/[^0-9.]/g, ""));
+  const derivedAmount = (monthly: string, months: number, discount: number) => {
+    const amount = monthlyAmount(monthly) * months * (1 - discount);
+    return Number.isFinite(amount) ? `~$${amount.toFixed(2)}` : "See checkout";
+  };
+  return <div className="pricing-table-wrap">
+    <div className="pricing-table-meta"><strong>{record.tool} pricing snapshot</strong><span>Checked {record.lastChecked}</span></div>
+    <div className="article-table" tabIndex={0} aria-label={`${record.tool} pricing and plan comparison`}>
+      <table><thead><tr><th scope="col">Plan</th><th scope="col">Monthly</th><th scope="col">Quarterly</th><th scope="col">Yearly</th><th scope="col">Publicly listed differences</th></tr></thead>
+      <tbody>{record.plans.map((plan) => <tr key={plan.name}><th scope="row">{plan.name}</th><td>{plan.monthly}</td><td>{derivedAmount(plan.monthly, 3, .15)} / quarter<br /><small>15% off, derived</small></td><td>{derivedAmount(plan.monthly, 12, .4)} / year<br /><small>40% off, derived</small></td><td>{("features" in plan && plan.features ? plan.features.join("; ") : "Plan-specific limits require official account verification.")}</td></tr>)}</tbody></table>
+      <p className="article-table-caption">Monthly amounts are shown as published. Quarterly and yearly totals are arithmetic estimates from the public monthly price and stated discount, not a checkout receipt; verify the exact total, renewal and cancellation terms before paying. <a href={record.sourceUrl} target="_blank" rel="noopener noreferrer">Official pricing source</a></p>
+    </div>
+  </div>;
 }

@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generatedAt": "2026-09-20T14:27:27.135Z",
-    "baseUrl": "http://127.0.0.1:4311",
+    "generatedAt": "2026-09-21T01:36:51.018Z",
+    "baseUrl": "http://localhost:3003",
     "pagesAudited": 12,
     "thresholds": {
       "reviewFiveWordShingleSimilarity": 0.46,
@@ -66,14 +66,14 @@
     {
       "route": "/winninghunter-review",
       "articleType": "review",
-      "editorialWords": 1899,
+      "editorialWords": 2018,
       "minWords": 650,
-      "editorialParagraphs": 54,
+      "editorialParagraphs": 55,
       "faqAnswers": 0,
       "officialSources": 3,
       "voiceViolations": [],
       "hasFirstPersonSingular": true,
-      "operatorJudgments": 9,
+      "operatorJudgments": 10,
       "operatorStyleViolations": []
     },
     {
@@ -210,14 +210,6 @@
       "articleType": "review",
       "left": "/winninghunter-review",
       "right": "/reviews/kalodata",
-      "similarity": 0.0075,
-      "threshold": 0.46,
-      "pass": true
-    },
-    {
-      "articleType": "review",
-      "left": "/winninghunter-review",
-      "right": "/reviews/trendtrack",
       "similarity": 0.0072,
       "threshold": 0.46,
       "pass": true
@@ -225,8 +217,16 @@
     {
       "articleType": "review",
       "left": "/winninghunter-review",
+      "right": "/reviews/trendtrack",
+      "similarity": 0.0068,
+      "threshold": 0.46,
+      "pass": true
+    },
+    {
+      "articleType": "review",
+      "left": "/winninghunter-review",
       "right": "/reviews/pipiads",
-      "similarity": 0.0064,
+      "similarity": 0.0061,
       "threshold": 0.46,
       "pass": true
     },
@@ -234,7 +234,7 @@
       "articleType": "review",
       "left": "/winninghunter-review",
       "right": "/reviews/shophunter",
-      "similarity": 0.0053,
+      "similarity": 0.005,
       "threshold": 0.46,
       "pass": true
     },

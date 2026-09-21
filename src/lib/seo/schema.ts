@@ -45,6 +45,8 @@ export function websiteSchema(faqs: Faq[]) {
 
 export function articleSchema(page: SchemaPage) {
   const url = `${siteConfig.url}/${page.slug}`;
+  const socialType = page.kind === "comparison" ? "comparison" : page.kind === "review" ? "review" : null;
+  const socialImage = socialType ? `${siteConfig.url}/og/${socialType}/${page.slug.replaceAll("/", "--")}` : `${siteConfig.url}/opengraph-image`;
   const context = getGeoContext(page.slug);
   const pageTopics = [context.primaryTopic, ...context.relatedTopics];
   const type = schemaType(page);
@@ -69,7 +71,7 @@ export function articleSchema(page: SchemaPage) {
     audience: { "@type": "Audience", audienceType: context.targetReader },
     ...(isArticle ? { author: { "@id": `${siteConfig.url}/about#editor` } } : { creator: { "@id": `${siteConfig.url}/about#editor` } }),
     publisher: { "@id": `${siteConfig.url}/#organization` },
-    image: { "@type": "ImageObject", url: `${siteConfig.url}/opengraph-image`, width: 1200, height: 630 },
+    image: { "@type": "ImageObject", url: socialImage, width: 1200, height: 630 },
     ...(type === "AboutPage" ? { mainEntity: { "@id": `${siteConfig.url}/about#editor` } } : {}),
   };
 

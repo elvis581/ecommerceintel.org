@@ -1,6 +1,6 @@
 # Content Quality Audit
 
-Generated: 2026-09-20T14:27:27.135Z
+Generated: 2026-09-21T01:36:51.018Z
 
 Result: PASS
 
@@ -12,7 +12,7 @@ Maximum Pillar similarity: 0.0% (limit 45.0%)
 | / | hub | 562 | 250 | 17 | 0 | 0 | 1 |
 | /reviews | hub | 350 | 250 | 11 | 0 | 0 | 0 |
 | /compare | hub | 176 | 160 | 6 | 0 | 0 | 1 |
-| /winninghunter-review | review | 1899 | 650 | 54 | 0 | 3 | 9 |
+| /winninghunter-review | review | 2018 | 650 | 55 | 0 | 3 | 10 |
 | /winninghunter-alternatives | alternatives | 520 | 500 | 13 | 0 | 6 | 6 |
 | /winninghunter-vs-kalodata | comparison | 806 | 600 | 27 | 0 | 2 | 10 |
 | /winninghunter-vs-pipiads | comparison | 778 | 600 | 27 | 0 | 3 | 10 |
@@ -29,7 +29,7 @@ Maximum Pillar similarity: 0.0% (limit 45.0%)
 | review | /reviews/shophunter | /reviews/pipiads | 2.9% | yes |
 | review | /reviews/trendtrack | /reviews/pipiads | 2.9% | yes |
 | review | /reviews/trendtrack | /reviews/shophunter | 2.6% | yes |
-| review | /winninghunter-review | /reviews/kalodata | 0.8% | yes |
+| review | /winninghunter-review | /reviews/kalodata | 0.7% | yes |
 | review | /winninghunter-review | /reviews/trendtrack | 0.7% | yes |
 | review | /winninghunter-review | /reviews/pipiads | 0.6% | yes |
 | review | /winninghunter-review | /reviews/shophunter | 0.5% | yes |
