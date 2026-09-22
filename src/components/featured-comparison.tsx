@@ -1,0 +1,6 @@
+import { ArrowUpRight } from "lucide-react";
+import { TrackedLink } from "./tracked-link";
+
+export function FeaturedComparison() {
+  return <section className="featured-comparison" aria-labelledby="featured-comparison-title"><div className="site-container"><div className="featured-comparison-kicker"><p className="eyebrow">Featured comparison</p><span>Evidence checked September 21, 2026</span></div><div className="featured-comparison-heading"><div><h2 id="featured-comparison-title">WinningHunter vs Kalodata</h2><p>Choose between an ad-to-product and Shopify path or a TikTok Shop marketplace path.</p></div><TrackedLink href="/winninghunter-vs-kalodata" className="button-primary" eventName="internal_link_click" eventParams={{ placement: "home_featured_comparison", label: "Read the full comparison" }}>Read the full comparison <ArrowUpRight className="size-4" aria-hidden="true" /></TrackedLink></div><div className="featured-comparison-grid"><div><strong>WinningHunter</strong><p>Product, advertising and Shopify store research in one connected brief.</p><small>Public starting price: $49/month</small></div><div><strong>Kalodata</strong><p>TikTok Shop products, shops, creators and content research.</p><small>Public price not confirmed</small></div></div></div></section>;
+}

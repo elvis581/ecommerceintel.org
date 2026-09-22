@@ -16,7 +16,7 @@ export const metadata = createMetadata(`${title} | EcommerceIntel`, description,
 const schema = [
   { "@context": "https://schema.org", "@type": "CollectionPage", "@id": `${url}#content`, name: title, description, url, inLanguage: "en", isAccessibleForFree: true, keywords: topics, about: topics.map((name) => ({ "@type": "Thing", name })), creator: { "@id": `${siteConfig.url}/about#editor` }, publisher: { "@id": `${siteConfig.url}/#organization` }, mainEntity: { "@id": `${url}#directory` } },
   { "@context": "https://schema.org", "@type": "ItemList", "@id": `${url}#directory`, name: "EcommerceIntel reviews, comparisons and alternatives", numberOfItems: reviewsDirectoryItems.length, itemListElement: reviewsDirectoryItems.map((item, index) => ({ "@type": "ListItem", position: index + 1, name: item.title, url: `${siteConfig.url}${item.href}` })) },
-  { "@context": "https://schema.org", "@type": "Organization", "@id": `${siteConfig.url}/#organization`, name: siteConfig.name, url: siteConfig.url, logo: { "@type": "ImageObject", url: `${siteConfig.url}/icon.svg` } },
+  { "@context": "https://schema.org", "@type": "Organization", "@id": `${siteConfig.url}/#organization`, name: siteConfig.name, url: siteConfig.url, logo: { "@type": "ImageObject", url: `${siteConfig.url}/android-chrome-512x512.png`, width: 512, height: 512 } },
   { "@context": "https://schema.org", "@type": "Person", "@id": `${siteConfig.url}/about#editor`, name: siteConfig.editorialAuthor.name, url: `${siteConfig.url}/about`, description: siteConfig.editorialAuthor.description, worksFor: { "@id": `${siteConfig.url}/#organization` } },
   { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url }, { "@type": "ListItem", position: 2, name: title, item: url }] },
 ];
@@ -24,7 +24,7 @@ const schema = [
 export default function ReviewsPage() {
   return <main><article>
     <JsonLd data={schema} />
-    <header className="article-header"><div className="site-container"><Breadcrumb current="Ecommerce Tool Reviews" /><p className="eyebrow">Research files</p><h1>{title}</h1><p className="article-intro">Independent reviews of product research, ad intelligence, store tracking and TikTok Shop tools.</p></div></header>
+    <header className="article-header"><div className="site-container"><Breadcrumb current="Ecommerce Tool Reviews" /><p className="eyebrow">Research files</p><h1>{title}</h1><p className="article-intro">These files help ecommerce operators choose, compare or replace research software. Each review states the workflow it supports, the evidence basis, current price status, main limitation and the next check before subscribing.</p></div></header>
     <div className="site-container page-band reviews-directory">
       <div className="reviews-directory-intro"><p>Start with the decision, then choose the file: a review tests one product, a comparison puts two named tools through the same brief, and an alternatives guide starts with a specific reason to switch. Every card shows the best fit, current price status, evidence basis and next action.</p><TrackedLink href="/compare" eventName="internal_link_click" eventParams={{placement:"reviews_intro",label:"Compare ecommerce tools"}} className="mt-5 inline-flex font-extrabold text-orange-700 hover:text-orange-900">Open the matched comparisons</TrackedLink></div>
       <ReviewsDirectory />

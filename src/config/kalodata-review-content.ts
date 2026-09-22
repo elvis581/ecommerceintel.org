@@ -29,6 +29,7 @@ export const kalodataReviewContent = {
   sectionCtas: [
     { afterSection: "Quick Verdict", eyebrow: "Test the workflow before paying", heading: "Run One Complete Kalodata Research Cycle", description: "Research one category, inspect the leading products, shops, creators and content, then decide whether Kalodata changes the final product or creator decision.", toolKey: "kalodata", label: "Start Kalodata's 7-Day Trial" },
     { afterSection: "Kalodata Pricing: How to Choose a Plan", eyebrow: "Before you subscribe", heading: "Compare Current Kalodata Limits", description: "Confirm the markets, history, product and creator views, saved research and team allowances included in the current plan.", toolKey: "kalodata", label: "Check Current Kalodata Plans", secondaryHref: "/compare", secondaryLabel: "Open the Comparison Hub" },
+    { afterSection: "What Is Kalodata?", eyebrow: "A different research path", heading: "Check WinningHunter for Ad-to-Store Research", description: "If the brief starts with a paid-social ad and ends with a Shopify store or product record, test WinningHunter before adding another TikTok Shop dashboard.", toolKey: "winninghunter", label: "Explore WinningHunter", secondaryHref: "/winninghunter-review", secondaryLabel: "Read the review" },
   ],
   sections: [
     { heading: "Quick Verdict", id: "quick-verdict", blocks: [

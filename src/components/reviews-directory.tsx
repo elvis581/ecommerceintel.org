@@ -12,6 +12,14 @@ const filters: { label: string; value: "all" | ReviewsDirectoryType }[] = [
   { label: "Alternatives", value: "alternatives" },
   { label: "Pricing", value: "pricing" },
 ];
+const workflowFilters = [
+  { label: "All workflows", value: "all" },
+  { label: "Product research", value: "product" },
+  { label: "Ad intelligence", value: "ad" },
+  { label: "Shopify", value: "shopify" },
+  { label: "TikTok Shop", value: "tiktok" },
+  { label: "Store tracking", value: "store" },
+] as const;
 
 const sectionLabels: Record<ReviewsDirectoryType, string> = {
   reviews: "Reviews",
@@ -32,6 +40,7 @@ const reviewIcons = {
 
 export function ReviewsDirectory() {
   const [activeFilter, setActiveFilter] = useState<"all" | ReviewsDirectoryType>("all");
+  const [activeWorkflow, setActiveWorkflow] = useState<(typeof workflowFilters)[number]["value"]>("all");
   const visibleSections = (Object.keys(sectionLabels) as ReviewsDirectoryType[]).filter((type) => activeFilter === "all" || activeFilter === type);
   const selectFilter = (event: KeyboardEvent<HTMLButtonElement>, value: "all" | ReviewsDirectoryType) => {
     if (event.key !== "Enter" && event.key !== " ") return;
@@ -39,13 +48,31 @@ export function ReviewsDirectory() {
     setActiveFilter(value);
   };
 
+  const matchesWorkflow = (item: ReviewsDirectoryItem) => {
+    if (activeWorkflow === "all") return true;
+    const searchText = `${item.title} ${item.bestFor} ${item.platform}`.toLowerCase();
+    const terms: Record<Exclude<typeof activeWorkflow, "all">, string[]> = {
+      product: ["product", "research"],
+      ad: ["ad", "advertising", "creative", "paid-social"],
+      shopify: ["shopify", "store"],
+      tiktok: ["tiktok"],
+      store: ["store", "shopify"],
+    };
+    return terms[activeWorkflow].some((term) => searchText.includes(term));
+  };
+
   return <>
     <div className="reviews-filters" aria-label="Filter review pages">
       {filters.map((filter) => <button key={filter.value} type="button" aria-pressed={activeFilter === filter.value} onClick={() => setActiveFilter(filter.value)} onKeyDown={(event) => selectFilter(event, filter.value)}>{filter.label}</button>)}
     </div>
+    <div className="reviews-filters reviews-workflow-filters" aria-label="Filter by research workflow">
+      <span className="reviews-filter-label">Workflow</span>
+      {workflowFilters.map((filter) => <button key={filter.value} type="button" aria-pressed={activeWorkflow === filter.value} onClick={() => setActiveWorkflow(filter.value)}>{filter.label}</button>)}
+    </div>
     <div aria-live="polite">
       {visibleSections.map((type) => {
-        const items = reviewsDirectoryItems.filter((item) => item.type === type).sort((left, right) => Number(Boolean(right.featured)) - Number(Boolean(left.featured)));
+        const items = reviewsDirectoryItems.filter((item) => item.type === type && matchesWorkflow(item)).sort((left, right) => Number(Boolean(right.featured)) - Number(Boolean(left.featured)));
+        if (!items.length) return null;
         return <section className="reviews-directory-section" key={type}>
           <h2>{sectionLabels[type]}</h2>
           <div className={`reviews-card-grid ${type !== "reviews" ? "reviews-card-grid-small" : ""}`}>

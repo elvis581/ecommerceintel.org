@@ -1,13 +1,14 @@
 import { createMetadata } from "@/lib/seo/metadata";
 import { ArticleLayout } from "@/components/article-layout";
 import { articlePageMap } from "@/config/pages";
+import { finalPageContentOverrides } from "@/config/final-page-content-overrides";
 import { JsonLd } from "@/components/json-ld";
 import { articleSchema } from "@/lib/seo/schema";
 
-export const metadata = createMetadata("Ecommerce Research Resources for Operators", "Research resources for choosing ecommerce intelligence, ad research and product research software.", "/resources");
+export const metadata = createMetadata("Ecommerce Research Checklists and Resources", "Use practical ecommerce product research, tool trial and ad research checklists, then open the relevant EcommerceIntel guide.", "/resources");
 
 export default function ResourcesPage() {
-  const page = articlePageMap["resources"] || {
+  const fallbackPage = {
     slug: "resources", title: "Ecommerce Research Resources for Operators", h1: "Ecommerce Research Resources for Operators",
     description: "Research resources for ecommerce operators.", eyebrow: "Resources",
     intro: "Use the published reviews and comparisons as a structured path for ecommerce research decisions.",
@@ -27,5 +28,6 @@ export default function ResourcesPage() {
       { title: "Compare Ecommerce Tools", description: "Use matched tests for named product comparisons.", href: "/compare", label: "Comparisons" },
     ],
   };
+  const page = articlePageMap["resources"] || { ...fallbackPage, ...finalPageContentOverrides.resources };
   return <><JsonLd data={articleSchema(page)} /><ArticleLayout page={page} /></>;
 }

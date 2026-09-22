@@ -1,4 +1,4 @@
-import type { ArticlePage, ContentBlock } from "@/config/pages";
+import { articlePageMap, type ArticlePage, type ContentBlock } from "@/config/pages";
 import { pricingByTool, pricingNotice } from "@/config/pricing";
 import { Breadcrumb } from "./breadcrumb";
 import { LastUpdated } from "./last-updated";
@@ -39,8 +39,11 @@ const textPanelHeadings = new Set([
 export function ArticleLayout({ page }: { page: ArticlePage }) {
   const comparisonRows = comparisonRowsBySlug[page.slug];
   const ctaKeys = page.toolKeys || (page.toolKey ? [page.toolKey] : []);
-  const disclosureToolKeys = page.reviewDecision ? [...ctaKeys, page.reviewDecision.toolKey] : ctaKeys;
+  const sectionCtaKeys = page.sectionCtas?.map((cta) => cta.toolKey) || [];
+  const disclosureToolKeys = page.reviewDecision ? [...ctaKeys, page.reviewDecision.toolKey, ...sectionCtaKeys] : [...ctaKeys, ...sectionCtaKeys];
   const sectionIds = getSectionIds(page.sections);
+  const sponsoredFinalTools = ctaKeys.filter((toolKey) => affiliateTools[toolKey]?.isAffiliateEnabled || affiliateTools[toolKey]?.isSponsored);
+  const finalToolKeys = sponsoredFinalTools.length ? sponsoredFinalTools.slice(0, 1) : ctaKeys.slice(0, 1);
   const hasSponsoredLink = disclosureToolKeys.some((toolKey) => {
     const tool = affiliateTools[toolKey];
     return Boolean(tool?.isAffiliateEnabled || tool?.isSponsored);
@@ -53,7 +56,7 @@ export function ArticleLayout({ page }: { page: ArticlePage }) {
       <article className={`article-container article-main ${page.kind === "review" ? "review-article" : ""}`}>
       <div className="article-main-top py-10 sm:py-14">
         {page.kind === "review" && <ReviewSignalRow page={page} />}
-        {!page.hideQuickVerdict && <QuickVerdict text={page.verdict} label={page.verdictLabel} />}
+        {!page.hideQuickVerdict && page.slug !== "winninghunter-pricing" && page.kind !== "comparison" && page.slug !== "winninghunter-alternatives" && <QuickVerdict text={page.verdict} label={page.verdictLabel} />}
         {page.slug === "winninghunter-pricing" && <section id={sectionIds[0]} className="article-section pricing-first-snapshot"><p className="eyebrow">Current pricing snapshot</p><h2>WinningHunter plans at a glance</h2><p>The public monthly amounts are the fastest way to frame this buying decision. Check the plan differences and official terms before committing.</p>{page.sections[0]?.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}<PricingCards /><PricingTable toolKey="winninghunter" /></section>}
         {page.kind === "comparison" && <><ComparisonSnapshot page={page} />{page.sections[0] && <section id={sectionIds[0]} className="comparison-quick-table"><h2>Quick comparison</h2>{page.sections[0].paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}{page.sections[0].blocks?.map((block, index) => <ArticleContentBlock key={`comparison-quick-${index}`} block={block} />)}</section>}</>}
         {page.slug === "winninghunter-alternatives" && <AlternativesSnapshot />}
@@ -71,16 +74,17 @@ export function ArticleLayout({ page }: { page: ArticlePage }) {
         {page.showPricingNotice && <DisclosureBox text={`${pricingNotice.title}: ${pricingNotice.body}`} />}
         {!page.hideFaq && <Faq items={page.faqs} />}
         {!page.hideSourceList && <SourceList slug={page.slug} />}
-        {!page.hideFinalCta && ctaKeys.length > 0 && <section className="article-section commercial-cta-section"><h2>Verify the current product record</h2><p>Open the official destination to confirm the markets, plan limits, pricing and trial terms that apply to this decision.</p><div className="grid gap-4">{page.finalCta ? <AffiliateCta toolKey={page.finalCta.toolKey} ctaLabel={page.finalCta.label} eyebrow={page.finalCta.eyebrow} heading={page.finalCta.heading} description={page.finalCta.description} placement="review_final_cta" secondaryHref={page.finalCta.secondaryHref} secondaryLabel={page.finalCta.secondaryLabel} /> : ctaKeys.map((toolKey) => <AffiliateCta key={toolKey} toolKey={toolKey} />)}</div></section>}
+        {!page.hideFinalCta && ctaKeys.length > 0 && <section className="article-section commercial-cta-section"><h2>Verify the current product record</h2><p>Open the official destination to confirm the markets, plan limits, pricing and trial terms that apply to this decision.</p><div className="grid gap-4">{page.finalCta ? <AffiliateCta toolKey={page.finalCta.toolKey} ctaLabel={page.finalCta.label} eyebrow={page.finalCta.eyebrow} heading={page.finalCta.heading} description={page.finalCta.description} placement="review_final_cta" secondaryHref={page.finalCta.secondaryHref} secondaryLabel={page.finalCta.secondaryLabel} /> : finalToolKeys.map((toolKey) => <AffiliateCta key={toolKey} toolKey={toolKey} />)}</div></section>}
         <InternalLinks slugs={page.related} />
         {page.disclaimer && <p className="standard-estimate-disclaimer mt-5 text-sm leading-6 text-slate-500">{page.disclaimer}</p>}
-        {page.kind !== "review" && page.kind !== "legal" && <section className="article-section decision-box"><h2>Editorial handoff</h2><p>{page.verdict}</p></section>}
+        {page.kind !== "review" && page.kind !== "legal" && !page.hideOperatorView && <section className="article-section decision-box"><h2>Editorial handoff</h2><p>{page.verdict}</p></section>}
       </div>
       </article>
       <aside className="article-sidebar" aria-label="Article navigation and recommendation">
         <TableOfContents sections={page.sections} className="article-toc" />
-        <div className="article-sidebar-card"><p className="eyebrow">Current recommendation</p><h2>{page.kind === "comparison" ? "Match the tool to the starting entity" : page.toolKey === "winninghunter" ? "Check WinningHunter against one known brief" : "Start with the smallest useful test"}</h2><p>{page.kind === "comparison" ? "Use the same market, entities and date range before choosing a subscription." : "Confirm current pricing, coverage and limits before a longer commitment."}</p><TrackedLink href={page.kind === "comparison" ? "/compare" : page.slug === "winninghunter-pricing" ? "/winninghunter-review" : page.toolKey === "winninghunter" ? "/winninghunter-pricing" : "/reviews"} className="button-secondary" eventName="internal_link_click" eventParams={{placement:"article_sidebar",label:"Current recommendation"}}>{page.slug === "winninghunter-pricing" ? "Read the review first" : "Review the next check"}</TrackedLink></div>
+        {!page.hideOperatorView && <div className="article-sidebar-card"><p className="eyebrow">Current recommendation</p><h2>{page.kind === "comparison" ? "Match the tool to the starting entity" : page.toolKey === "winninghunter" ? "Check WinningHunter against one known brief" : "Start with the smallest useful test"}</h2><p>{page.kind === "comparison" ? "Use the same market, entities and date range before choosing a subscription." : "Confirm current pricing, coverage and limits before a longer commitment."}</p><TrackedLink href={page.kind === "comparison" ? "/compare" : page.slug === "winninghunter-pricing" ? "/winninghunter-review" : page.toolKey === "winninghunter" ? "/winninghunter-pricing" : "/reviews"} className="button-secondary" eventName="internal_link_click" eventParams={{placement:"article_sidebar",label:"Current recommendation"}}>{page.slug === "winninghunter-pricing" ? "Read the review first" : "Review the next check"}</TrackedLink></div>}
         {hasSponsoredLink && <p className="article-sidebar-disclosure">Some links may be affiliate links. The editorial criteria stay independent.</p>}
+        {page.related.length > 0 && <nav className="article-sidebar-related" aria-label="Related pages"><p className="eyebrow">Related pages</p><ul>{page.related.slice(0, 3).map((slug) => { const related = articlePageMap[slug] || (slug === "reviews" ? { h1: "Reviews & Comparisons" } : null); return related ? <li key={slug}><TrackedLink href={`/${slug}`} eventName="internal_link_click" eventParams={{ placement: "article_sidebar_related", destination: `/${slug}` }}>{related.h1}</TrackedLink></li> : null; })}</ul></nav>}
       </aside>
       </div>
     </main>
@@ -116,7 +120,7 @@ function PricingTable({ toolKey }: { toolKey: string }) {
     <div className="article-table" tabIndex={0} aria-label={`${record.tool} pricing and plan comparison`}>
       <table><thead><tr><th scope="col">Plan</th><th scope="col">Monthly</th><th scope="col">Quarterly</th><th scope="col">Yearly</th><th scope="col">Publicly listed differences</th></tr></thead>
       <tbody>{record.plans.map((plan) => <tr key={plan.name}><th scope="row">{plan.name}</th><td>{plan.monthly}</td><td>{derivedAmount(plan.monthly, 3, .15)} / quarter<br /><small>15% off, derived</small></td><td>{derivedAmount(plan.monthly, 12, .4)} / year<br /><small>40% off, derived</small></td><td>{("features" in plan && plan.features ? plan.features.join("; ") : "Plan-specific limits require official account verification.")}</td></tr>)}</tbody></table>
-      <p className="article-table-caption">Monthly amounts are shown as published. Quarterly and yearly totals are arithmetic estimates from the public monthly price and stated discount, not a checkout receipt; verify the exact total, renewal and cancellation terms before paying. <a href={record.sourceUrl} target="_blank" rel="noopener noreferrer">Official pricing source</a></p>
+      <p className="article-table-caption">Monthly amounts are shown as published. Derived estimate based on the published monthly price and stated discount. Quarterly and yearly totals are arithmetic estimates, not a checkout receipt; verify the exact total, renewal and cancellation terms before paying. <a href={record.sourceUrl} target="_blank" rel="noopener noreferrer">Official pricing source</a></p>
     </div>
   </div>;
 }

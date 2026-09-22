@@ -13,7 +13,7 @@ export function goneResponse(pageName: string) {
     <main>
       <h1>This page has been removed</h1>
       <p>${pageName} is no longer part of EcommerceIntel.</p>
-      <p><a href="/best-ecommerce-intelligence-tools">Browse the current ecommerce intelligence tools guide</a>.</p>
+      <p><a href="/reviews">Browse the current EcommerceIntel reviews and comparisons</a>.</p>
     </main>
   </body>
 </html>`;

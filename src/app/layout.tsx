@@ -15,8 +15,15 @@ export const metadata: Metadata = {
   title: { default: siteConfig.name, template: "%s" },
   description: siteConfig.description,
   applicationName: siteConfig.name,
-  manifest: "/manifest.webmanifest",
-  icons: { icon: "/icon.svg", apple: "/apple-icon" },
+  manifest: "/site.webmanifest",
+  icons: {
+    icon: [
+      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-16x16.png", type: "image/png", sizes: "16x16" },
+      { url: "/favicon.ico", type: "image/x-icon" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

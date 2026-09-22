@@ -1,4 +1,5 @@
-import { ArrowUpRight, CheckCircle2 } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
+import { DecisionMatrix } from "./decision-matrix";
 import { TrackedLink } from "./tracked-link";
 
 export function Hero() {
@@ -6,22 +7,14 @@ export function Hero() {
     <div className="site-container home-hero-grid">
       <div className="home-hero-copy">
         <p className="home-hero-kicker"><span>RESEARCH DESK / 2026</span></p>
-        <h1>Ecommerce intelligence tools, reviewed for real operating decisions.</h1>
-        <p className="home-hero-dek">Choose the next research move before you choose a tool. Independent reviews for product, ad, store and marketplace research, with evidence boundaries beside every recommendation.</p>
+        <h1>Choose the right ecommerce research tool.</h1>
+        <p className="home-hero-dek">Independent, operator-led reviews for product, ad, store and marketplace research. See what each tool can support, what remains unverified and when it is worth paying for.</p>
         <div className="home-hero-actions">
-          <TrackedLink href="/winninghunter-review" className="button-primary" eventName="start_here_click" eventParams={{ location: "hero", destination: "winninghunter_review" }}>Read the WinningHunter Review <ArrowUpRight className="size-4" /></TrackedLink>
-          <TrackedLink href="/compare" className="home-hero-secondary" eventName="start_here_click" eventParams={{ location: "hero", destination: "compare" }}>Compare Ecommerce Tools</TrackedLink>
+          <TrackedLink href="/reviews" className="button-primary" eventName="start_here_click" eventParams={{ location: "hero", destination: "reviews" }}>Start with the shortlist <ArrowUpRight className="size-4" /></TrackedLink>
+          <TrackedLink href="/methodology" className="home-hero-secondary" eventName="start_here_click" eventParams={{ location: "hero", destination: "methodology" }}>See the methodology</TrackedLink>
         </div>
-        <div className="home-hero-proof">{["Decision before features", "Sources beside claims", "A reason to skip"].map((item) => <span key={item}><CheckCircle2 className="size-4" />{item}</span>)}</div>
       </div>
-      <aside className="home-hero-board">
-        <div className="home-hero-board-top"><span>01</span><span>Decision queue</span><span>Open</span></div>
-        <div className="home-hero-board-rule" />
-        <p className="home-hero-board-label">Before subscribing</p>
-        <h2>Write the brief that the tool must complete.</h2>
-        <ol><li><span>01</span><p>Name the market and known example.</p></li><li><span>02</span><p>Record what the source actually proves.</p></li><li><span>03</span><p>Set the check that remains outside the dashboard.</p></li></ol>
-        <TrackedLink href="/methodology" className="home-hero-board-link" eventName="internal_link_click" eventParams={{ placement: "hero_board", label: "Read methodology" }}>Read the method <ArrowUpRight className="size-4" /></TrackedLink>
-      </aside>
+      <DecisionMatrix />
     </div>
   </section>;
 }

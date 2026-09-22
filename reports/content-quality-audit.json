@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-09-21T09:52:50.207Z",
+    "generatedAt": "2026-09-22T03:41:28.382Z",
     "baseUrl": "http://127.0.0.1:4311",
     "pagesAudited": 12,
     "thresholds": {
@@ -27,20 +27,20 @@
     {
       "route": "/",
       "articleType": "hub",
-      "editorialWords": 610,
+      "editorialWords": 649,
       "minWords": 250,
-      "editorialParagraphs": 19,
+      "editorialParagraphs": 15,
       "faqAnswers": 0,
       "officialSources": 0,
       "voiceViolations": [],
-      "hasFirstPersonSingular": false,
-      "operatorJudgments": 0,
+      "hasFirstPersonSingular": true,
+      "operatorJudgments": 2,
       "operatorStyleViolations": []
     },
     {
       "route": "/reviews",
       "articleType": "hub",
-      "editorialWords": 387,
+      "editorialWords": 430,
       "minWords": 250,
       "editorialParagraphs": 12,
       "faqAnswers": 0,
@@ -66,20 +66,20 @@
     {
       "route": "/winninghunter-review",
       "articleType": "review",
-      "editorialWords": 2092,
+      "editorialWords": 2348,
       "minWords": 650,
-      "editorialParagraphs": 58,
+      "editorialParagraphs": 59,
       "faqAnswers": 0,
       "officialSources": 3,
       "voiceViolations": [],
       "hasFirstPersonSingular": true,
-      "operatorJudgments": 10,
+      "operatorJudgments": 18,
       "operatorStyleViolations": []
     },
     {
       "route": "/winninghunter-alternatives",
       "articleType": "alternatives",
-      "editorialWords": 646,
+      "editorialWords": 624,
       "minWords": 500,
       "editorialParagraphs": 17,
       "faqAnswers": 0,
@@ -92,40 +92,40 @@
     {
       "route": "/winninghunter-vs-kalodata",
       "articleType": "comparison",
-      "editorialWords": 896,
+      "editorialWords": 864,
       "minWords": 600,
       "editorialParagraphs": 28,
       "faqAnswers": 0,
       "officialSources": 2,
       "voiceViolations": [],
       "hasFirstPersonSingular": true,
-      "operatorJudgments": 11,
+      "operatorJudgments": 10,
       "operatorStyleViolations": []
     },
     {
       "route": "/winninghunter-vs-pipiads",
       "articleType": "comparison",
-      "editorialWords": 866,
+      "editorialWords": 834,
       "minWords": 600,
       "editorialParagraphs": 28,
       "faqAnswers": 0,
       "officialSources": 3,
       "voiceViolations": [],
       "hasFirstPersonSingular": true,
-      "operatorJudgments": 11,
+      "operatorJudgments": 10,
       "operatorStyleViolations": []
     },
     {
       "route": "/winninghunter-vs-shophunter",
       "articleType": "comparison",
-      "editorialWords": 869,
+      "editorialWords": 837,
       "minWords": 600,
       "editorialParagraphs": 28,
       "faqAnswers": 0,
       "officialSources": 3,
       "voiceViolations": [],
       "hasFirstPersonSingular": true,
-      "operatorJudgments": 11,
+      "operatorJudgments": 10,
       "operatorStyleViolations": []
     },
     {
@@ -208,14 +208,6 @@
     },
     {
       "articleType": "review",
-      "left": "/winninghunter-review",
-      "right": "/reviews/kalodata",
-      "similarity": 0.0068,
-      "threshold": 0.46,
-      "pass": true
-    },
-    {
-      "articleType": "review",
       "left": "/reviews/kalodata",
       "right": "/reviews/trendtrack",
       "similarity": 0.0065,
@@ -234,14 +226,14 @@
       "articleType": "review",
       "left": "/winninghunter-review",
       "right": "/reviews/trendtrack",
-      "similarity": 0.0062,
+      "similarity": 0.0057,
       "threshold": 0.46,
       "pass": true
     },
     {
       "articleType": "review",
       "left": "/winninghunter-review",
-      "right": "/reviews/pipiads",
+      "right": "/reviews/kalodata",
       "similarity": 0.0055,
       "threshold": 0.46,
       "pass": true
@@ -249,8 +241,8 @@
     {
       "articleType": "review",
       "left": "/winninghunter-review",
-      "right": "/reviews/shophunter",
-      "similarity": 0.0044,
+      "right": "/reviews/pipiads",
+      "similarity": 0.0051,
       "threshold": 0.46,
       "pass": true
     },
@@ -259,6 +251,14 @@
       "left": "/reviews/kalodata",
       "right": "/reviews/pipiads",
       "similarity": 0.0042,
+      "threshold": 0.46,
+      "pass": true
+    },
+    {
+      "articleType": "review",
+      "left": "/winninghunter-review",
+      "right": "/reviews/shophunter",
+      "similarity": 0.0041,
       "threshold": 0.46,
       "pass": true
     }

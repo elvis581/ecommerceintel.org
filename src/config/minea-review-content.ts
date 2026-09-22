@@ -26,6 +26,7 @@ export const mineaReviewContent = {
   sectionCtas: [
     { afterSection: "Quick Verdict", eyebrow: "Use a known advertiser", heading: "Start Minea Product Research with One Real Brief", description: "Test the channels, image search and store connections you actually need before choosing a longer subscription.", toolKey: "minea", label: "Start Minea Product Research" },
     { afterSection: "Minea Pricing: Which Plan Should You Choose?", eyebrow: "Before you subscribe", heading: "Compare Current Minea Plans and Credits", description: "Confirm current channel access, search credits, tracking limits, seats and billing terms on Minea's official pricing page.", toolKey: "minea", label: "Check Current Minea Plans", secondaryHref: "/winninghunter-review", secondaryLabel: "Compare WinningHunter" },
+    { afterSection: "What Minea Actually Does", eyebrow: "A narrower alternative", heading: "Check WinningHunter's Shopify Research Path", description: "Use WinningHunter when the recurring question is connecting paid-social activity with products, stores and competitors instead of covering every channel.", toolKey: "winninghunter", label: "Explore WinningHunter", secondaryHref: "/winninghunter-review", secondaryLabel: "Read the review" },
   ],
   sections: [
     { heading: "Quick Verdict", id: "quick-verdict", blocks: [
