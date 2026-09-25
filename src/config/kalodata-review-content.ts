@@ -1,10 +1,10 @@
 import type { ArticlePage } from "./pages";
 
 export const kalodataReviewContent = {
-  title: "Kalodata Review 2026: Is It Worth It for TikTok Shop Sellers?",
-  h1: "Kalodata Review 2026: Is It Worth It for TikTok Shop Sellers?",
-  description: "An operator-led Kalodata review covering TikTok Shop product research, shop and creator analysis, video and live data, accuracy, pricing and ideal users.",
-  intro: "The hard part of TikTok Shop research is not finding a product with a large GMV estimate. It is deciding whether the demand is consistent, distributed across shops and creators, supported by repeatable content and operationally worth testing. I would recommend Kalodata to active TikTok Shop sellers and agencies that need that connected workflow every week.",
+  title: "Kalodata Review 2026: Pricing, TikTok Shop Data & Who It's For",
+  h1: "Kalodata Review 2026: Pricing, TikTok Shop Data & Who It's For",
+  description: "Kalodata review covering TikTok Shop product research, Kalodata pricing, free trial and login questions, shop and creator analysis, video and live data.",
+  intro: "The hard part of TikTok Shop research is not finding a product with a large GMV estimate. It is deciding whether the demand is consistent, distributed across shops and creators, supported by repeatable content and operationally worth testing. Some searchers separate the name as Kala Data, but the operating question stays the same. I would recommend Kalodata to active TikTok Shop sellers and agencies that need that connected workflow every week.",
   verdict: "Kalodata is most useful as a connected TikTok Shop market-research platform. Its value comes from linking categories, products, shops, creators, videos and livestreams so an operator can explain where demand appears to come from. Start with the current official trial or entry plan, complete one real research cycle and pay only when the workflow changes a product, creator or monitoring decision.",
   bestFor: ["Active TikTok Shop sellers researching products every week", "Brands and affiliates evaluating creators and content", "Agencies monitoring several products, shops or clients", "Teams that need historical context and connected marketplace entities"],
   watchFor: ["Estimated GMV is not store accounting", "Detailed fields and history depend on the current plan", "Large result sets can create data overload", "The tool cannot validate margin, logistics or supplier quality"],
@@ -28,7 +28,7 @@ export const kalodataReviewContent = {
   finalCta: undefined,
   sectionCtas: [
     { afterSection: "Quick Verdict", eyebrow: "Test the workflow before paying", heading: "Run One Complete Kalodata Research Cycle", description: "Research one category, inspect the leading products, shops, creators and content, then decide whether Kalodata changes the final product or creator decision.", toolKey: "kalodata", label: "Start Kalodata's 7-Day Trial" },
-    { afterSection: "Kalodata Pricing: How to Choose a Plan", eyebrow: "Before you subscribe", heading: "Compare Current Kalodata Limits", description: "Confirm the markets, history, product and creator views, saved research and team allowances included in the current plan.", toolKey: "kalodata", label: "Check Current Kalodata Plans", secondaryHref: "/compare", secondaryLabel: "Open the Comparison Hub" },
+    { afterSection: "Kalodata pricing, Kalodata free trial and Kalodata login checks", eyebrow: "Before you subscribe", heading: "Compare Current Kalodata Limits", description: "Confirm the markets, history, product and creator views, saved research and team allowances included in the current plan.", toolKey: "kalodata", label: "Check Current Kalodata Plans", secondaryHref: "/compare", secondaryLabel: "Open the Comparison Hub" },
     { afterSection: "What Is Kalodata?", eyebrow: "A different research path", heading: "Check WinningHunter for Ad-to-Store Research", description: "If the brief starts with a paid-social ad and ends with a Shopify store or product record, test WinningHunter before adding another TikTok Shop dashboard.", toolKey: "winninghunter", label: "Explore WinningHunter", secondaryHref: "/winninghunter-review", secondaryLabel: "Read the review" },
   ],
   sections: [
@@ -44,6 +44,10 @@ export const kalodataReviewContent = {
     { heading: "What Is Kalodata?", blocks: [
       { type: "paragraph", text: "Kalodata is an independent analytics platform built around TikTok Shop research. Its main navigation covers categories, shops, creators, products, videos and ads, and livestreams." },
       { type: "paragraph", text: "The shop-detail workflow separates information into Overview, Creator, Product, Video and Ad, and Live sections. That structure matches how TikTok Shop demand develops because a sale normally reflects a combination of shop activity, creator distribution, content, offers and livestream performance." },
+    ] },
+    { heading: "Kalodata app and Kalodata TikTok Shop search intent", blocks: [
+      { type: "paragraph", text: "The keyword set includes Kalodata app and Kalodata TikTok Shop searches. Those terms describe how people want to access or use the product, but they do not prove that every market, mobile surface or account view is included in the current plan." },
+      { type: "paragraph", text: "Confirm the official account entry point, supported markets, product history and export access before building a workflow around an app or a particular TikTok Shop module. The core value remains the connected category-to-product-to-shop-to-creator path." },
     ] },
     { heading: "Who Kalodata Is Really Built For", blocks: [
       { type: "subheading", text: "Best-fit operating models" },
@@ -122,8 +126,8 @@ export const kalodataReviewContent = {
       { type: "paragraph", text: "Kalodata says transaction and ad-spend data may differ from real-world figures and advises against using the data in situations requiring high precision." },
       { type: "quote", text: "Use Kalodata to compare opportunities and identify patterns, not to calculate exact expected profit." },
     ] },
-    { heading: "Kalodata Pricing: How to Choose a Plan", blocks: [
-      { type: "paragraph", text: "Kalodata's pricing, trial and allowances can change. Check the official destination for the current entry terms and confirm whether the workflow you need is included." },
+    { heading: "Kalodata pricing, Kalodata free trial and Kalodata login checks", blocks: [
+      { type: "paragraph", text: "Kalodata pricing, free-trial availability, login access and allowances can change. Check the official destination for the current entry terms and confirm whether the workflow you need is included." },
       { type: "subheading", text: "Occasional researcher" },
       { type: "paragraph", text: "Use the trial or entry-level access for occasional product checks, category research, basic trend review and limited competitor research." },
       { type: "subheading", text: "Active individual seller" },
@@ -157,6 +161,9 @@ export const kalodataReviewContent = {
     { question: "Can Kalodata find guaranteed winning products?", answer: "No. Kalodata can identify products, shops, creators, videos, livestreams and market signals. Profitability still depends on margin, inventory, logistics, commission, content quality and execution." },
     { question: "Is Kalodata accurate?", answer: "It is most useful for relative comparisons and market patterns. Transaction and ad-spend estimates may differ from actual platform or store records." },
     { question: "Does Kalodata offer a free trial?", answer: "Trial availability and conditions can change. Check the official Kalodata destination for the current offer and confirm which markets, history and entity views are included." },
+    { question: "What is Kalodata pricing?", answer: "Kalodata pricing and plan allowances require a current official check. Compare the live billing term, market access, history, saved research and entity views with one normal TikTok Shop brief." },
+    { question: "How do I log in to Kalodata?", answer: "Use the official Kalodata destination for account access. A login page does not establish which product, shop, creator, video or livestream fields a plan includes." },
+    { question: "Is there a Kalodata app for TikTok Shop research?", answer: "The keyword set shows demand for an app and TikTok Shop access. Confirm the current official product surface and account support before assuming a mobile app or specific module is included." },
     { question: "Which Kalodata plan is best?", answer: "Choose the lowest tier that provides enough product, shop, creator, video, live and historical-data access for the actual weekly workflow." },
     { question: "Is Kalodata good for TikTok Shop affiliates?", answer: "It can help affiliates identify products, study creators and research converting content angles. It cannot guarantee that the same product will convert for another creator." },
     { question: "Is Kalodata useful for Amazon sellers?", answer: "Only as a supplementary source of TikTok demand and content intelligence. It does not replace Amazon keyword, ranking, PPC, review or FBA research tools." },
