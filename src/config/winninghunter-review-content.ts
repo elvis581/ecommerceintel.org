@@ -1,10 +1,10 @@
 import type { ArticlePage } from "./pages";
 
 export const winningHunterReviewContent = {
-  title: "WinningHunter Review 2026: Features, Pricing & Who It's Best For",
-  h1: "WinningHunter Review 2026: Features, Pricing & Who It's Best For",
-  description: "WinningHunter review covering features, pricing checks, ad research, Shopify store context and who should use it.",
-  intro: "The hard part is not finding another active ad; it is deciding whether the opportunity survives shipping, margin, creative, competition and return risk. This research-based review evaluates WinningHunter's ad-to-store path and asks whether it improves a real weekly decision. I would keep it only when the record produces a clearer shortlist than the current manual process.",
+  title: "Winning Hunter Review 2026: Features, Pricing & Who It's Best For",
+  h1: "Winning Hunter Review 2026: Features, Pricing & Who It's Best For",
+  description: "Winning Hunter review of WinningHunter features, pricing checks, ad research, Shopify store context and who should use it.",
+  intro: "The hard part is not finding another active ad; it is deciding whether the opportunity survives shipping, margin, creative, competition and return risk. This research-based Winning Hunter review evaluates WinningHunter's ad-to-store path and asks whether it improves a real weekly decision. I would keep it only when the record produces a clearer shortlist than the current manual process.",
   verdictLabel: "My verdict",
   verdict: "WinningHunter is most useful when an active Shopify, TikTok Shop or paid-social operator needs to connect an ad to the advertiser, store, product, competitors and a tracking workflow. Choose a plan only after confirming that its current limits support the normal brief, and never use estimated financial data to place inventory or skip supplier, margin and logistics checks.",
   bestFor: ["Paid-social sellers researching products every week", "Shopify operators connecting ads to stores and competitors", "TikTok Shop sellers using supported research modules", "Teams monitoring several advertisers or stores"],
@@ -38,7 +38,7 @@ export const winningHunterReviewContent = {
       label: "Start WinningHunter Research",
     },
     {
-      afterSection: "WinningHunter Pricing, Trial Terms and Plan Limits",
+      afterSection: "Winning Hunter Pricing, Trial Terms and Plan Limits",
       eyebrow: "Before you subscribe",
       heading: "Confirm the Current Plan Limits",
       description: "Check the live feature list, tracking allowances and billing terms before subscribing. Offers and limits can change.",
@@ -62,7 +62,7 @@ export const winningHunterReviewContent = {
       ],
     },
     {
-      heading: "What Is WinningHunter?",
+      heading: "What Is Winning Hunter (WinningHunter)?",
       blocks: [
         { type: "paragraph", text: "WinningHunter is an ecommerce intelligence platform positioned around advertising and store research. Public product information describes a path through:" },
         { type: "list", items: ["Facebook and Instagram ad research", "TikTok and Pinterest ad research where supported", "Advertiser and creative investigation", "Shopify store and product context", "Store or brand monitoring paths", "TikTok Shop research where the current account includes it", "Search and discovery features described on the live product pages"] },
@@ -72,8 +72,15 @@ export const winningHunterReviewContent = {
     {
       heading: "What the Public Record Can Actually Support",
       blocks: [
-        { type: "paragraph", text: "This review treats WinningHunter as one research product, even when searchers describe the job as ad spying, product hunting, store research or TikTok Shop discovery. The relevant question is the workflow those labels produce, not the label itself." },
+        { type: "paragraph", text: "This review treats WinningHunter as one research product, even when searchers describe the job as ad spying, product hunting, store research or TikTok Shop discovery. Some people search for the spaced name Winning Hunter, while others type the official name as WinningHunter or a misspelling such as wining hunter. The relevant question is the workflow those labels produce, not the spelling itself." },
         { type: "paragraph", text: "The available evidence supports a screening and investigation opinion. It can describe vendor-stated modules, public plan amounts, visible research paths and the checks a buyer should perform. It cannot establish supplier quality, contribution margin, platform approval, account performance or permission to reuse another seller's creative." },
+      ],
+    },
+    {
+      heading: "Winning Hunter AI and Magic AI Search",
+      blocks: [
+        { type: "paragraph", text: "The current public plan snapshot lists Magic AI Search as a feature. That makes it relevant to the winning hunter ai search intent, but it does not turn AI output into verified demand, margin or supplier evidence." },
+        { type: "paragraph", text: "Use AI to narrow a research queue or describe a pattern, then reopen the source record and apply the same ad, store, product and operational checks. Confirm the feature and plan access in the official account before treating it as part of a paid workflow." },
       ],
     },
     {
@@ -187,7 +194,7 @@ export const winningHunterReviewContent = {
       ],
     },
     {
-      heading: "WinningHunter Pricing, Trial Terms and Plan Limits",
+      heading: "Winning Hunter Pricing, Trial Terms and Plan Limits",
       id: "winninghunter-pricing",
       blocks: [
         { type: "table", headers: ["Plan question", "Why it matters"], rows: [["Channel access", "The brief may depend on a specific ad or marketplace source"], ["History and filters", "A current record alone may not explain direction"], ["Store and tracking limits", "Monitoring is useful only when the team can keep it current"], ["Seats and exports", "A handoff needs evidence another operator can review"]], caption: "Check the live official pricing page for current plan names, prices and limits." },
@@ -240,11 +247,12 @@ export const winningHunterReviewContent = {
     { question: "Is WinningHunter good for TikTok Shop?", answer: "It can help research products, shops, creators, categories, sales velocity and growth patterns across supported markets. Confirm the current market and plan coverage before subscribing." },
     { question: "Is the WinningHunter review based on a real workflow?", answer: "The review uses a representative ad-to-store research brief and states where current account access is still required. It does not present a vendor estimate as a verified sales or profitability result." },
     { question: "Is WinningHunter accurate?", answer: "Its activity and competitor signals are useful for comparisons. Revenue, traffic, sales and ad-spend figures should be treated as estimates." },
-    { question: "What is WinningHunter pricing?", answer: "Pricing and plan names can change. Check the official destination for the current amount, billing term, market access, history, exports and cancellation conditions before subscribing." },
-    { question: "Does WinningHunter offer a free trial?", answer: "Trial availability and eligibility need a current official check. Treat an advertised trial as an invitation to test the brief, not as proof that every channel or limit is included." },
-    { question: "Can WinningHunter track Shopify stores?", answer: "The workflow includes store and brand tracking paths. Use them to monitor changes and creative activity, but verify important commercial claims with the store and first-party evidence." },
-    { question: "Does WinningHunter AI replace product research?", answer: "No. WinningHunter AI can support discovery, but the operator still needs to check margin, shipping, supplier quality, policy and the originality of the creative plan." },
+    { question: "What is Winning Hunter pricing?", answer: "Pricing and plan names can change. Check the official destination for the current amount, billing term, market access, history, exports and cancellation conditions before subscribing." },
+    { question: "Does Winning Hunter offer a free trial?", answer: "Trial availability and eligibility need a current official check. Treat an advertised trial as an invitation to test the brief, not as proof that every channel or limit is included." },
+    { question: "Can Winning Hunter track Shopify stores?", answer: "The workflow includes store and brand tracking paths. Use them to monitor changes and creative activity, but verify important commercial claims with the store and first-party evidence." },
+    { question: "Does Winning Hunter AI replace product research?", answer: "No. WinningHunter AI can support discovery, but the operator still needs to check margin, shipping, supplier quality, policy and the originality of the creative plan." },
     { question: "Where is Winning Hunter login?", answer: "Use the official WinningHunter site for account access. I do not treat a login page as evidence that a plan includes a particular feature or market." },
+    { question: "Why do some searches say Wining Hunter?", answer: "Searchers sometimes type wining hunter, wininghunter or winner hunter when looking for the product. This site uses the official WinningHunter spelling in product references and the spaced Winning Hunter wording when matching the reader's search language." },
     { question: "Which WinningHunter plan is best?", answer: "Choose the lowest current tier that completes the normal research brief. Move up only when a named market, history, export, channel or seat requirement justifies it." },
     { question: "Is WinningHunter suitable for Amazon sellers?", answer: "It may help with external advertising and competitor discovery, but it does not replace Amazon keyword, PPC, ranking and FBA tools." },
   ],
