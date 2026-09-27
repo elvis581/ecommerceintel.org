@@ -5,8 +5,8 @@ export const siteConfig = {
   description: "Independent ecommerce research files for product, ad, store and marketplace decisions.",
   tagline: "A research desk for ecommerce tool decisions",
   email: "hello@ecommerceintel.org",
-  lastUpdated: "September 20, 2026",
-  lastUpdatedIso: "2026-09-20",
+  lastUpdated: "September 26, 2026",
+  lastUpdatedIso: "2026-09-26",
   publishedIso: "2026-09-21",
   editorialAuthor: {
     name: "Elvis",

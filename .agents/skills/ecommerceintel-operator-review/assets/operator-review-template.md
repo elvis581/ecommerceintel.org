@@ -10,42 +10,17 @@
 
 ## Quick Verdict
 
-Most [TOOL CATEGORY] reviews focus on [COMMON MARKETING CLAIM OR FEATURE].
+Write one sentence, normally 20–40 words. State the strongest operating fit and the condition under which the reader should choose a different workflow or test WinningHunter.
 
-That is not the question I care about.
-
-The question is whether [TOOL NAME] helps an ecommerce operator [SPECIFIC BUSINESS OUTCOME] after [MARGINS / SHIPPING / CONTENT / COMPETITION / RETURNS / OTHER CONSTRAINTS] are considered.
-
-Its strongest value is:
-
-**[STEP] → [STEP] → [STEP] → [STEP]**
-
-[Explain the main value and the most important limitation.]
-
-**Overall rating: [X.X]/10**
-
-| Category | Score |
-|---|---:|
-| [CORE WORKFLOW] | [X.X] |
-| [SECONDARY WORKFLOW] | [X.X] |
-| Ecommerce coverage | [X.X] |
-| Ease of use | [X.X] |
-| Data reliability | [X.X] |
-| Value for money | [X.X] |
-
-*Scores reflect workflow usefulness, ecommerce coverage, signal reliability, ease of use, and value for active operators.*
-
-**Best for:** [PRECISE OPERATING MODEL]
-
-**Not ideal for:** [PRECISE OPERATING MODEL]
-
-**My recommendation:** [PLAN OR VERDICT]
+**Quick verdict:** [TOOL NAME] is strongest for [OPERATING MODEL] when [DECISION CONDITION], but [LIMITATION OR CROSS-PLATFORM GAP] means I would [RECOMMENDATION].
 
 ### [CTA 1 HEADLINE]
 
 [One sentence explaining how to test the tool without making a long-term commitment.]
 
 **[CTA 1 BUTTON TEXT](AFFILIATE_URL)**
+
+Keep the first CTA immediately after this one-sentence verdict. Add an optional middle CTA only after substantive workflow evidence, and a final CTA after the Final Verdict when the page is long enough to justify it.
 
 ---
 
@@ -63,6 +38,10 @@ Its strongest value is:
 Do not judge the tool only by [DATABASE SIZE / NUMBER OF FEATURES / AI CLAIM].
 
 The real question is whether it helps [IDEAL USER] make [SPECIFIC DECISION] faster or more accurately.
+
+### Optional visual evidence
+
+Use an account capture when a documented test exists. Otherwise use an official product visual only when it adds decision evidence. For every image, include descriptive alt text, the label `Vendor-published visual`, a caption explaining what is visible and what it does not prove, a clean official source link, and a note that live fields and plan access may differ. Do not describe a vendor visual as an independent account result.
 
 ---
 
@@ -370,9 +349,9 @@ During the first billing cycle:
 4. [TASK]
 5. Decide whether the tool improved the final decision.
 
-### [CTA 2 HEADLINE]
+### Optional pricing or workflow CTA
 
-[Explain what the Pricing page compares.]
+[Explain what the linked Pricing, Comparison, or workflow page helps the reader decide.]
 
 **[Compare [TOOL NAME] Pricing and Plans](INTERNAL_PRICING_URL)**
 

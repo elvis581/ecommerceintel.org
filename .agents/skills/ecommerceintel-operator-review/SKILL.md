@@ -370,7 +370,7 @@ The universal Operator Review structure remains:
 6. Direct decision
 7. Pricing recommendation
 8. Evidence boundaries
-9. Two CTAs
+9. One to three spaced CTAs, matched to the evidence and page length
 10. Internal content links
 
 The framework, test scenario, workflow, and final decision must change according to the tool type.
@@ -801,7 +801,7 @@ Keep the operator-led affiliate flow:
 - Direct recommendation
 - Practical workflow
 - Plan recommendation
-- Two natural CTAs
+- One to three natural CTAs, spaced by substantive content
 - Directional competitor positioning
 - Links to deeper content
 
@@ -855,18 +855,9 @@ Include:
 - Test date
 - Pricing check date
 
-## 3. Quick Verdict — 150–220 words
+## 3. Quick Verdict — one sentence
 
-Include:
-
-- Contrarian opening
-- Main operator question
-- Strongest value
-- Best-fit operating model
-- Poor-fit operating model
-- Overall rating
-- Plan recommendation
-- CTA 1
+Keep the visible Quick Verdict to one concise sentence, normally 20–40 words. State the tool's strongest fit and the condition under which the reader should choose a different workflow or test WinningHunter. Put supporting reasons, plan detail, ratings, and caveats in later sections.
 
 ## 4. What the Tool Does — 100–150 words
 
@@ -923,7 +914,7 @@ Explain:
 - Which plan to choose
 - Which plan is for teams
 - Why monthly billing is preferable initially
-- CTA 2 to the internal Pricing page
+- A pricing or workflow CTA only when its destination matches the reader's next decision
 
 Keep detailed quotas on the Pricing page.
 
@@ -989,9 +980,9 @@ Lead with what was tested. Do not make the table read primarily as a disclaimer.
 
 # CTA Rules
 
-Use exactly two prominent CTAs.
+Use one to three prominent CTA positions based on page length and evidence. A short review may need two; a long review can use three when the middle action follows a real workflow or comparison gap. Do not add a third CTA only to increase clicks.
 
-## CTA 1: After Quick Verdict
+## Opening CTA: After Quick Verdict
 
 Goal: send high-intent users to the vendor.
 
@@ -1016,9 +1007,17 @@ Avoid:
 
 The CTA wording must match the destination.
 
-## CTA 2: After Pricing
+## Optional middle CTA: After substantive workflow evidence
 
-Goal: send comparison-oriented users to the internal Pricing page.
+Use this only after a feature, validation framework, or workflow section has created a clear next decision. Leave several substantive sections between the opening and middle CTA. The copy should name that next decision, such as comparing an ad-to-store path or checking a known product brief.
+
+## Final CTA: After the final recommendation
+
+Use the final CTA after the last evidence or Final Verdict section. Keep it visually separated from the source register and FAQ. It may point to the reviewed vendor, an internal pricing/comparison page, or a clearly justified WinningHunter handoff.
+
+## Pricing CTA guidance
+
+Goal: send comparison-oriented users to the internal Pricing page when that route exists and matches the button text.
 
 Example:
 
@@ -1196,38 +1195,36 @@ Do not cite a login page as proof of detailed pricing when a public pricing page
 
 ---
 
-# Screenshot Requirements
+# Visual Evidence Requirements
 
-Prefer two evidence screenshots.
+Use visuals only when they help the reader make a decision. A review may use either documented account captures or official vendor visuals, but the evidence level must remain visible.
 
-## Screenshot 1: Test result
+## Account or workflow captures
 
-Show:
+When an account test is documented, show the part of the workflow that was actually tested:
 
 - Product, ad, store, creator, or workflow result
-- Relevant filters
-- Available data
-- Missing data
-- Date
+- Relevant filters or settings
+- Available and missing fields
+- Capture date or test period
+- The decision the result supported
 
-## Screenshot 2: Next-step workflow
+Do not use a public result page as proof of a complete paid-platform test. Do not add screenshots for decoration or imply that a visible estimate is an exact business result.
 
-Show:
+## Vendor-published product visuals
 
-- Store details
-- Similar ads
-- Competitors
-- Tracking
-- Export
-- Related actions
+When account access is unavailable or a product visual is useful for feature framing, official screenshots are allowed. Use the existing `evidenceImage` content block and `EvidenceImage` component when the page supports them. Each image must include:
 
-Every caption should state:
+- A descriptive alt text that names the visible interface or data fields
+- The exact label `Vendor-published visual` or an equivalent evidence label
+- A caption describing what is visible and what it does not prove
+- A clean official source URL
+- A sentence that live fields, dates, and plan access may differ
+- A configured `next/image` remote pattern and CSP `img-src` origin
 
-- What the screenshot proves
-- Capture month and year
-- That live data may change
+Place the first useful visual after the product-definition section and later visuals beside the matching evaluation step (for example, creator evidence beside Creator Distribution and video evidence beside Content Repeatability). Keep the image lazy-loaded, preserve stable dimensions or aspect ratio, and provide a visible fallback that does not collapse the layout.
 
-Do not use decorative screenshots that prove nothing.
+Every caption must distinguish vendor evidence from independent testing. Never describe a vendor visual as a result found in the author's account.
 
 ---
 
@@ -1274,7 +1271,9 @@ Do not claim schema has been implemented unless it was actually added and valida
 ## Structure
 
 - [ ] Quick Verdict contains a clear position
-- [ ] Two prominent CTAs are present
+- [ ] One to three prominent CTAs are present, with the first after Quick Verdict, an optional middle CTA after substantive workflow evidence, and the final CTA after the final recommendation
+- [ ] CTA copy leads with one concrete benefit and an explicit next action; it does not repeat the product explanation
+- [ ] CTA spacing is verified from the rendered heading order, not only configuration order
 - [ ] Pricing is concise
 - [ ] Comparison is directional
 - [ ] Final Verdict is under 90 words
@@ -1287,6 +1286,14 @@ Do not claim schema has been implemented unless it was actually added and valida
 - [ ] Internal links are included
 - [ ] CTA destinations match button wording
 - [ ] Current dates and prices are verified
+
+## Visual evidence
+
+- [ ] Every product image has descriptive alt text
+- [ ] Every official visual is labeled as vendor-published
+- [ ] Every image has a source link and an evidence-boundary caption
+- [ ] Remote image origins are allowed by Next.js and CSP
+- [ ] The page remains usable if an image fails to load
 
 ## Trust
 

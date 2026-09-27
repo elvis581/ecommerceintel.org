@@ -24,9 +24,9 @@ export const fastMossReviewContent = {
   midCta: undefined,
   finalCta: undefined,
   sectionCtas: [
-    { afterSection: "Quick Verdict", eyebrow: "Verify the account first", heading: "Explore FastMoss with Known TikTok Shop Entities", description: "Use products, shops and creators you already understand before trusting discovery rankings or committing to paid billing.", toolKey: "fastmoss", label: "Explore FastMoss" },
-    { afterSection: "FastMoss Pricing: Which Plan Should You Choose?", eyebrow: "Pricing requires live verification", heading: "Confirm FastMoss Markets, Limits and Billing", description: "Check the current account for country access, history, exports, seats and cancellation terms. A stable public price table was not available during the review.", toolKey: "fastmoss", label: "Check Current FastMoss Plans", secondaryHref: "/kalodata-vs-fastmoss", secondaryLabel: "Compare FastMoss vs Kalodata" },
-    { afterSection: "What FastMoss Is Designed to Do", eyebrow: "A different research path", heading: "Check WinningHunter for Ad-to-Store Research", description: "If the next brief starts with a paid-social ad rather than a TikTok Shop entity, compare WinningHunter against the same product and competitor question.", toolKey: "winninghunter", label: "Explore WinningHunter", secondaryHref: "/winninghunter-review", secondaryLabel: "Read the review" },
+    { afterSection: "Quick Verdict", eyebrow: "Verify the account first", heading: "Test Known Products, Shops, and Creators", description: "Check the entities you already know, then explore FastMoss.", toolKey: "fastmoss", label: "Explore FastMoss" },
+    { afterSection: "FastMoss Pricing: Which Plan Should You Choose?", eyebrow: "Choose the right access", heading: "Match Market Coverage to Your Brief", description: "Compare markets, history, exports, and seats with the work you need to finish.", toolKey: "fastmoss", label: "Check Current FastMoss Plans", secondaryHref: "/kalodata-vs-fastmoss", secondaryLabel: "Compare FastMoss vs Kalodata" },
+    { afterSection: "A 20-Minute FastMoss Evaluation Workflow", eyebrow: "A different research path", heading: "Move from a TikTok Shop Entity to Ad Evidence", description: "Take one known product or advertiser from ad to store and competitor checks, then explore WinningHunter.", toolKey: "winninghunter", label: "Explore WinningHunter", secondaryHref: "/winninghunter-review", secondaryLabel: "Read the review" },
   ],
   sections: [
     { heading: "Quick Verdict", id: "quick-verdict", blocks: [

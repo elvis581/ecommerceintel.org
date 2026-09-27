@@ -2,7 +2,12 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    remotePatterns: [{ protocol: "https", hostname: "framerusercontent.com", pathname: "/images/**" }],
+    remotePatterns: [
+      { protocol: "https", hostname: "framerusercontent.com", pathname: "/images/**" },
+      { protocol: "https", hostname: "cdn.prod.website-files.com", pathname: "/**" },
+      { protocol: "https", hostname: "www.pipiads.com", pathname: "/assets/**" },
+      { protocol: "https", hostname: "www.kalodata.com", pathname: "/blog/wp-content/uploads/**" },
+    ],
   },
   async headers() {
     return [{
@@ -12,7 +17,7 @@ const nextConfig: NextConfig = {
         { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
         { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
         { key: "X-Frame-Options", value: "DENY" },
-        { key: "Content-Security-Policy", value: "default-src 'self'; base-uri 'self'; frame-ancestors 'none'; object-src 'none'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com; img-src 'self' data: blob: https://framerusercontent.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:;" },
+        { key: "Content-Security-Policy", value: "default-src 'self'; base-uri 'self'; frame-ancestors 'none'; object-src 'none'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com; img-src 'self' data: blob: https://framerusercontent.com https://cdn.prod.website-files.com https://www.pipiads.com https://www.kalodata.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:;" },
       ],
     }];
   },
