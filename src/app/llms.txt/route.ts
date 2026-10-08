@@ -13,7 +13,7 @@ export function GET() {
 
 EcommerceIntel is an independent English-language ecommerce research and intelligence site helping sellers find products, analyze competitors and choose better ecommerce tools.
 
-Last reviewed: ${siteConfig.lastUpdatedIso}
+Last reviewed: ${siteConfig.homeModifiedIso}
 Publisher: ${siteConfig.name} (${siteConfig.url})
 Editorial author: ${siteConfig.editorialAuthor.name} (${siteConfig.url}/about)
 

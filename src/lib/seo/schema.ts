@@ -80,7 +80,7 @@ export function articleSchema(page: SchemaPage) {
 
   return [
     primary,
-    page.reviewRating ? { "@context": "https://schema.org", "@type": "Review", "@id": `${url}#review`, itemReviewed: { "@type": "SoftwareApplication", name: page.reviewRating.itemName, url: page.reviewRating.itemUrl, applicationCategory: "BusinessApplication" }, author: { "@id": `${siteConfig.url}/about#editor` }, publisher: { "@id": `${siteConfig.url}/#organization` }, reviewRating: { "@type": "Rating", ratingValue: page.reviewRating.ratingValue, bestRating: page.reviewRating.bestRating, worstRating: page.reviewRating.worstRating }, datePublished: siteConfig.lastUpdatedIso, dateModified: siteConfig.lastUpdatedIso, reviewBody: page.description } : null,
+    page.reviewRating ? { "@context": "https://schema.org", "@type": "Review", "@id": `${url}#review`, itemReviewed: { "@type": "SoftwareApplication", name: page.reviewRating.itemName, url: page.reviewRating.itemUrl, applicationCategory: "BusinessApplication" }, author: { "@id": `${siteConfig.url}/about#editor` }, publisher: { "@id": `${siteConfig.url}/#organization` }, reviewRating: { "@type": "Rating", ratingValue: page.reviewRating.ratingValue, bestRating: page.reviewRating.bestRating, worstRating: page.reviewRating.worstRating }, datePublished, dateModified, reviewBody: page.description } : null,
     page.itemList ? { "@context": "https://schema.org", "@type": "ItemList", "@id": `${url}#alternatives`, name: page.title, numberOfItems: page.itemList.length, itemListElement: page.itemList.map((item) => ({ "@type": "ListItem", position: item.position, name: item.name, url: item.url })) } : null,
     { "@context": "https://schema.org", ...organization },
     { "@context": "https://schema.org", ...editorialAuthor },

@@ -21,9 +21,9 @@ const homeFaqs = [
 export const metadata = createMetadata("Ecommerce Research Desk for Product, Ad and Store Decisions", "Read independent EcommerceIntel reviews and comparisons built around the evidence an operator needs before paying for a research tool.");
 
 const reviews = [
-  { title: "WinningHunter", type: "Review", bestFor: "Product, ad and Shopify research", evidence: "Workflow evaluation", checked: "Sep 21, 2026", href: "/winninghunter-review" },
-  { title: "Kalodata", type: "Review", bestFor: "TikTok Shop products, shops and creators", evidence: "Workflow evaluation", checked: "Sep 20, 2026", href: "/reviews/kalodata" },
-  { title: "PipiAds", type: "Review", bestFor: "Advertising and creative research", evidence: "Workflow evaluation", checked: "Sep 20, 2026", href: "/reviews/pipiads" },
+  { title: "WinningHunter", type: "Review", bestFor: "Product, ad and Shopify research", evidence: "Workflow evaluation", checked: "Oct 8, 2026", href: "/winninghunter-review" },
+  { title: "Kalodata", type: "Review", bestFor: "TikTok Shop products, shops and creators", evidence: "Workflow evaluation", checked: "Oct 8, 2026", href: "/reviews/kalodata" },
+  { title: "PipiAds", type: "Review", bestFor: "Advertising and creative research", evidence: "Workflow evaluation", checked: "Oct 8, 2026", href: "/reviews/pipiads" },
   { title: "ShopHunter", type: "Review", bestFor: "Known Shopify store research", evidence: "Workflow evaluation", checked: "Sep 20, 2026", href: "/reviews/shophunter" },
 ];
 

@@ -2,9 +2,9 @@ import { ArrowUpRight } from "lucide-react";
 import { TrackedLink } from "./tracked-link";
 
 const updates = [
-  ["WinningHunter pricing", "Public monthly plans checked", "September 21, 2026", "/winninghunter-pricing"],
-  ["WinningHunter review", "Product visuals and workflow evidence reviewed", "September 21, 2026", "/winninghunter-review"],
-  ["Kalodata pricing", "Public price not confirmed", "September 20, 2026", "/reviews/kalodata"],
+  ["WinningHunter pricing", "Public monthly plans checked", "October 8, 2026", "/winninghunter-pricing"],
+  ["WinningHunter review", "Pricing and evidence boundaries refreshed", "October 8, 2026", "/winninghunter-review"],
+  ["Kalodata pricing", "Public price still unconfirmed", "October 8, 2026", "/reviews/kalodata"],
 ] as const;
 
 export function LatestVerifiedUpdates() {

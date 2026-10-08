@@ -7,6 +7,8 @@ export const siteConfig = {
   email: "hello@ecommerceintel.org",
   lastUpdated: "September 26, 2026",
   lastUpdatedIso: "2026-09-26",
+  homeModifiedIso: "2026-10-08",
+  reviewsModifiedIso: "2026-10-08",
   publishedIso: "2026-09-21",
   editorialAuthor: {
     name: "Elvis",

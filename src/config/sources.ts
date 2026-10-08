@@ -9,11 +9,13 @@ export type OfficialSource = {
 };
 
 export const sources = {
-  kalodata: { label: "Kalodata official site", url: "https://www.kalodata.com/", publisher: "Kalodata", sourceType: "Official vendor", accessed: "2026-07-11" },
+  kalodata: { label: "Kalodata official site", url: "https://www.kalodata.com/", publisher: "Kalodata", sourceType: "Official vendor", accessed: "2026-10-08" },
   kalodataSitemap: { label: "Kalodata public product and market sitemap", url: "https://www.kalodata.com/sitemap-base.xml", publisher: "Kalodata", sourceType: "Official vendor", accessed: "2026-07-11" },
+  kalodataProductVisuals: { label: "Kalodata product and video research visuals", url: "https://www.kalodata.com/blog/tiktok/best-tiktok-product-research-tool-for-dropshippers-in-2026/", publisher: "Kalodata", sourceType: "Official vendor", accessed: "2026-10-08" },
+  kalodataCreatorVisuals: { label: "Kalodata creator research visual", url: "https://www.kalodata.com/blog/amazon/tiktok-shop-for-amazon-sellers-a-548k-month-case-study/", publisher: "Kalodata", sourceType: "Official vendor", accessed: "2026-10-08" },
   fastmoss: { label: "FastMoss official site", url: "https://www.fastmoss.com/", publisher: "FastMoss", sourceType: "Official vendor", accessed: "2026-07-11" },
   shoplus: { label: "Shoplus official site", url: "https://www.shoplus.net/", publisher: "Shoplus", sourceType: "Official vendor", accessed: "2026-07-11" },
-  winninghunter: { label: "WinningHunter official site", url: "https://winninghunter.com/", publisher: "WinningHunter", sourceType: "Official vendor", accessed: "2026-08-06" },
+  winninghunter: { label: "WinningHunter official site", url: "https://winninghunter.com/", publisher: "WinningHunter", sourceType: "Official vendor", accessed: "2026-10-08" },
   minea: { label: "Minea official site", url: "https://www.minea.com/", publisher: "Minea", sourceType: "Official vendor", accessed: "2026-08-06" },
   mineaProducts: { label: "Minea product research page", url: "https://www.minea.com/winning-product", publisher: "Minea", sourceType: "Official vendor", accessed: "2026-08-06" },
   mineaCompetitors: { label: "Minea competitor ad analysis page", url: "https://www.minea.com/competitor-ad-analysis", publisher: "Minea", sourceType: "Official vendor", accessed: "2026-08-06" },
@@ -24,7 +26,7 @@ export const sources = {
   echotikPricing: { label: "EchoTik official pricing", url: "https://echotik.live/pricing/annually", publisher: "EchoTik", sourceType: "Official vendor", accessed: "2026-07-12" },
   tabcut: { label: "Tabcut official site", url: "https://www.tabcut.com/", publisher: "Tabcut", sourceType: "Official vendor", accessed: "2026-07-12" },
   gloda: { label: "Gloda official site", url: "https://www.gloda.vip/", publisher: "Gloda", sourceType: "Official vendor", accessed: "2026-07-12" },
-  pipiads: { label: "Pipiads official site", url: "https://www.pipiads.com/", publisher: "Pipiads", sourceType: "Official vendor", accessed: "2026-08-06" },
+  pipiads: { label: "Pipiads official site", url: "https://www.pipiads.com/", publisher: "Pipiads", sourceType: "Official vendor", accessed: "2026-10-08" },
   shophunter: { label: "ShopHunter official site", url: "https://shophunter.com/", publisher: "ShopHunter", sourceType: "Official vendor", accessed: "2026-09-20" },
   metaAdLibrary: { label: "Meta Ad Library", url: "https://www.facebook.com/ads/library/", publisher: "Meta", sourceType: "Official platform", accessed: "2026-08-12" },
   tiktok: { label: "TikTok Shop seller resources", url: "https://seller.tiktokglobalshop.com/business/en", publisher: "TikTok Shop", sourceType: "Official platform", accessed: "2026-07-11" },
@@ -62,7 +64,7 @@ export const sourceKeysBySlug: Record<string, SourceKey[]> = {
   "best-tiktok-shop-tools": ["kalodata", "fastmoss", "shoplus", "tiktok"],
   "best-ecommerce-ad-spy-tools": ["winninghunter", "minea"],
   "kalodata-review": ["kalodata", "kalodataSitemap", "tiktok"],
-  "reviews/kalodata": ["kalodata", "kalodataSitemap", "tiktok"],
+  "reviews/kalodata": ["kalodata", "kalodataSitemap", "kalodataProductVisuals", "kalodataCreatorVisuals", "tiktok"],
   "fastmoss-review": ["fastmoss", "tiktok"],
   "winninghunter-review": ["winninghunter", "shopify", "tiktok"],
   "winninghunter-pricing": ["winninghunter"],

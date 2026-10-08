@@ -495,8 +495,12 @@ function comparisonPage(
     h1: title.split(":")[0],
     description,
     eyebrow: "Head-to-head comparison",
-    intro: `The hard part of choosing between ${left} and ${right} is that similar dashboards can answer different questions. I recommend comparing them against ${focus}. Start with the same known entities and test the evidence each one produces before paying.`,
-    verdict: `Choose ${left} when its focused workflow matches the primary question. Choose ${right} when its coverage or operating model answers a different question more completely. A feature count alone is not a tie-breaker.`,
+    intro: slug === "winninghunter-vs-kalodata"
+      ? "The wrong starting tool can leave the team with attractive dashboards but no answer to its weekly research question. Start with the entity you investigate: WinningHunter connects ads to products and Shopify stores, while Kalodata centers TikTok Shop products, shops, creators and content. Test the same known product and market in both before paying."
+      : `The hard part of choosing between ${left} and ${right} is that similar dashboards can answer different questions. I recommend comparing them against ${focus}. Start with the same known entities and test the evidence each one produces before paying.`,
+    verdict: slug === "winninghunter-vs-kalodata"
+      ? "Start with WinningHunter for an ad-to-product and Shopify store brief. Choose Kalodata when the recurring decision depends on TikTok Shop shops, creators or content relationships. Neither tool's estimated figures replace platform or account records."
+      : `Choose ${left} when its focused workflow matches the primary question. Choose ${right} when its coverage or operating model answers a different question more completely. A feature count alone is not a tie-breaker.`,
     bestFor: [
       `Teams comparing ${left} and ${right}`,
       `Operators testing ${left} and ${right} with the same market and entities`,
@@ -929,7 +933,7 @@ const pages: ArticlePage[] = [
     ],
     kind: "guide",
     toolKey: "winninghunter",
-    researchStatus: "Official pricing page checked September 21, 2026",
+    researchStatus: "Official pricing page checked October 8, 2026",
     showPricingNotice: true,
     sections: [
       {
@@ -956,6 +960,7 @@ const pages: ArticlePage[] = [
       {
         heading: "How to compare plans",
         paragraphs: [
+          "Basic is the $49/month starting point when Facebook Ads, TikTok Shop and the published tracking allowances cover the brief. Standard is $79/month and adds Pinterest and TikTok Ads plus a larger brand-tracking allowance. Enterprise is $249/month and lists a much larger brand allowance, Trends and additional support. These are official feature-list differences, not proof that a specific market or export works in your account.",
           "Write the minimum required workflow before opening the plan page: identify a market, inspect a known product, trace an ad or store, save the evidence and share the conclusion. Select the smallest plan that completes that path.",
           "A lower price is not cheaper if it forces manual work elsewhere or excludes the market that matters. Treat quarterly and yearly savings as a vendor-stated billing option and verify the exact renewal amount at checkout.",
         ],
@@ -2461,6 +2466,15 @@ const editorialAliases: Record<string, string> = {
   "reviews/kalodata": "kalodata-review",
 };
 
+const refreshedRoutes = new Set([
+  "winninghunter-review",
+  "winninghunter-pricing",
+  "reviews/kalodata",
+  "reviews/pipiads",
+  "winninghunter-vs-kalodata",
+  "winninghunter-vs-pipiads",
+]);
+
 export const articlePages = pages.map((page) => {
   const editorialKey = editorialAliases[page.slug] || page.slug;
   return {
@@ -2471,6 +2485,7 @@ export const articlePages = pages.map((page) => {
     ...affiliateReviewStandardOverrides[editorialKey],
     ...finalPageContentOverrides[editorialKey],
     ...freshReviewOverrides[page.slug],
+    ...(refreshedRoutes.has(page.slug) ? { modifiedIso: "2026-10-08" } : {}),
   };
 });
 export const articlePageMap = Object.fromEntries(
